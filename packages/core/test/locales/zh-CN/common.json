@@ -1,0 +1,31 @@
+
+
+{
+  "create_app": "创建应用",
+  "slogan_title": "在几秒钟内创建 ChatGPT 应用",
+  "site_desc": "即刻使用各种 ChatGPT 应用或在几秒钟内创建您自己的应用。",
+  "get_started": "开始",
+  "icon": "图标",
+  "pick_emoji_icon": "选择一个表情符号作为您的应用图标！",
+  "app_name": "应用名称",
+  "app_name_placeholder": "智能翻译助手",
+  "app_desc": "应用描述",
+  "app_desc_placeholder": "此应用可以将任何语言的内容翻译为中文。",
+  "prompt": "命令",
+  "prompt_desc_placeholder": "您是一名翻译员，无论输入什么内容，都必须将其翻译成中文。 内容：",
+  "prompt_desc": "命令应明确、易于理解、合乎逻辑，并让 ChatGPT 成为您的个人助手。",
+  "prompt_example": "输入示例",
+  "test_before_submit": "请在提交之前测试",
+  "cancel": "取消",
+  "test": "测试",
+  "create": "创建",
+  "result": "结果",
+  "copied_success": "复制成功",
+  "run": "运行",
+  "follow": "关注",
+  "and": "和",
+  "get_updates": "，获取最新的更新",
+  "recommend": "推荐",
+  "developing": "疯狂开发中",
+  "app_list": "应用列表"
+}
