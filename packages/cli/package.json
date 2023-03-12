@@ -24,7 +24,8 @@
     "commander": "^9.4.1",
     "cosmiconfig": "^8.1.0",
     "fs-extra": "^11.1.0",
-    "spinnies": "^0.5.1"
+    "spinnies": "^0.5.1",
+    "@transmart/core": "0.0.0"
   },
   "devDependencies": {
     "@types/fs-extra": "^9.0.13",
