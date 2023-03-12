@@ -18,6 +18,8 @@ export async function run(options: CmdOptions) {
       if (failed) {
         spinnerManager.fail(key, { text: key + ' failed' })
       } else if (content) {
+        const dirname = path.dirname(work.outputNSFilePath)
+        fs.mkdirpSync(dirname)
         fs.writeFileSync(work.outputNSFilePath, content, {
           encoding: 'utf-8',
         })

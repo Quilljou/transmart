@@ -2,6 +2,11 @@ import { translate } from './translate'
 import * as fs from 'fs-extra'
 import * as path from 'path'
 import { TransmartOptions, TranslateResult, RunOptions, RunWork } from './types'
+import * as pLimit from 'p-limit'
+
+const MAX_CONCURRENCY = 5
+
+const limit = pLimit(MAX_CONCURRENCY)
 
 const DEFAULT_PARAMS: Partial<TransmartOptions> = {
   openAIApiUrl: 'https://api.openai.com',
@@ -32,7 +37,7 @@ export class Transmart {
         })
       })
     })
-    return Promise.all(runworks.map((work) => this.runSingleNamespace(work, options)))
+    return Promise.all(runworks.map((work) => limit(() => this.runSingleNamespace(work, options))))
   }
 
   async runSingleNamespace(work: RunWork, options: RunOptions) {

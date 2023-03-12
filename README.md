@@ -97,6 +97,12 @@ Options:
 ```
 
 
+## TODO
+
+- [ ] Big file exceeded 4096 tokens, split into small chunks
+- [ ] Error Handling
+- [x] Concurrency limit, MAX_CONCURRENCY = 5
+
 
 ## Contributing
 
