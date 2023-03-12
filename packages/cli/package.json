@@ -1,6 +1,6 @@
 {
   "name": "@transmart/cli",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -20,12 +20,12 @@
     "build:watch": "npm run clean && tsc -p tsconfig.build.json --watch"
   },
   "dependencies": {
+    "@transmart/core": "^0.0.1",
     "@types/spinnies": "^0.5.0",
     "commander": "^9.4.1",
     "cosmiconfig": "^8.1.0",
     "fs-extra": "^11.1.0",
-    "spinnies": "^0.5.1",
-    "@transmart/core": "0.0.0"
+    "spinnies": "^0.5.1"
   },
   "devDependencies": {
     "@types/fs-extra": "^9.0.13",
