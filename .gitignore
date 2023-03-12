@@ -177,6 +177,6 @@ dist
 # End of https://www.toptal.com/developers/gitignore/api/node,macOS
 n
 
-package-lock.json
 lib
+package-lock.json
 transmart.config.js
