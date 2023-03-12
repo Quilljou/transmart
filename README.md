@@ -1,6 +1,10 @@
 # Transmart
 
+![npm](https://img.shields.io/npm/v/@transmart/cli?style=flat-square)
+
+
 > Automate your i18n localization with AI.
+
 
 Transmart is an open-source tool that utilizes ChatGPT to automate i18n translation. 
 
