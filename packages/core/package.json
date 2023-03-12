@@ -15,9 +15,9 @@
     "build:watch": "npm run clean && tsc -p tsconfig.build.json --watch"
   },
   "dependencies": {
-    "@types/p-limit": "^2.2.0",
     "fs-extra": "^11.1.0",
-    "node-fetch": "^2.6.9"
+    "node-fetch": "^2.6.9",
+    "p-limit": "^3.1.0"
   },
   "devDependencies": {
     "@types/fs-extra": "^9.0.13",
