@@ -59,6 +59,8 @@ Or you can execute directly with `npx` prefix in command line
 npx transmart
 ```
 
+🎉🎉 Enjoy Coding! 
+
 ## Cli options
 
 Here are all the available options for CLI.  Running `npx transmart -h` will display them.
@@ -89,6 +91,7 @@ Options:
   -V, --version                            output the version number
   -h, --help                               display help for command
 ```
+
 
 
 ## Contributing
