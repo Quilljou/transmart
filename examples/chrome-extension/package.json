@@ -1,0 +1,15 @@
+{
+  "name": "chrome-extension",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "translate": "transmart"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@transmart/cli": "^0.0.3"
+  }
+}
