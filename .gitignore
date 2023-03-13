@@ -179,4 +179,7 @@ n
 
 lib
 package-lock.json
-transmart.config.js
+# for testing
+packages/core/transmart.config.js
+examples/**/locales/*
+!examples/**/locales/en

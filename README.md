@@ -6,11 +6,22 @@
 > Automate your i18n localization with AI.
 
 
-Transmart is an open-source tool that utilizes ChatGPT to automate i18n translation. 
+Transmart is an open-source developer tool that utilizes ChatGPT to automate i18n translation. Given a base language and specifying all the languages that need to be output, running it will generate all i18n locale files.
 
 It consists of two parts: Cli and Core. Core is the NodeJS core implementation of Transmart, while Cli is a command-line tool that encapsulates Core. In most cases, only Cli is used.
 
+## Features
+
+- [x] Supports all languages that ChatGPT can  can be displayed using [Intl.DisplayNames](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DisplayNames/DisplayNames) and can be processed by ChatGPT.
+- [x] Supports [Chrome.i18n](https://developer.chrome.com/docs/webstore/i18n/#choosing-locales-to-support)
+- [ ] Supports Large file sizes.
+- [ ] Error Handling
+
+
+
 ## Setup
+
+> Transmart requires Node version 13 or higher.
 
 ### 1. Installation
 To install Transmart, run:
@@ -65,6 +76,11 @@ npx transmart
 
 🎉🎉 Enjoy Coding! 
 
+
+## Examples
+
+- [next.js](./examples/next)
+
 ## Cli options
 
 Here are all the available options for CLI.  Running `npx transmart -h` will display them.
@@ -97,11 +113,6 @@ Options:
 ```
 
 
-## TODO
-
-- [ ] Big file exceeded 4096 tokens, split into small chunks
-- [ ] Error Handling
-- [x] Concurrency limit, MAX_CONCURRENCY = 5
 
 
 ## Contributing

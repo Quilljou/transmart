@@ -13,7 +13,7 @@
     "nuke:install": "rimraf ./node_modules ./package-lock.json"
   },
   "dependencies": {
-    "@transmart/cli": "^0.0.1",
+    "@transmart/cli": "^0.0.3",
     "i18next": "^22.4.11",
     "next": "^13.2.4",
     "next-i18next": "^13.2.2",
