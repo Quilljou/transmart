@@ -15,9 +15,12 @@ It consists of two parts: Cli and Core. Core is the NodeJS core implementation o
 
 - [x] Supports all languages that ChatGPT can be displayed using [Intl.DisplayNames](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DisplayNames/DisplayNames) and can be processed by ChatGPT.
 - [x] Supports [i18next](https://www.i18next.com/)
+- [ ] Supports [vue-i18n](https://kazupon.github.io/vue-i18n/)
 - [x] Supports [Chrome.i18n](https://developer.chrome.com/docs/webstore/i18n/#choosing-locales-to-support)
 - [ ] Supports Large file sizes.
 - [ ] Error Handling
+- [ ] Supports iOS
+- [ ] Supports Android
 
 
 
