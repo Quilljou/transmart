@@ -1,7 +1,7 @@
 import { translate } from './translate'
 import * as fs from 'fs-extra'
 import * as path from 'path'
-import { TransmartOptions, TranslateResult, RunOptions, RunWork } from './types'
+import { TransmartOptions, TranslateResult, RunOptions, RunWork, TransmartStats, Stats } from './types'
 import { Task } from './task'
 import { limit } from './limit'
 import { glob } from 'glob'
@@ -17,7 +17,7 @@ export class Transmart {
     this.options = options as Required<TransmartOptions>
   }
 
-  public async run(options: RunOptions): Promise<any> {
+  public async run(options: RunOptions): Promise<TransmartStats> {
     this.validateParams()
     const { baseLocale, locales, localePath, namespaceGlob = '**/*.json' } = this.options
     const targetLocales = locales.filter((item) => item !== baseLocale)
@@ -37,7 +37,32 @@ export class Transmart {
         })
       })
     })
-    return Promise.all(runworks.map((work) => this.processSingleNamespace(work, options)))
+    const namespacesStats: Stats = {
+      total: runworks.length,
+      success: 0,
+      failed: 0,
+    }
+
+    await Promise.all(
+      runworks.map(async (work) => {
+        const { onResult, onStart, onProgress } = options
+        onStart?.(work)
+        try {
+          const task = new Task(this, work)
+          const data = await task.start((current, total) => {
+            onProgress?.(current, total, work)
+          })
+          namespacesStats.success++
+          onResult?.({ work, content: data, failed: false })
+        } catch (error) {
+          namespacesStats.failed++
+          onResult?.({ work, failed: true, content: '', reason: error as Error })
+        }
+      }),
+    )
+    return {
+      namespaces: namespacesStats,
+    }
   }
 
   private async processSingleNamespace(work: RunWork, options: RunOptions): Promise<void> {

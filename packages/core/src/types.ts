@@ -34,6 +34,18 @@ export interface TransmartOptions {
   openAIApiUrlPath?: string
 }
 
+export interface Stats {
+  total: number
+  success: number
+  failed: number
+}
+
+export interface TransmartStats {
+  locales?: Stats
+  // TODO:
+  namespaces: Stats
+}
+
 export interface TranslateParams {
   content: string
   targetLang: string
