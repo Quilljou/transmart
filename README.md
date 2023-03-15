@@ -2,17 +2,20 @@
 
 <center>
 
-![Transmart](./assets/logo.png) Transmart 
+ ![alt](./assets/logo.png)
+
+</center>
+
+<center>
+
+Transmart - Automate your i18n localization with AI.
 
 </center>
 
 
+![alt](./assets/record.gif)
 
 ![npm](https://img.shields.io/npm/v/@transmart/cli?style=flat-square)
-
-> Automate your i18n localization with AI.
-
-![alt](./assets/record.gif)
 
 
 Transmart is an open-source developer tool that utilizes ChatGPT to automate i18n translation. Given a base language and specifying all the languages that need to be output, running it will generate all i18n locale files.
