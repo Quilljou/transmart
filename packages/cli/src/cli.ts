@@ -7,7 +7,7 @@ import * as Spinnies from 'spinnies'
 export async function run(options: CmdOptions) {
   const transmart = new Transmart(options)
   const spinnerManager = new Spinnies()
-  return transmart.run({
+  const result = await transmart.run({
     onStart(work) {
       const key = work.locale + '-' + path.basename(work.inputNSFilePath)
       spinnerManager.add(key, { text: key + ' translating...' })
@@ -31,4 +31,9 @@ export async function run(options: CmdOptions) {
       }
     },
   })
+
+  console.log(
+    `\n Transmart complete!\n Total: ${result.namespaces.total}\n Success: ${result.namespaces.success} \n Failed: ${result.namespaces.failed}`,
+  )
+  return result
 }
