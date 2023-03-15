@@ -1,29 +1,262 @@
 {
-  "create_app": "建立應用程式",
-  "slogan_title": "在幾秒鐘內建立 ChatGPT 應用程式",
-  "site_desc": "立即使用各種 ChatGPT 應用程式，或在幾秒鐘內建立您自己的應用程式。",
-  "get_started": "開始",
-  "icon": "圖示",
-  "pick_emoji_icon": "選擇一個表情符號作為您的應用程式圖示！",
-  "app_name": "應用程式名稱",
-  "app_name_placeholder": "智能翻譯助手",
-  "app_desc": "應用程式描述",
-  "app_desc_placeholder": "此應用程式可以將任何語言的內容翻譯成中文。",
-  "prompt": "指令",
-  "prompt_desc_placeholder": "您是一名翻譯員，無論輸入內容是什麼，都必須將其翻譯成中文。內容：",
-  "prompt_desc": "指令應該清晰、易於理解、邏輯性強，讓 ChatGPT 成為您的個人助理。",
-  "prompt_example": "輸入範例",
-  "test_before_submit": "提交前請先測試",
-  "cancel": "取消",
-  "test": "測試",
-  "create": "建立",
-  "result": "結果",
-  "copied_success": "已成功複製",
-  "run": "執行",
-  "follow": "關注",
-  "and": "和",
-  "get_updates": "，獲取最新的更新",
-  "recommend": "推薦",
-  "developing": "瘋狂開發中",
-  "app_list": "應用程式清單"
+  "default_template_anchor": {
+    "message": "錨點",
+    "description": "錨點模板的標題。"
+  },
+  "default_template_bbcode": {
+    "message": "BBCode",
+    "description": "BBCode模板的標題。"
+  },
+  "default_template_encoded": {
+    "message": "編碼",
+    "description": "編碼模板的標題。"
+  },
+  "default_template_markdown": {
+    "message": "Markdown",
+    "description": "Markdown模板的標題。"
+  },
+  "default_template_markdown_selection": {
+    "message": "Markdown選擇",
+    "description": "Markdown選擇模板的標題。"
+  },
+  "default_template_short": {
+    "message": "簡短",
+    "description": "簡短模板的標題。"
+  },
+  "default_template_url": {
+    "message": "網址",
+    "description": "網址模板的標題。"
+  },
+  "description": {
+    "message": "使用簡單而獨特的模板系統，快速複製當前頁面的信息",
+    "description": "擴展的簡要描述。"
+  },
+  "empty": {
+    "message": "空",
+    "description": "沒有啟用模板時的彈出/菜單文本。"
+  },
+  "error_file_aborted": {
+    "message": "已中止！",
+    "description": "文件上傳被中止時的錯誤消息。"
+  },
+  "error_file_default": {
+    "message": "無法讀取/寫入文件！",
+    "description": "上傳的文件無法讀取時的錯誤消息。"
+  },
+  "error_file_not_found": {
+    "message": "找不到文件！",
+    "description": "找不到文件時的錯誤消息。"
+  },
+  "error_import_data": {
+    "message": "無法解析數據！",
+    "description": "導入的數據無效時的錯誤消息。"
+  },
+  "error_import_invalid": {
+    "message": "某些值缺失或損壞！",
+    "description": "導入的數據結構不正確時的錯誤消息。"
+  },
+  "icon_adjust": {
+    "message": "調整",
+    "description": "調整圖標的標題。"
+  },
+  "icon_align_center": {
+    "message": "居中對齊",
+    "description": "居中對齊圖標的標題。"
+  },
+  "icon_align_justify": {
+    "message": "兩端對齊",
+    "description": "兩端對齊圖標的標題。"
+  },
+  "icon_align_left": {
+    "message": "左對齊",
+    "description": "左對齊圖標的標題。"
+  },
+  "icon_align_right": {
+    "message": "右對齊",
+    "description": "右對齊圖標的標題。"
+  },
+  "icon_arrow_down": {
+    "message": "向下箭頭",
+    "description": "向下箭頭圖標的標題。"
+  },
+  "icon_arrow_left": {
+    "message": "向左箭頭",
+    "description": "向左箭頭圖標的標題。"
+  },
+  "icon_arrow_right": {
+    "message": "向右箭頭",
+    "description": "向右箭頭圖標的標題。"
+  },
+  "icon_arrow_up": {
+    "message": "向上箭頭",
+    "description": "向上箭頭圖標的標題。"
+  },
+  "icon_asterisk": {
+    "message": "星號",
+    "description": "星號圖標的標題。"
+  },
+  "icon_backward": {
+    "message": "向後",
+    "description": "向後圖標的標題。"
+  },
+  "icon_ban_circle": {
+    "message": "禁止圓圈",
+    "description": "禁止圓圈圖標的標題。"
+  },
+  "icon_barcode": {
+    "message": "條形碼",
+    "description": "條形碼圖標的標題。"
+  },
+  "icon_bell": {
+    "message": "鈴鐺",
+    "description": "鈴鐺圖標的標題。"
+  },
+  "icon_bold": {
+    "message": "粗體",
+    "description": "粗體圖標的標題。"
+  },
+  "icon_book": {
+    "message": "書本",
+    "description": "書本圖標的標題。"
+  },
+  "icon_bookmark": {
+    "message": "書籤",
+    "description": "書籤圖標的標題。"
+  },
+  "icon_briefcase": {
+    "message": "公文包",
+    "description": "公文包圖標的標題。"
+  },
+  "icon_bullhorn": {
+    "message": "喇叭",
+    "description": "喇叭圖標的標題。"
+  },
+  "icon_calendar": {
+    "message": "日曆",
+    "description": "日曆圖標的標題。"
+  },
+  "icon_camera": {
+    "message": "相機",
+    "description": "相機圖標的標題。"
+  },
+  "icon_certificate": {
+    "message": "證書",
+    "description": "證書圖標的標題。"
+  },
+  "icon_check": {
+    "message": "勾選",
+    "description": "勾選圖標的標題。"
+  },
+  "icon_chevron_down": {
+    "message": "向下箭頭",
+    "description": "向下箭頭圖標的標題。"
+  },
+  "icon_chevron_left": {
+    "message": "向左箭頭",
+    "description": "向左箭頭圖標的標題。"
+  },
+  "icon_chevron_right": {
+    "message": "向右箭頭",
+    "description": "向右箭頭圖標的標題。"
+  },
+  "icon_chevron_up": {
+    "message": "向上箭頭",
+    "description": "向上箭頭圖標的標題。"
+  },
+  "icon_circle_arrow_down": {
+    "message": "圓圈向下箭頭",
+    "description": "圓圈向下箭頭圖標的標題。"
+  },
+  "icon_circle_arrow_left": {
+    "message": "圓圈向左箭頭",
+    "description": "圓圈向左箭頭圖標的標題。"
+  },
+  "icon_circle_arrow_right": {
+    "message": "圓圈向右箭頭",
+    "description": "圓圈向右箭頭圖標的標題。"
+  },
+  "icon_circle_arrow_up": {
+    "message": "圓圈向上箭頭",
+    "description": "圓圈向上箭頭圖標的標題。"
+  },
+  "icon_cog": {
+    "message": "齒輪",
+    "description": "齒輪圖標的標題。"
+  },
+  "icon_comment": {
+    "message": "評論",
+    "description": "評論圖標的標題。"
+  },
+  "icon_download": {
+    "message": "下載",
+    "description": "下載圖標的標題。"
+  },
+  "icon_download_alt": {
+    "message": "下載（替代）",
+    "description": "下載（替代）圖標的標題。"
+  },
+  "icon_edit": {
+    "message": "編輯",
+    "description": "編輯圖標的標題。"
+  },
+  "icon_eject": {
+    "message": "退出",
+    "description": "弹出图标说明。"
+  },
+  "icon_envelope": {
+    "message": "信封",
+    "description": "信封图标说明。"
+  },
+  "icon_exclamation_sign": {
+    "message": "感叹号",
+    "description": "感叹号图标说明。"
+  },
+  "icon_eye_close": {
+    "message": "闭眼",
+    "description": "闭眼图标说明。"
+  },
+  "icon_eye_open": {
+    "message": "睁眼",
+    "description": "睁眼图标说明。"
+  },
+  "icon_facetime_video": {
+    "message": "Facetime 视频",
+    "description": "Facetime 视频图标说明。"
+  },
+  "icon_fast_backward": {
+    "message": "快退",
+    "description": "快退图标说明。"
+  },
+  "icon_fast_forward": {
+    "message": "快进",
+    "description": "快进图标说明。"
+  },
+  "icon_file": {
+    "message": "文件",
+    "description": "文件图标说明。"
+  },
+  "icon_film": {
+    "message": "电影",
+    "description": "电影图标说明。"
+  },
+  "icon_filter": {
+    "message": "筛选",
+    "description": "筛选图标说明。"
+  },
+  "icon_fire": {
+    "message": "火",
+    "description": "火图标说明。"
+  },
+  "icon_flag": {
+    "message": "旗帜",
+    "description": "旗帜图标说明。"
+  },
+  "icon_folder_close": {
+    "message": "文件夹关闭",
+    "description": "文件夹关闭图标说明。"
+  },
+  "icon_folder_open": {
+    "message": "文件夹打开",
+    "description": "文件夹打开图标说明。"
+  }
 }

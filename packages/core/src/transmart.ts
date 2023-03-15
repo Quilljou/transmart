@@ -2,11 +2,8 @@ import { translate } from './translate'
 import * as fs from 'fs-extra'
 import * as path from 'path'
 import { TransmartOptions, TranslateResult, RunOptions, RunWork } from './types'
-import * as pLimit from 'p-limit'
-
-const MAX_CONCURRENCY = 5
-
-const limit = pLimit(MAX_CONCURRENCY)
+import { Task } from './work'
+import { limit } from './limit'
 
 const DEFAULT_PARAMS: Partial<TransmartOptions> = {
   openAIApiUrl: 'https://api.openai.com',
@@ -19,7 +16,7 @@ export class Transmart {
     this.options = options as Required<TransmartOptions>
   }
 
-  async run(options: RunOptions): Promise<any> {
+  public async run(options: RunOptions): Promise<any> {
     this.validateParams()
     const { baseLocale, locales, localePath } = this.options
     const targetLocales = locales.filter((item) => item !== baseLocale)
@@ -37,28 +34,20 @@ export class Transmart {
         })
       })
     })
-    return Promise.all(runworks.map((work) => limit(() => this.runSingleNamespace(work, options))))
+    return Promise.all(runworks.map((work) => limit(() => this.processSingleNamespace(work, options))))
   }
 
-  async runSingleNamespace(work: RunWork, options: RunOptions) {
-    const { onResult, onStart } = options
-    const { openAIApiKey, openAIApiUrl, openAIApiUrlPath, localePath } = this.options
-    const { inputNSFilePath, outputNSFilePath, locale } = work
-    let content
+  private async processSingleNamespace(work: RunWork, options: RunOptions): Promise<void> {
+    const { onResult, onStart, onProgress } = options
     onStart?.(work)
     try {
-      // TODO: validate valid JSON or merge it into one
-      content = fs.readFileSync(inputNSFilePath, { encoding: 'utf-8' })
-      const data = await translate({
-        content,
-        targetLang: locale,
-        openAIApiKey,
-        openAIApiUrl,
-        openAIApiUrlPath,
+      const task = new Task(this, work)
+      const data = await task.start((current, total) => {
+        onProgress?.(current, total, work)
       })
       onResult?.({ work, content: data, failed: false })
     } catch (error) {
-      onResult?.({ work, failed: true, content: '' })
+      onResult?.({ work, failed: true, content: '', reason: error as Error })
     }
   }
 

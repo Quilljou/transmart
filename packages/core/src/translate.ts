@@ -27,7 +27,14 @@ export async function translate(params: TranslateParams) {
     headers,
     body: JSON.stringify(body),
   })
-  const json = await res.json()
-  // TOOD: handle Cannot read properties of undefined (reading '0'
-  return json.choices[0].message.content
+  if (res.status !== 200) {
+    const { error } = await res.json()
+    throw new Error(error.message)
+  }
+  const { choices } = await res.json()
+  if (!choices || choices.length === 0) {
+    throw new Error('No result')
+  }
+  const targetTxt = choices[0].message.content.trim()
+  return targetTxt
 }

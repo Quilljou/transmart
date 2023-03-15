@@ -39,17 +39,17 @@ export interface TranslateParams {
 }
 
 export interface TranslateResult {
-  /**
-   * locale content after translated
-   */
   content?: string
   work: RunWork
   failed: boolean
+  progress?: number
+  total?: number
   reason?: Error
 }
 
 export interface RunOptions {
   onStart?: (work: RunWork) => any
+  onProgress?: (current: number, total: number, work: RunWork) => any
   onResult: (result: TranslateResult) => any
 }
 

@@ -12,11 +12,15 @@ export async function run(options: CmdOptions) {
       const key = work.locale + '-' + path.basename(work.inputNSFilePath)
       spinnerManager.add(key, { text: key + ' translating...' })
     },
+    onProgress(current, total, work) {
+      const key = work.locale + '-' + path.basename(work.inputNSFilePath)
+      spinnerManager.update(key, { text: key + ' translating...' + `(${current}/${total})` })
+    },
     onResult(result) {
-      const { work, failed, content } = result
+      const { work, failed, content, reason } = result
       const key = work.locale + '-' + path.basename(work.inputNSFilePath)
       if (failed) {
-        spinnerManager.fail(key, { text: key + ' failed' })
+        spinnerManager.fail(key, { text: key + ' failed: ' + reason?.message })
       } else if (content) {
         const dirname = path.dirname(work.outputNSFilePath)
         fs.mkdirpSync(dirname)
