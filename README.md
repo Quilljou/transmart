@@ -20,6 +20,7 @@ It consists of two parts: Cli and Core. Core is the NodeJS core implementation o
 - [x] Supports [Chrome.i18n](https://developer.chrome.com/docs/webstore/i18n/#choosing-locales-to-support)
 - [ ] Supports iOS
 - [ ] Supports Android
+- [x] Supports Glob namespace matching
 - [ ] Supports custom locale file structure
 
 

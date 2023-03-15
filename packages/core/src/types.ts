@@ -21,6 +21,10 @@ export interface TransmartOptions {
    */
   openAIApiKey: string
   /**
+   * Glob for namespace(s) to process
+   */
+  namespaceGlob: string | string[]
+  /**
    * OpenAI API base url, useful when using proxy
    */
   openAIApiUrl?: string
