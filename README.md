@@ -2,7 +2,7 @@
 
 <center>
 
-# Transmart ![alt](./assets/logo.png)
+![Transmart](./assets/logo.png) Transmart 
 
 </center>
 
