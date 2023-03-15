@@ -1,0 +1,4158 @@
+{
+  "default_template_anchor": {
+    "message": "锚点",
+    "description": "锚点模板的标题。"
+  },
+  "default_template_bbcode": {
+    "message": "BBCode",
+    "description": "BBCode模板的标题。"
+  },
+  "default_template_encoded": {
+    "message": "编码",
+    "description": "编码模板的标题。"
+  },
+  "default_template_markdown": {
+    "message": "Markdown",
+    "description": "Markdown模板的标题。"
+  },
+  "default_template_markdown_selection": {
+    "message": "Markdown中的选择",
+    "description": "Markdown中的选择模板的标题。"
+  },
+  "default_template_short": {
+    "message": "短",
+    "description": "短模板的标题。"
+  },
+  "default_template_url": {
+    "message": "URL",
+    "description": "URL模板的标题。"
+  },
+  "description": {
+    "message": "使用简单而独特的模板系统快速轻松地复制当前页面上的信息",
+    "description": "扩展的简要描述。"
+  },
+  "empty": {
+    "message": "空",
+    "description": "没有激活模板的弹出/菜单文本。"
+  },
+  "error_file_aborted": {
+    "message": "已中止！",
+    "description": "文件上传被中止的错误消息。"
+  },
+  "error_file_default": {
+    "message": "无法读取/写入文件！",
+    "description": "上传的文件无法读取的错误消息。"
+  },
+  "error_file_not_found": {
+    "message": "文件未找到！",
+    "description": "找不到文件的错误消息。"
+  },
+  "error_import_data": {
+    "message": "无法解析数据！",
+    "description": "导入的数据无效的错误消息。"
+  },
+  "error_import_invalid": {
+    "message": "某些值缺失或损坏！",
+    "description": "导入的数据结构不正确的错误消息。"
+  },
+  "icon_adjust": {
+    "message": "调整",
+    "description": "调整图标的标题。"
+  },
+  "icon_align_center": {
+    "message": "居中对齐",
+    "description": "居中对齐图标的标题。"
+  },
+  "icon_align_justify": {
+    "message": "两端对齐",
+    "description": "两端对齐图标的标题。"
+  },
+  "icon_align_left": {
+    "message": "左对齐",
+    "description": "左对齐图标的标题。"
+  },
+  "icon_align_right": {
+    "message": "右对齐",
+    "description": "右对齐图标的标题。"
+  },
+  "icon_arrow_down": {
+    "message": "向下箭头",
+    "description": "向下箭头图标的标题。"
+  },
+  "icon_arrow_left": {
+    "message": "向左箭头",
+    "description": "向左箭头图标的标题。"
+  },
+  "icon_arrow_right": {
+    "message": "向右箭头",
+    "description": "向右箭头图标的标题。"
+  },
+  "icon_arrow_up": {
+    "message": "向上箭头",
+    "description": "向上箭头图标的标题。"
+  },
+  "icon_asterisk": {
+    "message": "星号",
+    "description": "星号图标的标题。"
+  },
+  "icon_backward": {
+    "message": "后退",
+    "description": "后退图标的标题。"
+  },
+  "icon_ban_circle": {
+    "message": "禁止圆圈",
+    "description": "禁止圆圈图标的标题。"
+  },
+  "icon_barcode": {
+    "message": "条形码",
+    "description": "条形码图标的标题。"
+  },
+  "icon_bell": {
+    "message": "铃铛",
+    "description": "铃铛图标的标题。"
+  },
+  "icon_bold": {
+    "message": "加粗",
+    "description": "加粗图标的标题。"
+  },
+  "icon_book": {
+    "message": "书",
+    "description": "书图标的标题。"
+  },
+  "icon_bookmark": {
+    "message": "书签",
+    "description": "书签图标的标题。"
+  },
+  "icon_briefcase": {
+    "message": "公文包",
+    "description": "公文包图标的标题。"
+  },
+  "icon_bullhorn": {
+    "message": "扩音器",
+    "description": "扩音器图标的标题。"
+  },
+  "icon_calendar": {
+    "message": "日历",
+    "description": "日历图标的标题。"
+  },
+  "icon_camera": {
+    "message": "相机",
+    "description": "相机图标的标题。"
+  },
+  "icon_certificate": {
+    "message": "证书",
+    "description": "证书图标的标题。"
+  },
+  "icon_check": {
+    "message": "勾选",
+    "description": "勾选图标的标题。"
+  },
+  "icon_chevron_down": {
+    "message": "向下尖头",
+    "description": "向下尖头图标的标题。"
+  },
+  "icon_chevron_left": {
+    "message": "向左尖头",
+    "description": "向左尖头图标的标题。"
+  },
+  "icon_chevron_right": {
+    "message": "向右尖头",
+    "description": "向右尖头图标的标题。"
+  },
+  "icon_chevron_up": {
+    "message": "向上尖头",
+    "description": "向上尖头图标的标题。"
+  },
+  "icon_circle_arrow_down": {
+    "message": "圆圈向下箭头",
+    "description": "圆圈向下箭头图标的标题。"
+  },
+  "icon_circle_arrow_left": {
+    "message": "圆圈向左箭头",
+    "description": "圆圈向左箭头图标的标题。"
+  },
+  "icon_circle_arrow_right": {
+    "message": "圆圈向右箭头",
+    "description": "圆圈向右箭头图标的标题。"
+  },
+  "icon_circle_arrow_up": {
+    "message": "圆圈向上箭头",
+    "description": "圆圈向上箭头图标的标题。"
+  },
+  "icon_cog": {
+    "message": "齿轮",
+    "description": "齿轮图标的标题。"
+  },
+  "icon_comment": {
+    "message": "评论",
+    "description": "评论图标的标题。"
+  },
+  "icon_download": {
+    "message": "下载",
+    "description": "下载图标的标题。"
+  },
+  "icon_download_alt": {
+    "message": "下载（备用）",
+    "description": "下载（备用）图标的标题。"
+  },
+  "icon_edit": {
+    "message": "编辑",
+    "description": "编辑图标的标题。"
+  },
+  "icon_eject": {
+    "message": "弹出",
+    "description": "弹出图标说明。"
+  },
+  "icon_envelope": {
+    "message": "信封",
+    "description": "信封图标说明。"
+  },
+  "icon_exclamation_sign": {
+    "message": "感叹号",
+    "description": "感叹号图标说明。"
+  },
+  "icon_eye_close": {
+    "message": "闭眼",
+    "description": "闭眼图标说明。"
+  },
+  "icon_eye_open": {
+    "message": "睁眼",
+    "description": "睁眼图标说明。"
+  },
+  "icon_facetime_video": {
+    "message": "Facetime 视频",
+    "description": "Facetime 视频图标说明。"
+  },
+  "icon_fast_backward": {
+    "message": "快退",
+    "description": "快退图标说明。"
+  },
+  "icon_fast_forward": {
+    "message": "快进",
+    "description": "快进图标说明。"
+  },
+  "icon_file": {
+    "message": "文件",
+    "description": "文件图标说明。"
+  },
+  "icon_film": {
+    "message": "电影",
+    "description": "电影图标说明。"
+  },
+  "icon_filter": {
+    "message": "过滤器",
+    "description": "过滤器图标说明。"
+  },
+  "icon_fire": {
+    "message": "火",
+    "description": "火图标说明。"
+  },
+  "icon_flag": {
+    "message": "旗帜",
+    "description": "旗帜图标说明。"
+  },
+  "icon_folder_close": {
+    "message": "关闭文件夹",
+    "description": "关闭文件夹图标说明。"
+  },
+  "icon_folder_open": {
+    "message": "打开文件夹",
+    "description": "打开文件夹图标说明。"
+  },
+  "icon_font": {
+    "message": "字体",
+    "description": "字体图标说明。"
+  },
+  "icon_forward": {
+    "message": "前进",
+    "description": "前进图标说明。"
+  },
+  "icon_fullscreen": {
+    "message": "全屏",
+    "description": "全屏图标说明。"
+  },
+  "icon_gift": {
+    "message": "礼物",
+    "description": "礼物图标说明。"
+  },
+  "icon_glass": {
+    "message": "玻璃",
+    "description": "玻璃图标说明。"
+  },
+  "icon_globe": {
+    "message": "地球仪",
+    "description": "地球仪图标说明。"
+  },
+  "icon_hand_down": {
+    "message": "向下手势",
+    "description": "向下手势图标说明。"
+  },
+  "icon_hand_left": {
+    "message": "向左手势",
+    "description": "向左手势图标说明。"
+  },
+  "icon_hand_right": {
+    "message": "向右手势",
+    "description": "向右手势图标说明。"
+  },
+  "icon_hand_up": {
+    "message": "向上手势",
+    "description": "向上手势图标说明。"
+  },
+  "icon_hdd": {
+    "message": "硬盘",
+    "description": "硬盘图标说明。"
+  },
+  "icon_headphones": {
+    "message": "耳机",
+    "description": "耳机图标说明。"
+  },
+  "icon_heart": {
+    "message": "心形",
+    "description": "心形图标说明。"
+  },
+  "icon_home": {
+    "message": "主页",
+    "description": "主页图标说明。"
+  },
+  "icon_inbox": {
+    "message": "收件箱",
+    "description": "收件箱图标说明。"
+  },
+  "icon_indent_left": {
+    "message": "向左缩进",
+    "description": "向左缩进图标说明。"
+  },
+  "icon_indent_right": {
+    "message": "向右缩进",
+    "description": "向右缩进图标说明。"
+  },
+  "icon_info_sign": {
+    "message": "信息标志",
+    "description": "信息标志图标说明。"
+  },
+  "icon_italic": {
+    "message": "斜体",
+    "description": "斜体图标说明。"
+  },
+  "icon_leaf": {
+    "message": "叶子",
+    "description": "叶子图标说明。"
+  },
+  "icon_list": {
+    "message": "列表",
+    "description": "列表图标说明。"
+  },
+  "icon_list_alt": {
+    "message": "列表（备选）",
+    "description": "列表（备选）图标说明。"
+  },
+  "icon_lock": {
+    "message": "锁",
+    "description": "锁图标说明。"
+  },
+  "icon_magnet": {
+    "message": "磁铁",
+    "description": "磁铁图标说明。"
+  },
+  "icon_map_marker": {
+    "message": "地图标记",
+    "description": "地图标记图标说明。"
+  },
+  "icon_minus": {
+    "message": "减号",
+    "description": "减号图标说明。"
+  },
+  "icon_minus_sign": {
+    "message": "减号标志",
+    "description": "减号标志图标说明。"
+  },
+  "icon_move": {
+    "message": "移动",
+    "description": "移动图标说明。"
+  },
+  "icon_music": {
+    "message": "音乐",
+    "description": "音乐图标说明。"
+  },
+  "icon_none": {
+    "message": "无",
+    "description": "无图标说明。"
+  },
+  "icon_off": {
+    "message": "关闭",
+    "description": "关闭图标说明。"
+  },
+  "icon_ok": {
+    "message": "确定",
+    "description": "确定图标说明。"
+  },
+  "icon_ok_circle": {
+    "message": "确定圆圈",
+    "description": "确定圆圈图标说明。"
+  },
+  "icon_ok_sign": {
+    "message": "确定标志",
+    "description": "确定标志图标说明。"
+  },
+  "icon_pause": {
+    "message": "暂停",
+    "description": "暂停图标说明。"
+  },
+  "icon_pencil": {
+    "message": "铅笔",
+    "description": "铅笔图标说明。"
+  },
+  "icon_picture": {
+    "message": "图片",
+    "description": "图片图标说明。"
+  },
+  "icon_plane": {
+    "message": "飞机",
+    "description": "飞机图标说明。"
+  },
+  "icon_play": {
+    "message": "播放",
+    "description": "播放图标说明。"
+  },
+  "icon_play_circle": {
+    "message": "播放圆圈",
+    "description": "播放圆圈图标说明。"
+  },
+  "icon_plus": {
+    "message": "加号",
+    "description": "加号图标说明。"
+  },
+  "icon_plus_sign": {
+    "message": "加号",
+    "description": "加号图标标题。"
+  },
+  "icon_print": {
+    "message": "打印",
+    "description": "打印图标标题。"
+  },
+  "icon_qrcode": {
+    "message": "二维码",
+    "description": "二维码图标标题。"
+  },
+  "icon_question_sign": {
+    "message": "问号",
+    "description": "问号图标标题。"
+  },
+  "icon_random": {
+    "message": "随机",
+    "description": "随机图标标题。"
+  },
+  "icon_refresh": {
+    "message": "刷新",
+    "description": "刷新图标标题。"
+  },
+  "icon_remove": {
+    "message": "删除",
+    "description": "删除图标标题。"
+  },
+  "icon_remove_circle": {
+    "message": "删除圆圈",
+    "description": "删除圆圈图标标题。"
+  },
+  "icon_remove_sign": {
+    "message": "删除标志",
+    "description": "删除标志图标标题。"
+  },
+  "icon_repeat": {
+    "message": "重复",
+    "description": "重复图标标题。"
+  },
+  "icon_resize_full": {
+    "message": "全屏",
+    "description": "全屏图标标题。"
+  },
+  "icon_resize_horizontal": {
+    "message": "水平缩放",
+    "description": "水平缩放图标标题。"
+  },
+  "icon_resize_small": {
+    "message": "缩小",
+    "description": "缩小图标标题。"
+  },
+  "icon_resize_vertical": {
+    "message": "垂直缩放",
+    "description": "垂直缩放图标标题。"
+  },
+  "icon_retweet": {
+    "message": "转发",
+    "description": "转发图标标题。"
+  },
+  "icon_road": {
+    "message": "道路",
+    "description": "道路图标标题。"
+  },
+  "icon_screenshot": {
+    "message": "截图",
+    "description": "截图图标标题。"
+  },
+  "icon_search": {
+    "message": "搜索",
+    "description": "搜索图标标题。"
+  },
+  "icon_share": {
+    "message": "分享",
+    "description": "分享图标标题。"
+  },
+  "icon_share_alt": {
+    "message": "分享（备选）",
+    "description": "分享（备选）图标标题。"
+  },
+  "icon_shopping_cart": {
+    "message": "购物车",
+    "description": "购物车图标标题。"
+  },
+  "icon_signal": {
+    "message": "信号",
+    "description": "信号图标标题。"
+  },
+  "icon_star": {
+    "message": "星星",
+    "description": "星星图标标题。"
+  },
+  "icon_star_empty": {
+    "message": "空星星",
+    "description": "空星星图标标题。"
+  },
+  "icon_step_backward": {
+    "message": "后退一步",
+    "description": "后退一步图标标题。"
+  },
+  "icon_step_forward": {
+    "message": "前进一步",
+    "description": "前进一步图标标题。"
+  },
+  "icon_stop": {
+    "message": "停止",
+    "description": "停止图标标题。"
+  },
+  "icon_tag": {
+    "message": "标签",
+    "description": "标签图标标题。"
+  },
+  "icon_tags": {
+    "message": "标签",
+    "description": "标签图标标题。"
+  },
+  "icon_tasks": {
+    "message": "任务",
+    "description": "任务图标标题。"
+  },
+  "icon_text_height": {
+    "message": "文本高度",
+    "description": "文本高度图标标题。"
+  },
+  "icon_text_width": {
+    "message": "文本宽度",
+    "description": "文本宽度图标标题。"
+  },
+  "icon_th": {
+    "message": "缩略图",
+    "description": "缩略图图标标题。"
+  },
+  "icon_th_large": {
+    "message": "大缩略图",
+    "description": "大缩略图图标标题。"
+  },
+  "icon_th_list": {
+    "message": "列表缩略图",
+    "description": "列表缩略图图标标题。"
+  },
+  "icon_thumbs_down": {
+    "message": "踩",
+    "description": "踩图标标题。"
+  },
+  "icon_thumbs_up": {
+    "message": "赞",
+    "description": "赞图标标题。"
+  },
+  "icon_time": {
+    "message": "时间",
+    "description": "时间图标标题。"
+  },
+  "icon_tint": {
+    "message": "色调",
+    "description": "色调图标标题。"
+  },
+  "icon_trash": {
+    "message": "垃圾桶",
+    "description": "垃圾桶图标标题。"
+  },
+  "icon_upload": {
+    "message": "上传",
+    "description": "上传图标标题。"
+  },
+  "icon_user": {
+    "message": "用户",
+    "description": "用户图标标题。"
+  },
+  "icon_volume_down": {
+    "message": "音量减小",
+    "description": "音量减小图标标题。"
+  },
+  "icon_volume_off": {
+    "message": "静音",
+    "description": "静音图标标题。"
+  },
+  "icon_volume_up": {
+    "message": "音量增大",
+    "description": "音量增大图标标题。"
+  },
+  "icon_warning_sign": {
+    "message": "警告标志",
+    "description": "警告标志图标标题。"
+  },
+  "icon_wrench": {
+    "message": "扳手",
+    "description": "扳手图标标题。"
+  },
+  "icon_zoom_in": {
+    "message": "放大",
+    "description": "放大图标标题。"
+  },
+  "icon_zoom_out": {
+    "message": "缩小",
+    "description": "缩小图标标题。"
+  },
+  "name": {
+    "message": "模板",
+    "description": "扩展名称。"
+  },
+  "opt_add_button_text": {
+    "message": "$ICON$ 添加",
+    "description": "用于添加模板的按钮的文本。",
+    "placeholders": {
+      "icon": {
+        "content": "<i class=\"icon-plus icon-white\"></i>",
+        "example": "<i class=\"icon-plus icon-white\"></i>"
+      }
+    }
+  },
+  "opt_add_button_title": {
+    "message": "创建新模板",
+    "description": "用于添加模板的按钮的悬停文本。"
+  },
+  "opt_analytics_label": {
+    "message": "分析",
+    "description": "Analytics字段的标签。"
+  },
+  "opt_analytics_sub_text": {
+    "message": "此信息仅用于帮助改善用户体验，永远不会提供给第三方。",
+    "description": "Analytics字段的帮助文本。"
+  },
+  "opt_analytics_text": {
+    "message": "发送匿名使用统计信息",
+    "description": "Analytics字段的文本。"
+  },
+  "opt_confirm_button": {
+    "message": "确认",
+    "description": "确认按钮的文本。"
+  },
+  "opt_delete_button_text": {
+    "message": "$ICON$ 删除",
+    "description": "删除按钮的文本。",
+    "placeholders": {
+      "icon": {
+        "content": "<i class=\"icon-trash icon-white\"></i>",
+        "example": "<i class=\"icon-trash icon-white\"></i>"
+      }
+    }
+  },
+  "opt_delete_button_title": {
+    "message": "删除所有选定的模板",
+    "description": "删除按钮的悬停文本。"
+  },
+  "opt_delete_wizard_header": {
+    "message": "确认删除",
+    "description": "删除模板时显示的确认对话框的标题。"
+  },
+  "opt_delete_wizard_text_1": {
+    "message": "此操作是$O_BOLD$永久$C_BOLD$的，无法撤消。将删除以下模板；",
+    "description": "删除模板时显示的确认对话框的第一段文字。",
+    "placeholders": {
+      "c_bold": {
+        "content": "</strong>",
+        "example": "</strong>"
+      },
+      "o_bold": {
+        "content": "<strong>",
+        "example": "<strong>"
+      }
+    }
+  },
+  "opt_delete_wizard_text_2": {
+    "message": "您是否仍要继续？",
+    "description": "删除模板时显示的确认对话框的第二段文字。"
+  },
+  "opt_disable_button_text": {
+    "message": "$ICON$ 禁用",
+    "description": "用于禁用模板的按钮的文本。",
+    "placeholders": {
+      "icon": {
+        "content": "<i class=\"icon-remove\"></i>",
+        "example": "<i class=\"icon-remove\"></i>"
+      }
+    }
+  },
+  "opt_disable_button_title": {
+    "message": "禁用所有选定的模板",
+    "description": "用于禁用模板的按钮的悬停文本。"
+  },
+  "opt_donate_button": {
+    "message": "$ICON$ 捐赠",
+    "description": "捐赠按钮的文本。",
+    "placeholders": {
+      "icon": {
+        "content": "<i class=\"icon-heart icon-white\"></i>",
+        "example": "<i class=\"icon-heart icon-white\"></i>"
+      }
+    }
+  },
+  "opt_donate_button_title": {
+    "message": "分享爱心！",
+    "description": "捐赠按钮的悬停文本。"
+  },
+  "opt_enable_button_text": {
+    "message": "$ICON$ 启用",
+    "description": "用于启用模板的按钮的文本。",
+    "placeholders": {
+      "icon": {
+        "content": "<i class=\"icon-ok\"></i>",
+        "example": "<i class=\"icon-ok\"></i>"
+      }
+    }
+  },
+  "opt_enable_button_title": {
+    "message": "启用所有选定的模板",
+    "description": "用于启用模板的按钮的悬停文本。"
+  },
+  "opt_errors_header": {
+    "message": "需要纠正以下问题；",
+    "description": "模板选项卡上任何错误的前置文本。"
+  },
+  "opt_export_button_text": {
+    "message": "$ICON$ 导出",
+    "description": "导出按钮的文本。",
+    "placeholders": {
+      "icon": {
+        "content": "<i class=\"icon-upload\"></i>",
+        "example": "<i class=\"icon-upload\"></i>"
+      }
+    }
+  },
+  "opt_export_button_title": {
+    "message": "导出所有选定的模板",
+    "description": "导出按钮的悬停文本。"
+  },
+  "opt_export_wizard_copy_alt_button": {
+    "message": "已复制！",
+    "description": "复制按钮的文本，在点击后短暂显示。"
+  },
+  "opt_export_wizard_copy_button": {
+    "message": "复制",
+    "description": "复制按钮的文本。"
+  },
+  "opt_export_wizard_header": {
+    "message": "导出",
+    "description": "导出对话框的标题。"
+  },
+  "opt_export_wizard_save_as_button": {
+    "message": "另存为...",
+    "description": "“另存为...”按钮的文本。"
+  },
+  "opt_export_wizard_text": {
+    "message": "复制或下载导出的模板数据。",
+    "description": "导出对话框的文本。"
+  },
+  "opt_feedback_button": {
+    "message": "反馈",
+    "description": "选项页面上反馈按钮的文本。"
+  },
+  "opt_general_header": {
+    "message": "常规",
+    "description": "常规选项卡的标题。"
+  },
+  "opt_guide_argument_header": {
+    "message": "参数",
+    "description": "参数列的标题。"
+  },
+  "opt_guide_argument_number_text": {
+    "message": "数字",
+    "description": "需要数字参数的操作的文本，在参数列中显示。"
+  },
+  "opt_guide_argument_text_text": {
+    "message": "文本",
+    "description": "需要字符串参数的操作的文本，在参数列中显示。"
+  },
+  "opt_guide_definitions_caption": {
+    "message": "定义",
+    "description": "显示在所有定义表格上方的标题。"
+  },
+  "opt_guide_definitions_footer_1": {
+    "message": "不适用于内部 Chrome 页面或 $O_LINK_WEBSTORE$Chrome 网上应用店$C_LINK$。",
+    "description": "在定义表格下方显示的第一个可选页脚。",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_link_webstore": {
+        "content": "<a href=\"https://chrome.google.com/webstore\" target=\"_blank\">",
+        "example": "<a href=\"https://chrome.google.com/webstore\">"
+      }
+    }
+  },
+  "opt_guide_definitions_footer_2": {
+    "message": "仅在通过链接的上下文菜单访问模板时可用。",
+    "description": "在定义表格下方显示的第二个可选页脚。"
+  },
+  "opt_guide_definitions_footer_3": {
+    "message": "了解有关 $O_LINK_SELECTORS$选择器 API$C_LINK$ 的更多信息。",
+    "description": "在定义表格下方显示的第三个可选页脚。",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_link_selectors": {
+        "content": "<a href=\"http://www.w3.org/TR/selectors-api/\" target=\"_blank\">",
+        "example": "<a href=\"http://www.w3.org/TR/selectors-api/\">"
+      }
+    }
+  },
+  "opt_guide_definitions_footer_4": {
+    "message": "了解有关 $O_LINK_XPATH$XPath API$C_LINK$ 的更多信息。",
+    "description": "在定义表格下方显示的第四个可选页脚。",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_link_xpath": {
+        "content": "<a href=\"http://www.w3.org/TR/xpath/\" target=\"_blank\">",
+        "example": "<a href=\"http://www.w3.org/TR/xpath/\">"
+      }
+    }
+  },
+  "opt_guide_description_header": {
+    "message": "描述",
+    "description": "描述列的标题。"
+  },
+  "opt_guide_examples_header": {
+    "message": "示例",
+    "description": "所有可展开示例区域的标题。"
+  },
+  "opt_guide_header": {
+    "message": "指南",
+    "description": "选项页面上指南选项卡的标题。"
+  },
+  "opt_guide_introduction_case_sensitivity_header": {
+    "message": "大小写敏感性",
+    "description": "选项页面上指南选项卡下介绍部分中大小写敏感性区域的标题。"
+  },
+  "opt_guide_introduction_case_sensitivity_text": {
+    "message": "简单标记和部分的名称不区分大小写，因此 $SYNTAX_1$ 与 $SYNTAX_2$ 输出相同。但是，必须使用相同大小写的名称打开和关闭部分（即 $SYNTAX_3$ 将不起作用）。",
+    "description": "选项页面上指南选项卡下介绍部分中大小写敏感性区域的文本。",
+    "placeholders": {
+      "syntax_1": {
+        "content": "<code>{name}</code>",
+        "example": "{name}"
+      },
+      "syntax_2": {
+        "content": "<code>{NaMe}</code>",
+        "example": "{NaMe}"
+      },
+      "syntax_3": {
+        "content": "<code>{#name}...{/NaMe}</code>",
+        "example": "{#name}...{/NaMe}"
+      }
+    }
+  },
+  "opt_guide_introduction_dot_notation_header": {
+    "message": "点表示法",
+    "description": "选项页面上指南选项卡下介绍部分中点表示法区域的标题。"
+  },
+  "opt_guide_introduction_dot_notation_text": {
+    "message": "对象的嵌套属性也可以使用点表示法访问，例如 $SYNTAX$ 将获取 $O_EMPH$name$C_EMPH$ 对象的 $O_EMPH$nested$C_EMPH$ 属性。这些表达式甚至可以链接以访问嵌套属性的属性等。",
+    "description": "选项页面上指南选项卡下介绍部分中点表示法区域的文本。",
+    "placeholders": {
+      "c_emph": {
+        "content": "</em>",
+        "example": "</em>"
+      },
+      "o_emph": {
+        "content": "<em>",
+        "example": "<em>"
+      },
+      "syntax": {
+        "content": "<code>{name.nested}</code>",
+        "example": "{name.nested}"
+      }
+    }
+  },
+  "opt_guide_introduction_header": {
+    "message": "介绍",
+    "description": "选项页面上指南选项卡下介绍部分的标题。"
+  },
+  "opt_guide_introduction_inverted_section_access_text": {
+    "message": "$O_BOLD$访问$C_BOLD$ - 仅在值为空对象时呈现内容",
+    "description": "选项页面上指南选项卡下介绍部分中反向部分区域列表中访问项的文本。",
+    "placeholders": {
+      "c_bold": {
+        "content": "</strong>",
+        "example": "</strong>"
+      },
+      "o_bold": {
+        "content": "<strong>",
+        "example": "<strong>"
+      }
+    }
+  },
+  "opt_guide_introduction_inverted_section_conditions_text": {
+    "message": "$O_BOLD$条件$C_BOLD$ - 仅在值为$O_EMPH$假值$C_EMPH$时呈现内容",
+    "description": "选项页面引导选项卡下介绍部分中反向区域列表中条件项的文本。",
+    "placeholders": {
+      "c_bold": {
+        "content": "</strong>",
+        "example": "</strong>"
+      },
+      "c_emph": {
+        "content": "</em>",
+        "example": "</em>"
+      },
+      "o_bold": {
+        "content": "<strong>",
+        "example": "<strong>"
+      },
+      "o_emph": {
+        "content": "<em>",
+        "example": "<em>"
+      }
+    }
+  },
+  "opt_guide_introduction_inverted_section_header": {
+    "message": "反向区域",
+    "description": "选项页面引导选项卡下介绍部分中反向区域的标题。"
+  },
+  "opt_guide_introduction_inverted_section_iterating_text": {
+    "message": "$O_BOLD$迭代$C_BOLD$ - 仅在值为一个空列表时呈现内容",
+    "description": "选项页面引导选项卡下介绍部分中反向区域列表中迭代项的文本。",
+    "placeholders": {
+      "c_bold": {
+        "content": "</strong>",
+        "example": "</strong>"
+      },
+      "o_bold": {
+        "content": "<strong>",
+        "example": "<strong>"
+      }
+    }
+  },
+  "opt_guide_introduction_inverted_section_text": {
+    "message": "反向区域与普通区域非常相似，但是写法如下 $SYNTAX$，可以用于以下目的；",
+    "description": "选项页面引导选项卡下介绍部分中反向区域的文本。",
+    "placeholders": {
+      "syntax": {
+        "content": "<code>{^name}...{/name}</code>",
+        "example": "{^name}...{/name}"
+      }
+    }
+  },
+  "opt_guide_introduction_notes_text_1": {
+    "message": "如果您在理解本指南方面遇到问题，请$O_LINK_HELP_DESK$告诉我们$C_LINK$，我们将尽力帮助您并考虑您的意见，必要时更新文档。",
+    "description": "选项页面引导选项卡下介绍部分中注释区域的第一段。",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_link_help_desk": {
+        "content": "<a href=\"http://template.uservoice.com/\" target=\"_blank\">",
+        "example": "<a href=\"http://template.uservoice.com/\">"
+      }
+    }
+  },
+  "opt_guide_introduction_notes_text_2": {
+    "message": "如果您在使用$O_BOLD$模板$C_BOLD$时遇到任何问题或想要进行更改或添加，请$O_LINK_HELP_DESK$提交工单$C_LINK$，我们将查看它。",
+    "description": "选项页面引导选项卡下介绍部分中注释区域的第二段。",
+    "placeholders": {
+      "c_bold": {
+        "content": "</strong>",
+        "example": "</strong>"
+      },
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_bold": {
+        "content": "<strong>",
+        "example": "<strong>"
+      },
+      "o_link_help_desk": {
+        "content": "<a href=\"http://template.uservoice.com/\" target=\"_blank\">",
+        "example": "<a href=\"http://template.uservoice.com/\">"
+      }
+    }
+  },
+  "opt_guide_introduction_notes_text_3": {
+    "message": "要获取更多示例，请尝试查看预定义模板。",
+    "description": "选项页面引导选项卡下介绍部分中注释区域的第三段。"
+  },
+  "opt_guide_introduction_section_access_text": {
+    "message": "$O_BOLD$访问$C_BOLD$ - 如果值是一个对象，则呈现内容并将该对象的属性公开为变量",
+    "description": "选项页面引导选项卡下介绍部分中区域列表中访问项的文本。",
+    "placeholders": {
+      "c_bold": {
+        "content": "</strong>",
+        "example": "</strong>"
+      },
+      "o_bold": {
+        "content": "<strong>",
+        "example": "<strong>"
+      }
+    }
+  },
+  "opt_guide_introduction_section_conditions_text": {
+    "message": "$O_BOLD$条件$C_BOLD$ - 仅在值为$O_EMPH$真值$C_EMPH$时呈现内容",
+    "description": "选项页面引导选项卡下介绍部分中区域列表中条件项的文本。",
+    "placeholders": {
+      "c_bold": {
+        "content": "</strong>",
+        "example": "</strong>"
+      },
+      "c_emph": {
+        "content": "</em>",
+        "example": "</em>"
+      },
+      "o_bold": {
+        "content": "<strong>",
+        "example": "<strong>"
+      },
+      "o_emph": {
+        "content": "<em>",
+        "example": "<em>"
+      }
+    }
+  },
+  "opt_guide_introduction_section_header": {
+    "message": "区域",
+    "description": "选项页面引导选项卡下介绍部分中区域的标题。"
+  },
+  "opt_guide_introduction_section_iterating_text": {
+    "message": "$O_BOLD$迭代$C_BOLD$ - 如果值是一个数组，它将为该值的每个可枚举项呈现内容",
+    "description": "选项页面引导选项卡下介绍部分中的列表中迭代项的文本。",
+    "placeholders": {
+      "c_bold": {
+        "content": "</strong>",
+        "example": "</strong>"
+      },
+      "o_bold": {
+        "content": "<strong>",
+        "example": "<strong>"
+      }
+    }
+  },
+  "opt_guide_introduction_section_operations_text": {
+    "message": "$O_BOLD$操作$C_BOLD$ - 渲染操作的结果，将内容作为参数传递",
+    "description": "选项页面引导选项卡下介绍部分中的列表中操作项的文本。",
+    "placeholders": {
+      "c_bold": {
+        "content": "</strong>",
+        "example": "</strong>"
+      },
+      "o_bold": {
+        "content": "<strong>",
+        "example": "<strong>"
+      }
+    }
+  },
+  "opt_guide_introduction_section_text": {
+    "message": "部分始终由打开和关闭标记包围，如此 $SYNTAX$，可用于以下目的；",
+    "description": "选项页面引导选项卡下介绍部分的部分区域的文本。",
+    "placeholders": {
+      "syntax": {
+        "content": "<code>{#name}...{/name}</code>",
+        "example": "{#name}...{/name}"
+      }
+    }
+  },
+  "opt_guide_introduction_simple_tag_header": {
+    "message": "简单标记",
+    "description": "选项页面引导选项卡下介绍部分中简单标记区域的标题。"
+  },
+  "opt_guide_introduction_simple_tag_text_1": {
+    "message": "标记始终由花括号包围，如此 $SYNTAX$，输出命名变量的值。如果该值未定义或为 $O_EMPH$falsey$C_EMPH$，则将其删除。",
+    "description": "选项页面引导选项卡下介绍部分中简单标记区域的第一段。",
+    "placeholders": {
+      "c_emph": {
+        "content": "</em>",
+        "example": "</em>"
+      },
+      "o_emph": {
+        "content": "<em>",
+        "example": "<em>"
+      },
+      "syntax": {
+        "content": "<code>{name}</code>",
+        "example": "{name}"
+      }
+    }
+  },
+  "opt_guide_introduction_simple_tag_text_2": {
+    "message": "默认情况下不对值进行转义，为了进行转义，必须使用双括号 $SYNTAX_DOUBLE$ 或前导和号 $SYNTAX_AMP$。这将转义 $CHARACTERS$ 字符，以便最终输出可以安全地复制到 $O_ABBR_1$可扩展标记语言$O_ABBR_2$XML$C_ABBR$ 和 $O_ABBR_1$超文本标记语言$O_ABBR_2$HTML$C_ABBR$ 中。",
+    "description": "选项页面引导选项卡下介绍部分中简单标记区域的第二段。",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "characters": {
+        "content": "<code>&amp;</code> <code>&lt;</code> <code>&gt;</code> <code>&quot;</code> <code>&#39;</code>",
+        "example": "& < > \" '"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      },
+      "syntax_amp": {
+        "content": "<code>{&amp;name}</code>",
+        "example": "{&name}"
+      },
+      "syntax_double": {
+        "content": "<code>{{name}}</code>",
+        "example": "{{name}}"
+      }
+    }
+  },
+  "opt_guide_introduction_text": {
+    "message": "$O_BOLD$模板$C_BOLD$ 使用先进而简单的模板系统，允许您创建和修改要复制到剪贴板的内容。语法非常简单，包括以下类别；",
+    "description": "选项页面引导选项卡下介绍部分的标题。",
+    "placeholders": {
+      "c_bold": {
+        "content": "</strong>",
+        "example": "</strong>"
+      },
+      "o_bold": {
+        "content": "<strong>",
+        "example": "<strong>"
+      }
+    }
+  },
+  "opt_guide_lists_objects_cookies_text": {
+    "message": "与页面关联的所有 cookie 的名称",
+    "description": "选项页面引导选项卡下列表和对象部分中 cookie 变量的描述。"
+  },
+  "opt_guide_lists_objects_coords_text": {
+    "message": "您当前的物理位置的属性（例如 $EXAMPLE_1$，$EXAMPLE_2$ 等等）",
+    "description": "选项页面引导选项卡下列表和对象部分中 coords 变量的描述。",
+    "placeholders": {
+      "example_1": {
+        "content": "<em>纬度</em>",
+        "example": "纬度"
+      },
+      "example_2": {
+        "content": "<em>经度</em>",
+        "example": "经度"
+      }
+    }
+  },
+  "opt_guide_lists_objects_examples_code_1": {
+    "message": "$URL$",
+    "description": "选项页面中列表和对象部分下的指南选项卡中示例区域中第1个代码块的文本。",
+    "placeholders": {
+      "url": {
+        "content": "http://example.com/test/index.html?foo=bar&amp;fu=baz",
+        "example": "http://example.com/test/index.html?foo=bar&fu=baz"
+      }
+    }
+  },
+  "opt_guide_lists_objects_examples_code_2": {
+    "message": "跟随面包屑;\n$SYNTAX$",
+    "description": "选项页面中列表和对象部分下的指南选项卡中示例区域中第2个代码块的文本。",
+    "placeholders": {
+      "syntax": {
+        "content": "{#segments}\n * {.}\n{/segments}",
+        "example": "{#segments}\n * {.}\n{/segments}"
+      }
+    }
+  },
+  "opt_guide_lists_objects_examples_code_3": {
+    "message": "跟随面包屑;\n$LIST$",
+    "description": "选项页面中列表和对象部分下的指南选项卡中示例区域中第3个代码块的文本。",
+    "placeholders": {
+      "list": {
+        "content": " * test\n * index.html",
+        "example": " * test\n * index.html"
+      }
+    }
+  },
+  "opt_guide_lists_objects_examples_code_4": {
+    "message": "$SYNTAX_1$$PARAM_1$是“{$PARAM_1$}”，$PARAM_2$是“{$PARAM_2$}”。$SYNTAX_3$\n$SYNTAX_2$找不到任何参数！$SYNTAX_3$",
+    "description": "选项页面中列表和对象部分下的指南选项卡中示例区域中第4个代码块的文本。",
+    "placeholders": {
+      "param_1": {
+        "content": "foo",
+        "example": "foo"
+      },
+      "param_2": {
+        "content": "fu",
+        "example": "fu"
+      },
+      "syntax_1": {
+        "content": "{#params}",
+        "example": "{#params}"
+      },
+      "syntax_2": {
+        "content": "{^params}",
+        "example": "{^params}"
+      },
+      "syntax_3": {
+        "content": "{/params}",
+        "example": "{/params}"
+      }
+    }
+  },
+  "opt_guide_lists_objects_examples_code_5": {
+    "message": "$PARAM_1$是“$VALUE_1$”，$PARAM_2$是“$VALUE_2$”。",
+    "description": "选项页面中列表和对象部分下的指南选项卡中示例区域中第5个代码块的文本。",
+    "placeholders": {
+      "param_1": {
+        "content": "foo",
+        "example": "foo"
+      },
+      "param_2": {
+        "content": "fu",
+        "example": "fu"
+      },
+      "value_1": {
+        "content": "bar",
+        "example": "bar"
+      },
+      "value_2": {
+        "content": "baz",
+        "example": "baz"
+      }
+    }
+  },
+  "opt_guide_lists_objects_examples_code_6": {
+    "message": "$PARAM_1$是“{$SYNTAX$$PARAM_1$}”，$PARAM_2$是“{$SYNTAX$$PARAM_2$}”。",
+    "description": "选项页面中列表和对象部分下的指南选项卡中示例区域中第6个代码块的文本。",
+    "placeholders": {
+      "param_1": {
+        "content": "foo",
+        "example": "foo"
+      },
+      "param_2": {
+        "content": "fu",
+        "example": "fu"
+      },
+      "syntax": {
+        "content": "params.",
+        "example": "params."
+      }
+    }
+  },
+  "opt_guide_lists_objects_examples_code_7": {
+    "message": "找不到任何参数！",
+    "description": "选项页面中列表和对象部分下的指南选项卡中示例区域中第7个代码块的文本。"
+  },
+  "opt_guide_lists_objects_examples_code_8": {
+    "message": "该网站存储了以下信息;\n$SYNTAX$",
+    "description": "选项页面中列表和对象部分下的指南选项卡中示例区域中第8个代码块的文本。",
+    "placeholders": {
+      "syntax": {
+        "content": "{#cookies}\n * {.} = “{#cookie}{.}{/cookie}”\n{/cookies}",
+        "example": "{#cookies}\n * {.} = “{#cookie}{.}{/cookie}”\n{/cookies}"
+      }
+    }
+  },
+  "opt_guide_lists_objects_examples_code_9": {
+    "message": "该网站存储了以下信息;\n$LIST$",
+    "description": "选项页面中列表和对象部分下的指南选项卡中示例区域中第9个代码块的文本。",
+    "placeholders": {
+      "list": {
+        "content": " * JSESSIONID = “2pkffy9ivmpfwntf12y6o4cgu”\n * __utmc = “224978569”",
+        "example": " * JSESSIONID = “2pkffy9ivmpfwntf12y6o4cgu”\n * __utmc = “224978569”"
+      }
+    }
+  },
+  "opt_guide_lists_objects_examples_code_10": {
+    "message": "$SYNTAX_1$查看更大的地图$SYNTAX_2$",
+    "description": "选项页面列表和对象部分下指南选项卡中示例区域第10个代码块的文本。",
+    "placeholders": {
+      "syntax_1": {
+        "content": "{#coords}\n&lt;iframe width=&quot;425&quot; height=&quot;350&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; marginheight=&quot;0&quot; marginwidth=&quot;0&quot; src=&quot;http://maps.google.com/maps?ll={latitude},{longitude}&amp;output=embed&quot;&gt;&lt;/iframe&gt;\n&lt;br&gt;\n&lt;small&gt;&lt;a href=&quot;http://maps.google.com/maps?ll={latitude},{longitude}&amp;source=embed&quot;&gt;",
+        "example": "{#coords}\n<iframe width=\"425\" height=\"350\" frameborder=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\" src=\"http://maps.google.com/maps?ll={latitude},{longitude}&output=embed\"></iframe>\n<br>\n<small><a href=\"http://maps.google.com/maps?ll={latitude},{longitude}&source=embed\">"
+      },
+      "syntax_2": {
+        "content": "&lt;/a&gt;&lt;/small&gt;\n{/coords}",
+        "example": "</a></small>\n{/coords}"
+      }
+    }
+  },
+  "opt_guide_lists_objects_examples_text_1": {
+    "message": "这些示例将使用以下$O_ABBR_1$统一资源定位符$O_ABBR_2$URL$C_ABBR$;",
+    "description": "选项页面列表和对象部分下指南选项卡中示例区域第1段的文本。",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      }
+    }
+  },
+  "opt_guide_lists_objects_examples_text_2": {
+    "message": "由于它是一个列表，您可以执行以下操作来迭代所有$SEGMENTS_LABEL$;",
+    "description": "选项页面列表和对象部分下指南选项卡中示例区域第2段的文本。",
+    "placeholders": {
+      "segments_label": {
+        "content": "<span class=\"label\">segments</span>",
+        "example": "segments"
+      }
+    }
+  },
+  "opt_guide_lists_objects_examples_text_3": {
+    "message": "将输出以下内容;",
+    "description": "选项页面列表和对象部分下指南选项卡中示例区域第3段的文本。"
+  },
+  "opt_guide_lists_objects_examples_text_4": {
+    "message": "为了访问对象的属性，只需使用以下代码;",
+    "description": "选项页面列表和对象部分下指南选项卡中示例区域第4段的文本。"
+  },
+  "opt_guide_lists_objects_examples_text_5": {
+    "message": "这将输出以下内容;",
+    "description": "选项页面列表和对象部分下指南选项卡中示例区域第5段的文本。"
+  },
+  "opt_guide_lists_objects_examples_text_6": {
+    "message": "或者，可以使用以下点表示法来实现;",
+    "description": "选项页面列表和对象部分下指南选项卡中示例区域第6段的文本。"
+  },
+  "opt_guide_lists_objects_examples_text_7": {
+    "message": "但是，如果查询字符串为空，则会输出以下内容;",
+    "description": "选项页面列表和对象部分下指南选项卡中示例区域第7段的文本。"
+  },
+  "opt_guide_lists_objects_examples_text_8": {
+    "message": "使用以下代码，您可以访问所有可用cookie的名称和值;",
+    "description": "选项页面列表和对象部分下指南选项卡中示例区域第8段的文本。"
+  },
+  "opt_guide_lists_objects_examples_text_9": {
+    "message": "这将输出类似于以下内容;",
+    "description": "选项页面列表和对象部分下指南选项卡中示例区域第9段的文本。"
+  },
+  "opt_guide_lists_objects_examples_text_10": {
+    "message": "如果您想嵌入当前位置的地图（例如在博客文章中），请尝试以下代码片段;",
+    "description": "选项页面列表和对象部分下指南选项卡中示例区域第10段的文本。"
+  },
+  "opt_guide_lists_objects_fparams_text": {
+    "message": "哈希片段中所有参数的键/值对（例如，片段$EXAMPLE_1$包含$EXAMPLE_2$和$EXAMPLE_3$）",
+    "description": "选项页面列表和对象部分下指南选项卡中fparams变量的描述。",
+    "placeholders": {
+      "example_1": {
+        "content": "<code>foo=bar&amp;fu=baz</code>",
+        "example": "foo=bar&fu=baz"
+      },
+      "example_2": {
+        "content": "<em>foo</em>",
+        "example": "foo"
+      },
+      "example_3": {
+        "content": "<em>fu</em>",
+        "example": "fu"
+      }
+    }
+  },
+  "opt_guide_lists_objects_fsegments_text": {
+    "message": "哈希片段路径中的段",
+    "description": "选项页面列表和对象部分下指南选项卡中fsegments变量的描述。"
+  },
+  "opt_guide_lists_objects_header": {
+    "message": "列表和对象",
+    "description": "选项页面列表和对象部分指南选项卡的标题。"
+  },
+  "opt_guide_lists_objects_images_text": {
+    "message": "页面上所有图片的$O_ABBR_1$统一资源定位符$O_ABBR_2$URL$C_ABBR$",
+    "description": "选项页面中列表和对象部分下的指南选项卡中图片变量的描述。",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      }
+    }
+  },
+  "opt_guide_lists_objects_keywords_text": {
+    "message": "页面元信息中的关键字",
+    "description": "选项页面中列表和对象部分下的指南选项卡中关键字变量的描述。"
+  },
+  "opt_guide_lists_objects_links_text": {
+    "message": "页面上所有链接的$O_ABBR_1$统一资源定位符$O_ABBR_2$URL$C_ABBR$",
+    "description": "选项页面中列表和对象部分下的指南选项卡中链接变量的描述。",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      }
+    }
+  },
+  "opt_guide_lists_objects_local_storage_text": {
+    "message": "页面的$LOCAL_STORAGE$中存储的项目",
+    "description": "选项页面中列表和对象部分下的指南选项卡中localStorage变量的描述。",
+    "placeholders": {
+      "local_storage": {
+        "content": "<code>localStorage</code>",
+        "example": "localStorage"
+      }
+    }
+  },
+  "opt_guide_lists_objects_params_text": {
+    "message": "所有参数的键/值对（例如，查询$EXAMPLE_1$包含$EXAMPLE_2$和$EXAMPLE_3$）",
+    "description": "选项页面中列表和对象部分下的指南选项卡中params变量的描述。",
+    "placeholders": {
+      "example_1": {
+        "content": "<code>foo=bar&amp;fu=baz</code>",
+        "example": "foo=bar&fu=baz"
+      },
+      "example_2": {
+        "content": "<em>foo</em>",
+        "example": "foo"
+      },
+      "example_3": {
+        "content": "<em>fu</em>",
+        "example": "fu"
+      }
+    }
+  },
+  "opt_guide_lists_objects_plugins_text": {
+    "message": "所有启用的浏览器插件的名称（例如$EXAMPLE$）",
+    "description": "选项页面中列表和对象部分下的指南选项卡中插件变量的描述。",
+    "placeholders": {
+      "example": {
+        "content": "<em>Shockwave Flash</em>",
+        "example": "Shockwave Flash"
+      }
+    }
+  },
+  "opt_guide_lists_objects_popular_text": {
+    "message": "您最受欢迎的模板的属性（例如$EXAMPLE_1$，$EXAMPLE_2$，$EXAMPLE_3$等等）",
+    "description": "选项页面中列表和对象部分下的指南选项卡中流行变量的描述。",
+    "placeholders": {
+      "example_1": {
+        "content": "<em>title</em>",
+        "example": "title"
+      },
+      "example_2": {
+        "content": "<em>content</em>",
+        "example": "content"
+      },
+      "example_3": {
+        "content": "<em>shortcut</em>",
+        "example": "shortcut"
+      }
+    }
+  },
+  "opt_guide_lists_objects_scripts_text": {
+    "message": "页面使用的所有外部脚本的$O_ABBR_1$统一资源定位符$O_ABBR_2$URL$C_ABBR$",
+    "description": "选项页面中列表和对象部分下的指南选项卡中脚本变量的描述。",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      }
+    }
+  },
+  "opt_guide_lists_objects_segments_text": {
+    "message": "$O_ABBR_1$统一资源定位符$O_ABBR_2$URL$C_ABBR$路径中的所有段",
+    "description": "选项页面中列表和对象部分下的指南选项卡中segments变量的描述。",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      }
+    }
+  },
+  "opt_guide_lists_objects_selected_images_text": {
+    "message": "当前选择中所有图像的$O_ABBR_1$统一资源定位符$O_ABBR_2$URL$C_ABBR$",
+    "description": "在选项页面的列表和对象部分的指南选项卡上，关于selectedImages变量的描述。",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      }
+    }
+  },
+  "opt_guide_lists_objects_selected_links_text": {
+    "message": "当前选择中所有链接的$O_ABBR_1$统一资源定位符$O_ABBR_2$URL$C_ABBR$",
+    "description": "在选项页面的列表和对象部分的指南选项卡上，关于selectedLinks变量的描述。",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      }
+    }
+  },
+  "opt_guide_lists_objects_session_storage_text": {
+    "message": "页面$SESSION_STORAGE$中存储的项目",
+    "description": "在选项页面的列表和对象部分的指南选项卡上，关于sessionStorage变量的描述。",
+    "placeholders": {
+      "session_storage": {
+        "content": "<code>sessionStorage</code>",
+        "example": "sessionStorage"
+      }
+    }
+  },
+  "opt_guide_lists_objects_style_sheets_text": {
+    "message": "页面使用的所有外部$O_ABBR_1$级联样式表$O_ABBR_2$CSS$C_ABBR$资源的$O_ABBR_1$统一资源定位符$O_ABBR_2$URL$C_ABBR$",
+    "description": "在选项页面的列表和对象部分的指南选项卡上，关于styleSheets变量的描述。",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      }
+    }
+  },
+  "opt_guide_lists_objects_tabs_text": {
+    "message": "当前窗口中所有选项卡的$O_ABBR_1$统一资源定位符$O_ABBR_2$URL$C_ABBR$",
+    "description": "在选项页面的列表和对象部分的指南选项卡上，关于tabs变量的描述。",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      }
+    }
+  },
+  "opt_guide_lists_objects_template_text": {
+    "message": "已激活模板的属性（例如$EXAMPLE_1$，$EXAMPLE_2$，$EXAMPLE_3$等）",
+    "description": "在选项页面的列表和对象部分的指南选项卡上，关于template变量的描述。",
+    "placeholders": {
+      "example_1": {
+        "content": "<em>标题</em>",
+        "example": "标题"
+      },
+      "example_2": {
+        "content": "<em>图像</em>",
+        "example": "图像"
+      },
+      "example_3": {
+        "content": "<em>用途</em>",
+        "example": "用途"
+      }
+    }
+  },
+  "opt_guide_lists_objects_text": {
+    "message": "$O_BOLD$列表和对象$C_BOLD$通常使用部分（包括反转）进行迭代和访问属性。但是，可以使用简单的标记以$O_ABBR_1$逗号分隔值$O_ABBR_2$CSV$C_ABBR$格式输出列表的内容或对象的属性。",
+    "description": "在选项页面的列表和对象部分的指南选项卡上的文本。",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "c_bold": {
+        "content": "</strong>",
+        "example": "</strong>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      },
+      "o_bold": {
+        "content": "<strong>",
+        "example": "<strong>"
+      }
+    }
+  },
+  "opt_guide_name_header": {
+    "message": "名称",
+    "description": "在选项页面的所有特定部分下的指南选项卡上名称列的标题。"
+  },
+  "opt_guide_new_text": {
+    "message": "新",
+    "description": "在选项页面的所有特定部分下的指南选项卡上新变量的标签。"
+  },
+  "opt_guide_notes_header": {
+    "message": "笔记",
+    "description": "选项页面下某些部分的指南选项卡中笔记区域的标题。"
+  },
+  "opt_guide_operations_capitalise_name": {
+    "message": "大写",
+    "description": "操作部分下选项页面指南选项卡中大写变量的名称。"
+  },
+  "opt_guide_operations_capitalise_text": {
+    "message": "将提供的文本转换为标题大小写。",
+    "description": "操作部分下选项页面指南选项卡中大写变量的描述。"
+  },
+  "opt_guide_operations_cookie_text": {
+    "message": "获取名称为提供的 cookie 的值。",
+    "description": "操作部分下选项页面指南选项卡中 cookie 变量的描述。"
+  },
+  "opt_guide_operations_date_time_text_1": {
+    "message": "使用提供的模式格式化当前日期和时间。",
+    "description": "操作部分下选项页面指南选项卡中 dateTime 变量的第一行描述。"
+  },
+  "opt_guide_operations_date_time_text_2": {
+    "message": "（有关更多详细信息，请参见 $O_LINK_PHP_DATE$$O_ABBR_1$超文本预处理器$O_ABBR_2$PHP$C_ABBR$ 的日期$C_LINK$）",
+    "description": "操作部分下选项页面指南选项卡中 dateTime 变量的第二行描述。",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      },
+      "o_link_php_date": {
+        "content": "<a href=\"http://php.net/manual/zh/function.date.php#refsect1-function.date-parameters\" target=\"_blank\">",
+        "example": "<a href=\"http://php.net/manual/zh/function.date.php#refsect1-function.date-parameters\">"
+      }
+    }
+  },
+  "opt_guide_operations_decode_text": {
+    "message": "解码先前编码的文本。",
+    "description": "操作部分下选项页面指南选项卡中解码变量的描述。"
+  },
+  "opt_guide_operations_encode_text": {
+    "message": "对提供的文本进行编码，以便可以安全地在查询字符串中使用。",
+    "description": "操作部分下选项页面指南选项卡中编码变量的描述。"
+  },
+  "opt_guide_operations_escape_text": {
+    "message": "转义提供的文本，以便可以安全地插入到 $O_ABBR_1$超文本标记语言$O_ABBR_2$HTML$C_ABBR$ 中。",
+    "description": "操作部分下选项页面指南选项卡中转义变量的描述。",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      }
+    }
+  },
+  "opt_guide_operations_examples_code_1": {
+    "message": "$URL$",
+    "description": "操作部分下选项页面指南选项卡中示例区域中第一个代码块的文本。",
+    "placeholders": {
+      "url": {
+        "content": "http://example.com/test/index.html?foo=bar&amp;fu=baz",
+        "example": "http://example.com/test/index.html?foo=bar&fu=baz"
+      }
+    }
+  },
+  "opt_guide_operations_examples_code_2": {
+    "message": "今天是 $SYNTAX$。",
+    "description": "操作部分下选项页面指南选项卡中示例区域中第二个代码块的文本。",
+    "placeholders": {
+      "syntax": {
+        "content": "{#dateTime}Y-m-d\\TH:i:sP{/dateTime}",
+        "example": "{#dateTime}Y-m-d\\TH:i:sP{/dateTime}"
+      }
+    }
+  },
+  "opt_guide_operations_examples_code_3": {
+    "message": "$URL$",
+    "description": "操作部分下选项页面指南选项卡中示例区域中第三个代码块的文本。",
+    "placeholders": {
+      "url": {
+        "content": "http://example.com/something.do?url={#encode}{url}{/encode}",
+        "example": "http://example.com/something.do?url={#encode}{url}{/encode}"
+      }
+    }
+  },
+  "opt_guide_operations_examples_code_4": {
+    "message": "$URL$",
+    "description": "操作部分下选项页面指南选项卡中示例区域中第四个代码块的文本。",
+    "placeholders": {
+      "url": {
+        "content": "http://example.com/something.do?url=http%3A%2F%2Fexample.com%2Ftest%2Findex.html%3Ffoo%3Dbar%26fu%3Dbaz",
+        "example": "http://example.com/something.do?url=http%3A%2F%2Fexample.com%2Ftest%2Findex.html%3Ffoo%3Dbar%26fu%3Dbaz"
+      }
+    }
+  },
+  "opt_guide_operations_examples_code_5": {
+    "message": "我当前正在查看$SYNTAX$。",
+    "description": "选项页面操作部分下指南选项卡中示例区域第5个代码块的文本。",
+    "placeholders": {
+      "syntax": {
+        "content": "&quot;{#segment}-1{/segment}&quot;",
+        "example": "\"{#segment}-1{/segment}\""
+      }
+    }
+  },
+  "opt_guide_operations_examples_code_6": {
+    "message": "我当前正在查看$SYNTAX$。",
+    "description": "选项页面操作部分下指南选项卡中示例区域第6个代码块的文本。",
+    "placeholders": {
+      "syntax": {
+        "content": "&quot;index.html&quot;",
+        "example": "\"index.html\""
+      }
+    }
+  },
+  "opt_guide_operations_examples_code_7": {
+    "message": "$PARAM$的值为$SYNTAX_1$$PARAM$$SYNTAX_2$。",
+    "description": "选项页面操作部分下指南选项卡中示例区域第7个代码块的文本。",
+    "placeholders": {
+      "param": {
+        "content": "foo",
+        "example": "foo"
+      },
+      "syntax_1": {
+        "content": "&quot;{#param}",
+        "example": "\"{#param}"
+      },
+      "syntax_2": {
+        "content": "{/param}&quot;",
+        "example": "{/param}\""
+      }
+    }
+  },
+  "opt_guide_operations_examples_code_8": {
+    "message": "$PARAM$的值为$SYNTAX$。",
+    "description": "选项页面操作部分下指南选项卡中示例区域第8个代码块的文本。",
+    "placeholders": {
+      "param": {
+        "content": "foo",
+        "example": "foo"
+      },
+      "syntax": {
+        "content": "&quot;bar&quot;",
+        "example": "\"bar\""
+      }
+    }
+  },
+  "opt_guide_operations_examples_text_1": {
+    "message": "这些示例将使用以下$O_ABBR_1$统一资源定位符$O_ABBR_2$URL$C_ABBR$；",
+    "description": "选项页面操作部分下指南选项卡中示例区域第1段文本。",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      }
+    }
+  },
+  "opt_guide_operations_examples_text_2": {
+    "message": "要以$O_LINK_ISO_8601$ISO 8601$C_LINK$格式输出当前日期和时间，您可以使用以下代码；",
+    "description": "选项页面操作部分下指南选项卡中示例区域第2段文本。",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_link_iso_8601": {
+        "content": "<a href=\"http://en.wikipedia.org/wiki/ISO_8601\" target=\"_blank\">",
+        "example": "<a href=\"http://en.wikipedia.org/wiki/ISO_8601\">"
+      }
+    }
+  },
+  "opt_guide_operations_examples_text_3": {
+    "message": "此外，在这种情况下，$O_EMPH$c$C_EMPH$参数也会产生相同的结果。如果您想要安全地将整个$O_ABBR_1$统一资源定位符$O_ABBR_2$URL$C_ABBR$作为查询字符串参数传递；",
+    "description": "选项页面操作部分下指南选项卡中示例区域第3段文本。",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "c_emph": {
+        "content": "</em>",
+        "example": "</em>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      },
+      "o_emph": {
+        "content": "<em>",
+        "example": "<em>"
+      }
+    }
+  },
+  "opt_guide_operations_examples_text_4": {
+    "message": "这将转义$O_ABBR_1$统一资源定位符$O_ABBR_2$URL$C_ABBR$中的所有必要字符，并输出以下内容；",
+    "description": "选项页面操作部分下指南选项卡中示例区域第4段文本。",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      }
+    }
+  },
+  "opt_guide_operations_examples_text_5": {
+    "message": "要访问$O_ABBR_1$统一资源定位符$O_ABBR_2$（URL）路径的最后一段：",
+    "description": "选项页面操作部分指南选项卡示例区域第5段的文本。",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      }
+    }
+  },
+  "opt_guide_operations_examples_text_6": {
+    "message": "将呈现以下输出：",
+    "description": "选项页面操作部分指南选项卡示例区域第6段的文本。"
+  },
+  "opt_guide_operations_examples_text_7": {
+    "message": "获取$PARAM$参数的值就像以下这样简单：",
+    "description": "选项页面操作部分指南选项卡示例区域第7段的文本。",
+    "placeholders": {
+      "param": {
+        "content": "<em>foo</em>",
+        "example": "foo"
+      }
+    }
+  },
+  "opt_guide_operations_examples_text_8": {
+    "message": "这将导致呈现以下输出：",
+    "description": "选项页面操作部分指南选项卡示例区域第8段的文本。"
+  },
+  "opt_guide_operations_fparam_text": {
+    "message": "从哈希片段中获取提供的参数的值",
+    "description": "选项页面操作部分指南选项卡中fparam变量的描述。"
+  },
+  "opt_guide_operations_fsegment_text": {
+    "message": "从哈希片段中获取提供的索引处的段",
+    "description": "选项页面操作部分指南选项卡中fsegment变量的描述。"
+  },
+  "opt_guide_operations_header": {
+    "message": "操作",
+    "description": "选项页面指南选项卡中操作部分的标题。"
+  },
+  "opt_guide_operations_last_modified_text_1": {
+    "message": "使用提供的模式格式化页面的上次修改日期和时间",
+    "description": "选项页面操作部分指南选项卡中lastModified变量的描述的第1行。"
+  },
+  "opt_guide_operations_last_modified_text_2": {
+    "message": "（有关更多详细信息，请参见$O_LINK_PHP_DATE$$O_ABBR_1$超文本预处理器$O_ABBR_2$PHP$C_ABBR$的日期$C_LINK$）",
+    "description": "选项页面操作部分指南选项卡中lastModified变量的描述的第2行。",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      },
+      "o_link_php_date": {
+        "content": "<a href=\"http://php.net/manual/en/function.date.php#refsect1-function.date-parameters\" target=\"_blank\">",
+        "example": "<a href=\"http://php.net/manual/en/function.date.php#refsect1-function.date-parameters\">"
+      }
+    }
+  },
+  "opt_guide_operations_length_text": {
+    "message": "获取提供的文本的字符长度",
+    "description": "选项页面操作部分指南选项卡中length变量的描述。"
+  },
+  "opt_guide_operations_lower_case_text": {
+    "message": "将提供的文本转换为小写",
+    "description": "选项页面操作部分指南选项卡中lowerCase变量的描述。"
+  },
+  "opt_guide_operations_meta_text": {
+    "message": "获取页面的元信息内容与提供的文本相匹配",
+    "description": "选项页面操作部分指南选项卡中meta变量的描述。"
+  },
+  "opt_guide_operations_notes_text_1": {
+    "message": "以下注释仅适用于$SEGMENT_LABEL$和$FSEGMENT_LABEL$操作；",
+    "description": "选项页面操作部分指南选项卡中注释区域的第1段文本。",
+    "placeholders": {
+      "fsegment_label": {
+        "content": "<span class=\"label\">fsegment</span>",
+        "example": "fsegment"
+      },
+      "segment_label": {
+        "content": "<span class=\"label\">segment</span>",
+        "example": "segment"
+      }
+    }
+  },
+  "opt_guide_operations_notes_text_2": {
+    "message": "计数不像数组一样从零开始（例如，$SYNTAX$返回第一个段）",
+    "description": "选项页面操作部分指南选项卡中注释区域的第1个列表项的文本。",
+    "placeholders": {
+      "syntax": {
+        "content": "<code>{#segment}1{/segment}</code>",
+        "example": "{#segment}1{/segment}"
+      }
+    }
+  },
+  "opt_guide_operations_notes_text_3": {
+    "message": "参数可以是负值，在这种情况下，它将从路径的末尾向后计数，而不是从开头向前计数",
+    "description": "选项页面操作部分指南选项卡中注释区域的第2个列表项的文本。"
+  },
+  "opt_guide_operations_param_text": {
+    "message": "获取提供的参数的值",
+    "description": "选项页面操作部分指南选项卡中param变量的描述。"
+  },
+  "opt_guide_operations_segment_text": {
+    "message": "获取提供的索引处的段",
+    "description": "选项页面操作部分下的指南选项卡上的段变量的描述。"
+  },
+  "opt_guide_operations_select_all_html_text": {
+    "message": "连接所有匹配元素的$O_ABBR_1$超文本标记语言$O_ABBR_2$HTML$C_ABBR$内容",
+    "description": "选项页面操作部分下的指南选项卡上的selectAllHTML变量的描述。",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      }
+    }
+  },
+  "opt_guide_operations_select_all_markdown_text": {
+    "message": "将所有匹配元素的内容连接为$O_LINK_MARKDOWN$Markdown$C_LINK$",
+    "description": "选项页面操作部分下的指南选项卡上的selectAllMarkdown变量的描述。",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_link_markdown": {
+        "content": "<a href=\"http://en.wikipedia.org/wiki/Markdown\" target=\"_blank\">",
+        "example": "<a href=\"http://en.wikipedia.org/wiki/Markdown\">"
+      }
+    }
+  },
+  "opt_guide_operations_select_all_text": {
+    "message": "连接所有匹配元素的文本",
+    "description": "选项页面操作部分下的指南选项卡上的selectAll变量的描述。"
+  },
+  "opt_guide_operations_select_html_text": {
+    "message": "获取第一个匹配元素的$O_ABBR_1$超文本标记语言$O_ABBR_2$HTML$C_ABBR$内容",
+    "description": "选项页面操作部分下的指南选项卡上的selectHTML变量的描述。",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      }
+    }
+  },
+  "opt_guide_operations_select_markdown_text": {
+    "message": "将第一个匹配元素的内容作为$O_LINK_MARKDOWN$Markdown$C_LINK$获取",
+    "description": "选项页面操作部分下的指南选项卡上的selectMarkdown变量的描述。",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_link_markdown": {
+        "content": "<a href=\"http://en.wikipedia.org/wiki/Markdown\" target=\"_blank\">",
+        "example": "<a href=\"http://en.wikipedia.org/wiki/Markdown\">"
+      }
+    }
+  },
+  "opt_guide_operations_select_text": {
+    "message": "获取第一个匹配元素的文本",
+    "description": "选项页面操作部分下的指南选项卡上的select变量的描述。"
+  },
+  "opt_guide_operations_shorten_text": {
+    "message": "使用活动的$O_ABBR_1$统一资源定位符$O_ABBR_2$URL$C_ABBR$缩短器缩短提供的$O_ABBR_1$统一资源定位符$O_ABBR_2$URL$C_ABBR$",
+    "description": "选项页面操作部分下的指南选项卡上的shorten变量的描述。",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      }
+    }
+  },
+  "opt_guide_operations_text": {
+    "message": "$O_BOLD$操作$C_BOLD$使用部分，接受其呈现的内容作为参数。",
+    "description": "选项页面指南选项卡上操作部分的文本。",
+    "placeholders": {
+      "c_bold": {
+        "content": "</strong>",
+        "example": "</strong>"
+      },
+      "o_bold": {
+        "content": "<strong>",
+        "example": "<strong>"
+      }
+    }
+  },
+  "opt_guide_operations_tidy_text": {
+    "message": "将提供的文本中所有连接的空格和制表符缩减为单个空格，然后删除所有前导和尾随空格",
+    "description": "选项页面操作部分下的指南选项卡上的tidy变量的描述。"
+  },
+  "opt_guide_operations_trim_text": {
+    "message": "从提供的文本中删除所有前导和尾随空格",
+    "description": "选项页面操作部分下的指南选项卡上的trim变量的描述。"
+  },
+  "opt_guide_operations_trim_left_text": {
+    "message": "从提供的文本中删除所有前导空格",
+    "description": "选项页面操作部分下的指南选项卡上的trimLeft变量的描述。"
+  },
+  "opt_guide_operations_trim_right_text": {
+    "message": "从提供的文本中删除所有尾随空格",
+    "description": "选项页面操作部分下的指南选项卡上的trimRight变量的描述。"
+  },
+  "opt_guide_operations_unescape_text": {
+    "message": "与$ESCAPE_LABEL$相反；将提供的文本中的转义字符替换为其未转义的对应项",
+    "description": "选项页面操作部分的指南选项卡上的unescape变量的描述。",
+    "placeholders": {
+      "escape_label": {
+        "content": "<span class=\"label\">转义</span>",
+        "example": "转义"
+      }
+    }
+  },
+  "opt_guide_operations_upper_case_text": {
+    "message": "将提供的文本转换为大写",
+    "description": "选项页面操作部分的指南选项卡上的upperCase变量的描述。"
+  },
+  "opt_guide_operations_word_count_text": {
+    "message": "获取提供的文本中的单词数",
+    "description": "选项页面操作部分的指南选项卡上的wordCount变量的描述。"
+  },
+  "opt_guide_operations_xpath_all_html_text": {
+    "message": "将$O_LINK_XPATH$XPath$C_LINK$表达式的所有结果的$O_ABBR_1$超文本标记语言$O_ABBR_2$HTML$C_ABBR$内容连接起来",
+    "description": "选项页面操作部分的指南选项卡上的xpathAllHTML变量的描述。",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      },
+      "o_link_xpath": {
+        "content": "<a href=\"http://zh.wikipedia.org/wiki/XPath\" target=\"_blank\">",
+        "example": "<a href=\"http://zh.wikipedia.org/wiki/XPath\">"
+      }
+    }
+  },
+  "opt_guide_operations_xpath_all_markdown_text": {
+    "message": "将$O_LINK_XPATH$XPath$C_LINK$表达式的所有结果的内容作为$O_LINK_MARKDOWN$Markdown$C_LINK$连接起来",
+    "description": "选项页面操作部分的指南选项卡上的xpathAllMarkdown变量的描述。",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_link_markdown": {
+        "content": "<a href=\"http://zh.wikipedia.org/wiki/Markdown\" target=\"_blank\">",
+        "example": "<a href=\"http://zh.wikipedia.org/wiki/Markdown\">"
+      },
+      "o_link_xpath": {
+        "content": "<a href=\"http://zh.wikipedia.org/wiki/XPath\" target=\"_blank\">",
+        "example": "<a href=\"http://zh.wikipedia.org/wiki/XPath\">"
+      }
+    }
+  },
+  "opt_guide_operations_xpath_all_text": {
+    "message": "将$O_LINK_XPATH$XPath$C_LINK$表达式的所有结果连接起来",
+    "description": "选项页面操作部分的指南选项卡上的xpathAll变量的描述。",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_link_xpath": {
+        "content": "<a href=\"http://zh.wikipedia.org/wiki/XPath\" target=\"_blank\">",
+        "example": "<a href=\"http://zh.wikipedia.org/wiki/XPath\">"
+      }
+    }
+  },
+  "opt_guide_operations_xpath_html_text": {
+    "message": "获取$O_LINK_XPATH$XPath$C_LINK$表达式的第一个结果的$O_ABBR_1$超文本标记语言$O_ABBR_2$HTML$C_ABBR$内容",
+    "description": "选项页面操作部分的指南选项卡上的xpathHTML变量的描述。",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      },
+      "o_link_xpath": {
+        "content": "<a href=\"http://zh.wikipedia.org/wiki/XPath\" target=\"_blank\">",
+        "example": "<a href=\"http://zh.wikipedia.org/wiki/XPath\">"
+      }
+    }
+  },
+  "opt_guide_operations_xpath_markdown_text": {
+    "message": "将$O_LINK_XPATH$XPath$C_LINK$表达式的第一个结果的内容作为$O_LINK_MARKDOWN$Markdown$C_LINK$获取",
+    "description": "选项页面操作部分的指南选项卡上的xpathMarkdown变量的描述。",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_link_markdown": {
+        "content": "<a href=\"http://zh.wikipedia.org/wiki/Markdown\" target=\"_blank\">",
+        "example": "<a href=\"http://zh.wikipedia.org/wiki/Markdown\">"
+      },
+      "o_link_xpath": {
+        "content": "<a href=\"http://zh.wikipedia.org/wiki/XPath\" target=\"_blank\">",
+        "example": "<a href=\"http://zh.wikipedia.org/wiki/XPath\">"
+      }
+    }
+  },
+  "opt_guide_operations_xpath_text": {
+    "message": "获取$O_LINK_XPATH$XPath$C_LINK$表达式的第一个结果作为文本",
+    "description": "选项页面操作部分下的指南选项卡上xpath变量的描述。",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_link_xpath": {
+        "content": "<a href=\"http://en.wikipedia.org/wiki/XPath\" target=\"_blank\">",
+        "example": "<a href=\"http://en.wikipedia.org/wiki/XPath\">"
+      }
+    }
+  },
+  "opt_guide_options_header": {
+    "message": "选项",
+    "description": "选项页面指南选项卡上选项部分的标题。"
+  },
+  "opt_guide_options_bitly_account_text": {
+    "message": "您当前是否已登录到您的$O_LINK_BITLY$bit.ly$C_LINK$帐户",
+    "description": "选项页面选项部分下的bitlyAccount变量的描述。",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_link_bitly": {
+        "content": "<a href=\"http://bit.ly\" target=\"_blank\">",
+        "example": "<a href=\"http://bit.ly\">"
+      }
+    }
+  },
+  "opt_guide_options_bitly_text": {
+    "message": "$O_LINK_BITLY$bit.ly$C_LINK$是否为启用的$O_ABBR_1$统一资源定位符$O_ABBR_2$URL$C_ABBR$缩短器",
+    "description": "选项页面选项部分下的bitly变量的描述。",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      },
+      "o_link_bitly": {
+        "content": "<a href=\"http://bit.ly\" target=\"_blank\">",
+        "example": "<a href=\"http://bit.ly\">"
+      }
+    }
+  },
+  "opt_guide_options_examples_code_1": {
+    "message": "$URL$",
+    "description": "选项页面选项部分下示例区域中第1个代码块的文本。",
+    "placeholders": {
+      "url": {
+        "content": "http://example.com/test/index.html",
+        "example": "http://example.com/test/index.html"
+      }
+    }
+  },
+  "opt_guide_options_examples_code_2": {
+    "message": "$SYNTAX_1$这是一个测试！$SYNTAX_2$",
+    "description": "选项页面选项部分下示例区域中第2个代码块的文本。",
+    "placeholders": {
+      "syntax_1": {
+        "content": "&lt;a href=&quot;{url}&quot;{#linksTitle} title=&quot;{{title}}&quot;{/linksTitle}&gt;",
+        "example": "<a href=\"{url}\"{#linksTitle} title=\"{{title}}\"{/linksTitle}>"
+      },
+      "syntax_2": {
+        "content": "&lt;/a&gt;",
+        "example": "</a>"
+      }
+    }
+  },
+  "opt_guide_options_examples_code_3": {
+    "message": "$SYNTAX_1$测试$SYNTAX_2$这是一个测试！$SYNTAX_3$",
+    "description": "选项页面选项部分下示例区域中第3个代码块的文本。",
+    "placeholders": {
+      "syntax_1": {
+        "content": "&lt;a href=&quot;http://example.com/test/index.html&quot; title=&quot;",
+        "example": "<a href=\"http://example.com/test/index.html\" title=\""
+      },
+      "syntax_2": {
+        "content": "&quot;&gt;",
+        "example": "\">"
+      },
+      "syntax_3": {
+        "content": "&lt;/a&gt;",
+        "example": "</a>"
+      }
+    }
+  },
+  "opt_guide_options_examples_code_4": {
+    "message": "$SYNTAX_1$这是一个测试！$SYNTAX_2$",
+    "description": "选项页面选项部分下示例区域中第4个代码块的文本。",
+    "placeholders": {
+      "syntax_1": {
+        "content": "&lt;a href=&quot;http://example.com/test/index.html&quot;&gt;",
+        "example": "<a href=\"http://example.com/test/index.html\">"
+      },
+      "syntax_2": {
+        "content": "&lt;/a&gt;",
+        "example": "</a>"
+      }
+    }
+  },
+  "opt_guide_options_examples_text_1": {
+    "message": "这些示例将使用以下 $O_ABBR_1$统一资源定位符$O_ABBR_2$URL$C_ABBR$;",
+    "description": "选项部分下选项页面上指南选项卡中示例区域第一段的文本。",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      }
+    }
+  },
+  "opt_guide_options_examples_text_2": {
+    "message": "仅在启用相应选项时才在锚标记中包含 $SYNTAX$ 属性;",
+    "description": "选项部分下选项页面上指南选项卡中示例区域第二段的文本。",
+    "placeholders": {
+      "syntax": {
+        "content": "<em>标题</em>",
+        "example": "标题"
+      }
+    }
+  },
+  "opt_guide_options_examples_text_3": {
+    "message": "如果您已启用该选项，则会输出以下内容;",
+    "description": "选项部分下选项页面上指南选项卡中示例区域第三段的文本。"
+  },
+  "opt_guide_options_examples_text_4": {
+    "message": "但是，如果您已禁用该选项，则会输出此内容;",
+    "description": "选项部分下选项页面上指南选项卡中示例区域第四段的文本。"
+  },
+  "opt_guide_options_googl_account_text": {
+    "message": "您当前是否已登录到您的 $O_LINK_GOOGL$goo.gl$C_LINK$ 帐户",
+    "description": "选项部分下选项页面上指南选项卡中 googlAccount 变量的描述。",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_link_googl": {
+        "content": "<a href=\"http://goo.gl\" target=\"_blank\">",
+        "example": "<a href=\"http://goo.gl\">"
+      }
+    }
+  },
+  "opt_guide_options_googl_text": {
+    "message": "是否启用了 $O_LINK_GOOGL$goo.gl$C_LINK$ 作为启用的 $O_ABBR_1$统一资源定位符$O_ABBR_2$URL$C_ABBR$ 缩短器",
+    "description": "选项部分下选项页面上指南选项卡中 googl 变量的描述。",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      },
+      "o_link_googl": {
+        "content": "<a href=\"http://goo.gl\" target=\"_blank\">",
+        "example": "<a href=\"http://goo.gl\">"
+      }
+    }
+  },
+  "opt_guide_options_links_target_text": {
+    "message": "是否启用了将链接呈现为在新标签页/窗口中打开的说明的选项",
+    "description": "选项部分下选项页面上指南选项卡中 linksTarget 变量的描述。"
+  },
+  "opt_guide_options_links_title_text": {
+    "message": "是否启用了将链接呈现为悬停文本的选项",
+    "description": "选项部分下选项页面上指南选项卡中 linksTitle 变量的描述。"
+  },
+  "opt_guide_options_markdown_inline_text": {
+    "message": "是否启用了使用内联样式呈现 $O_LINK_MARKDOWN$Markdown$C_LINK$ 链接的选项",
+    "description": "选项部分下选项页面上指南选项卡中 markdownInline 变量的描述。",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_link_markdown": {
+        "content": "<a href=\"http://en.wikipedia.org/wiki/Markdown\" target=\"_blank\">",
+        "example": "<a href=\"http://en.wikipedia.org/wiki/Markdown\">"
+      }
+    }
+  },
+  "opt_guide_options_menu_text": {
+    "message": "是否启用了显示上下文（右键单击）菜单的选项",
+    "description": "选项部分下选项页面上指南选项卡中 menu 变量的描述。"
+  },
+  "opt_guide_options_menu_options_text": {
+    "message": "是否在上下文（右键单击）菜单底部显示 $O_EMPH$选项$C_EMPH$ 项目",
+    "description": "选项部分下选项页面上指南选项卡中 menuOptions 变量的描述。",
+    "placeholders": {
+      "c_emph": {
+        "content": "</em>",
+        "example": "</em>"
+      },
+      "o_emph": {
+        "content": "<em>",
+        "example": "<em>"
+      }
+    }
+  },
+  "opt_guide_options_menu_paste_text": {
+    "message": "是否自动将模板输出粘贴到激活上下文（右键单击）菜单的字段中",
+    "description": "选项部分下选项页面上指南选项卡中 menuPaste 变量的描述。"
+  },
+  "opt_guide_options_notifications_text": {
+    "message": "是否启用了显示桌面通知的选项",
+    "description": "选项部分下选项页面上指南选项卡中 notifications 变量的描述。"
+  },
+  "opt_guide_options_shortcuts_paste_text": {
+    "message": "是否自动将模板输出粘贴到检测到键盘快捷键的字段中",
+    "description": "选项页面下选项部分的指南标签上shortcutsPaste变量的描述。"
+  },
+  "opt_guide_options_shortcuts_text": {
+    "message": "是否启用允许键盘快捷键的选项",
+    "description": "选项页面下选项部分的指南标签上shortcuts变量的描述。"
+  },
+  "opt_guide_options_text": {
+    "message": "$O_BOLD$选项$C_BOLD$是代表您当前$O_BOLD$模板$C_BOLD$设置的变量，通常以与标准变量相同的方式访问。",
+    "description": "选项页面指南标签上选项部分的文本。",
+    "placeholders": {
+      "c_bold": {
+        "content": "</strong>",
+        "example": "</strong>"
+      },
+      "o_bold": {
+        "content": "<strong>",
+        "example": "<strong>"
+      }
+    }
+  },
+  "opt_guide_options_toolbar_close_text": {
+    "message": "是否在选择模板后立即关闭弹出窗口",
+    "description": "选项页面下选项部分的指南标签上toolbarClose变量的描述。"
+  },
+  "opt_guide_options_toolbar_key_text": {
+    "message": "单击工具栏按钮时激活的模板的唯一键",
+    "description": "选项页面下选项部分的指南标签上toolbarKey变量的描述。"
+  },
+  "opt_guide_options_toolbar_options_text": {
+    "message": "是否在弹出窗口底部显示$O_EMPH$选项$C_EMPH$链接",
+    "description": "选项页面下选项部分的指南标签上toolbarOptions变量的描述。",
+    "placeholders": {
+      "c_emph": {
+        "content": "</em>",
+        "example": "</em>"
+      },
+      "o_emph": {
+        "content": "<em>",
+        "example": "<em>"
+      }
+    }
+  },
+  "opt_guide_options_toolbar_popup_text": {
+    "message": "单击工具栏按钮时是否显示弹出窗口",
+    "description": "选项页面下选项部分的指南标签上toolbarPopup变量的描述。"
+  },
+  "opt_guide_options_yourls_authentication_text": {
+    "message": "$O_LINK_YOURLS$YOURLS$C_LINK$服务的身份验证（例如$EXAMPLE_1$，$EXAMPLE_2$或$EXAMPLE_3$（如果没有））",
+    "description": "选项页面下选项部分的指南标签上yourlsAuthentication变量的描述。",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "example_1": {
+        "content": "<em>高级</em>",
+        "example": "高级"
+      },
+      "example_2": {
+        "content": "<em>基本</em>",
+        "example": "基本"
+      },
+      "example_3": {
+        "content": "<em>无</em>",
+        "example": "无"
+      },
+      "o_link_yourls": {
+        "content": "<a href=\"http://yourls.org\" target=\"_blank\">",
+        "example": "<a href=\"http://yourls.org\">"
+      }
+    }
+  },
+  "opt_guide_options_yourls_password_text": {
+    "message": "$O_LINK_YOURLS$YOURLS$C_LINK$服务的密码",
+    "description": "选项页面下选项部分的指南标签上yourlsPassword变量的描述。",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_link_yourls": {
+        "content": "<a href=\"http://yourls.org\" target=\"_blank\">",
+        "example": "<a href=\"http://yourls.org\">"
+      }
+    }
+  },
+  "opt_guide_options_yourls_signature_text": {
+    "message": "$O_LINK_YOURLS$YOURLS$C_LINK$服务的签名（例如$EXAMPLE$）",
+    "description": "选项页面下选项部分的指南标签上yourlsSignature变量的描述。",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "example": {
+        "content": "<em>3002a61584</em>",
+        "example": "3002a61584"
+      },
+      "o_link_yourls": {
+        "content": "<a href=\"http://yourls.org\" target=\"_blank\">",
+        "example": "<a href=\"http://yourls.org\">"
+      }
+    }
+  },
+  "opt_guide_options_yourls_text": {
+    "message": "是否启用$O_LINK_YOURLS$YOURLS$C_LINK$作为短链接服务",
+    "description": "选项页面选项部分下指南选项标签页中yourls变量的描述。",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      },
+      "o_link_yourls": {
+        "content": "<a href=\"http://yourls.org\" target=\"_blank\">",
+        "example": "<a href=\"http://yourls.org\">"
+      }
+    }
+  },
+  "opt_guide_options_yourls_url_text": {
+    "message": "$O_LINK_YOURLS$YOURLS$C_LINK$服务的$O_ABBR_1$统一资源定位符$O_ABBR_2$URL$C_ABBR$（例如$EXAMPLE$）",
+    "description": "选项页面选项部分下指南选项标签页中yourlsUrl变量的描述。",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "example": {
+        "content": "<em>http://example.com/yourls-api.php</em>",
+        "example": "http://example.com/yourls-api.php"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      },
+      "o_link_yourls": {
+        "content": "<a href=\"http://yourls.org\" target=\"_blank\">",
+        "example": "<a href=\"http://yourls.org\">"
+      }
+    }
+  },
+  "opt_guide_options_yourls_username_text": {
+    "message": "$O_LINK_YOURLS$YOURLS$C_LINK$服务的用户名",
+    "description": "选项页面选项部分下指南选项标签页中yourlsUsername变量的描述。",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_link_yourls": {
+        "content": "<a href=\"http://yourls.org\" target=\"_blank\">",
+        "example": "<a href=\"http://yourls.org\">"
+      }
+    }
+  },
+  "opt_guide_standard_author_text": {
+    "message": "页面元信息中的作者",
+    "description": "选项页面标准部分下指南选项标签页中author变量的描述。"
+  },
+  "opt_guide_standard_base_text": {
+    "message": "基础域名（例如$EXAMPLE$）",
+    "description": "选项页面标准部分下指南选项标签页中base变量的描述。",
+    "placeholders": {
+      "example": {
+        "content": "<em>https://www.example.com:443</em>",
+        "example": "https://www.example.com:443"
+      }
+    }
+  },
+  "opt_guide_standard_browser_text": {
+    "message": "浏览器名称（即$O_EMPH$Chrome$C_EMPH$）",
+    "description": "选项页面标准部分下指南选项标签页中browser变量的描述。",
+    "placeholders": {
+      "c_emph": {
+        "content": "</em>",
+        "example": "</em>"
+      },
+      "o_emph": {
+        "content": "<em>",
+        "example": "<em>"
+      }
+    }
+  },
+  "opt_guide_standard_browser_version_text": {
+    "message": "浏览器的当前版本（例如$EXAMPLE$）",
+    "description": "选项页面标准部分下指南选项标签页中browserVersion变量的描述。",
+    "placeholders": {
+      "example": {
+        "content": "<em>16.0.912.77</em>",
+        "example": "16.0.912.77"
+      }
+    }
+  },
+  "opt_guide_standard_character_set_text": {
+    "message": "页面使用的$O_LINK_CHAR_SET$字符集$C_LINK$（例如$EXAMPLE$）",
+    "description": "选项页面标准部分下指南选项标签页中characterSet变量的描述。",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "example": {
+        "content": "<em>UTF-8</em>",
+        "example": "UTF-8"
+      },
+      "o_link_char_set": {
+        "content": "<a href=\"http://www.iana.org/assignments/character-sets\" target=\"_blank\">",
+        "example": "<a href=\"http://www.iana.org/assignments/character-sets\">"
+      }
+    }
+  },
+  "opt_guide_standard_cookies_enabled_text": {
+    "message": "是否启用cookie",
+    "description": "选项页面标准部分下指南选项标签页中cookiesEnabled变量的描述。"
+  },
+  "opt_guide_standard_count_text": {
+    "message": "模板的总数",
+    "description": "选项页面标准部分下的指南选项卡上计数变量的描述。"
+  },
+  "opt_guide_standard_custom_count_text": {
+    "message": "用户定义模板的总数",
+    "description": "选项页面标准部分下的指南选项卡上自定义计数变量的描述。"
+  },
+  "opt_guide_standard_date_time_text": {
+    "message": "当前日期和时间，格式为$O_LINK_RFC_2822$RFC 2822$C_LINK$",
+    "description": "选项页面标准部分下的指南选项卡上日期时间变量的描述。",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_link_rfc_2822": {
+        "content": "<a href=\"http://www.faqs.org/rfcs/rfc2822.html\" target=\"_blank\">",
+        "example": "<a href=\"http://www.faqs.org/rfcs/rfc2822.html\">"
+      }
+    }
+  },
+  "opt_guide_standard_depth_text": {
+    "message": "颜色深度（以位为单位）（例如$EXAMPLE$）",
+    "description": "选项页面标准部分下的指南选项卡上深度变量的描述。",
+    "placeholders": {
+      "example": {
+        "content": "<em>24</em>",
+        "example": "24"
+      }
+    }
+  },
+  "opt_guide_standard_description_text": {
+    "message": "页面元信息中的描述",
+    "description": "选项页面标准部分下的指南选项卡上描述变量的描述。"
+  },
+  "opt_guide_standard_directory_text": {
+    "message": "路径的目录部分（例如$EXAMPLE$）",
+    "description": "选项页面标准部分下的指南选项卡上目录变量的描述。",
+    "placeholders": {
+      "example": {
+        "content": "<em>/folder/dir/</em>",
+        "example": "/folder/dir/"
+      }
+    }
+  },
+  "opt_guide_standard_examples_code_1": {
+    "message": "$URL$",
+    "description": "选项页面标准部分下的指南选项卡上示例区域中第1个代码块的文本。",
+    "placeholders": {
+      "url": {
+        "content": "http://example.com/test/index.html",
+        "example": "http://example.com/test/index.html"
+      }
+    }
+  },
+  "opt_guide_standard_examples_code_2": {
+    "message": "标题：\n$SYNTAX_1$\n描述：\n$SYNTAX_2$\n$SYNTAX_3$N/A$SYNTAX_4$",
+    "description": "选项页面标准部分下的指南选项卡上示例区域中第2个代码块的文本。",
+    "placeholders": {
+      "syntax_1": {
+        "content": "{title}",
+        "example": "{title}"
+      },
+      "syntax_2": {
+        "content": "{#description}{description}{/description}",
+        "example": "{#description}{description}{/description}"
+      },
+      "syntax_3": {
+        "content": "{^description}",
+        "example": "{^description}"
+      },
+      "syntax_4": {
+        "content": "{/description}",
+        "example": "{/description}"
+      }
+    }
+  },
+  "opt_guide_standard_examples_code_3": {
+    "message": "标题：\n测试\n描述：\n这是一个测试！",
+    "description": "选项页面标准部分下的指南选项卡上示例区域中第3个代码块的文本。"
+  },
+  "opt_guide_standard_examples_code_4": {
+    "message": "标题：\n测试\n描述：\nN/A",
+    "description": "选项页面标准部分下的指南选项卡上示例区域中第4个代码块的文本。"
+  },
+  "opt_guide_standard_examples_text_1": {
+    "message": "这些示例将使用以下$O_ABBR_1$统一资源定位符$O_ABBR_2$URL$C_ABBR$；",
+    "description": "选项页面标准部分下的指南选项卡上示例区域中第1段文本。",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      }
+    }
+  },
+  "opt_guide_standard_examples_text_2": {
+    "message": "使用标准变量的一个很好的例子是显示当前页面的标题以及其元描述（如果有的话）；",
+    "description": "选项页面标准部分下的指南选项卡上示例区域中第2段文本。"
+  },
+  "opt_guide_standard_examples_text_3": {
+    "message": "如果页面包含元描述，则会输出类似于以下内容；",
+    "description": "选项页面标准部分下的指南选项卡上示例区域中第3段文本。"
+  },
+  "opt_guide_standard_examples_text_4": {
+    "message": "否则，您可以期望看到以下内容；",
+    "description": "选项页面标准部分下的指南选项卡上示例区域中第4段文本。"
+  },
+  "opt_guide_standard_favicon_text": {
+    "message": "页面图标的完整$O_ABBR_1$统一资源定位符$O_ABBR_2$URL$C_ABBR$",
+    "description": "选项页面标准部分下指南选项卡中图标变量的描述。",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      }
+    }
+  },
+  "opt_guide_standard_file_text": {
+    "message": "文件的基本名称（例如$EXAMPLE$）",
+    "description": "选项页面标准部分下指南选项卡中文件变量的描述。",
+    "placeholders": {
+      "example": {
+        "content": "<em>index.html</em>",
+        "example": "index.html"
+      }
+    }
+  },
+  "opt_guide_standard_fragment_anchor_text": {
+    "message": "井号（#）符号后的整个字符串",
+    "description": "选项页面标准部分下指南选项卡中片段和锚变量的描述。"
+  },
+  "opt_guide_standard_header": {
+    "message": "标准",
+    "description": "选项页面标准部分下指南选项卡的标题。"
+  },
+  "opt_guide_standard_host_text": {
+    "message": "例如：$EXAMPLE_1$，$EXAMPLE_2$",
+    "description": "选项页面标准部分下指南选项卡中主机变量的描述。",
+    "placeholders": {
+      "example_1": {
+        "content": "<em>www.example.com</em>",
+        "example": "www.example.com"
+      },
+      "example_2": {
+        "content": "<em>localhost</em>",
+        "example": "localhost"
+      }
+    }
+  },
+  "opt_guide_standard_html_text": {
+    "message": "页面的整个$O_ABBR_1$超文本标记语言$O_ABBR_2$HTML$C_ABBR$内容",
+    "description": "选项页面标准部分下指南选项卡中HTML变量的描述。",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      }
+    }
+  },
+  "opt_guide_standard_java_text": {
+    "message": "是否启用$O_LINK_JAVA$Java$C_LINK$",
+    "description": "选项页面标准部分下指南选项卡中Java变量的描述。",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_link_java": {
+        "content": "<a href=\"http://www.java.com\" target=\"_blank\">",
+        "example": "<a href=\"http://www.java.com\">"
+      }
+    }
+  },
+  "opt_guide_standard_last_modified_text": {
+    "message": "页面的最后修改日期和时间，以$O_LINK_RFC_2822$RFC 2822$C_LINK$格式显示",
+    "description": "选项页面标准部分下指南选项卡中lastModified变量的描述。",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_link_rfc_2822": {
+        "content": "<a href=\"http://www.faqs.org/rfcs/rfc2822.html\" target=\"_blank\">",
+        "example": "<a href=\"http://www.faqs.org/rfcs/rfc2822.html\">"
+      }
+    }
+  },
+  "opt_guide_standard_link_html_text": {
+    "message": "上下文（右键单击）链接的$O_ABBR_1$超文本标记语言$O_ABBR_2$HTML$C_ABBR$",
+    "description": "选项页面标准部分下指南选项卡中linkHTML变量的描述。",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      }
+    }
+  },
+  "opt_guide_standard_link_markdown_text": {
+    "message": "上下文（右键单击）链接的内容，格式为$O_LINK_MARKDOWN$Markdown$C_LINK$",
+    "description": "选项页面标准部分下指南选项卡中linkMarkdown变量的描述。",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_link_markdown": {
+        "content": "<a href=\"http://en.wikipedia.org/wiki/Markdown\" target=\"_blank\">",
+        "example": "<a href=\"http://en.wikipedia.org/wiki/Markdown\">"
+      }
+    }
+  },
+  "opt_guide_standard_link_text_text": {
+    "message": "上下文（右键单击）链接的文本",
+    "description": "选项页面标准部分下指南选项卡中linkText变量的描述。"
+  },
+  "opt_guide_standard_locale_text": {
+    "message": "检测到页面语言的 $O_LINK_ISO_639$ISO 639$C_LINK$ 代码",
+    "description": "选项页面标准部分下的指南选项卡上的区域变量的描述。",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_link_iso_639": {
+        "content": "<a href=\"http://en.wikipedia.org/wiki/ISO_639_macrolanguage\" target=\"_blank\">",
+        "example": "<a href=\"http://en.wikipedia.org/wiki/ISO_639_macrolanguage\">"
+      }
+    }
+  },
+  "opt_guide_standard_markdown_text": {
+    "message": "页面的全部内容，以 $O_LINK_MARKDOWN$Markdown$C_LINK$ 形式呈现",
+    "description": "选项页面标准部分下的指南选项卡上的 markdown 变量的描述。",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_link_markdown": {
+        "content": "<a href=\"http://en.wikipedia.org/wiki/Markdown\" target=\"_blank\">",
+        "example": "<a href=\"http://en.wikipedia.org/wiki/Markdown\">"
+      }
+    }
+  },
+  "opt_guide_standard_offline_text": {
+    "message": "当前是否离线",
+    "description": "选项页面标准部分下的指南选项卡上的离线变量的描述。"
+  },
+  "opt_guide_standard_original_title_text": {
+    "message": "页面的原始标题（如果检测到支持的扩展名并从中提取了 $TITLE_LABEL$ 的值，则可能与 $TITLE_LABEL$ 不同）",
+    "description": "选项页面标准部分下的指南选项卡上的 originalTitle 变量的描述。",
+    "placeholders": {
+      "title_label": {
+        "content": "<span class=\"label\">title</span>",
+        "example": "title"
+      }
+    }
+  },
+  "opt_guide_standard_original_url_text": {
+    "message": "正在解析的原始 $O_ABBR_1$统一资源定位符$O_ABBR_2$URL$C_ABBR$（如果检测到支持的扩展名并从中提取了 $URL_LABEL$ 的值，则可能与 $URL_LABEL$ 不同）",
+    "description": "选项页面标准部分下的指南选项卡上的 originalUrl 变量的描述。",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      },
+      "url_label": {
+        "content": "<span class=\"label\">url</span>",
+        "example": "url"
+      }
+    }
+  },
+  "opt_guide_standard_os_text": {
+    "message": "您的操作系统系列（例如 $O_EMPH$Windows$C_EMPH$、$O_EMPH$Mac$C_EMPH$、$O_EMPH$Linux$C_EMPH$）",
+    "description": "选项页面标准部分下的指南选项卡上的操作系统变量的描述。",
+    "placeholders": {
+      "c_emph": {
+        "content": "</em>",
+        "example": "</em>"
+      },
+      "o_emph": {
+        "content": "<em>",
+        "example": "<em>"
+      }
+    }
+  },
+  "opt_guide_standard_page_height_text": {
+    "message": "页面的高度",
+    "description": "选项页面标准部分下的指南选项卡上的 pageHeight 变量的描述。"
+  },
+  "opt_guide_standard_page_width_text": {
+    "message": "页面的宽度",
+    "description": "选项页面标准部分下的指南选项卡上的 pageWidth 变量的描述。"
+  },
+  "opt_guide_standard_path_text": {
+    "message": "文件的路径（例如 $EXAMPLE$）",
+    "description": "选项页面标准部分下的指南选项卡上的路径变量的描述。",
+    "placeholders": {
+      "example": {
+        "content": "<em>/folder/dir/index.html</em>",
+        "example": "/folder/dir/index.html"
+      }
+    }
+  },
+  "opt_guide_standard_port_text": {
+    "message": "例如：$EXAMPLE_1$、$EXAMPLE_2$",
+    "description": "选项页面标准部分下的指南选项卡上的端口变量的描述。",
+    "placeholders": {
+      "example_1": {
+        "content": "<em>80</em>",
+        "example": "80"
+      },
+      "example_2": {
+        "content": "<em>443</em>",
+        "example": "443"
+      }
+    }
+  },
+  "opt_guide_standard_protocol_text": {
+    "message": "例如：$EXAMPLE_1$、$EXAMPLE_2$、$EXAMPLE_3$",
+    "description": "选项页面标准部分下的指南选项卡上的协议变量的描述。",
+    "placeholders": {
+      "example_1": {
+        "content": "<em>http</em>",
+        "example": "http"
+      },
+      "example_2": {
+        "content": "<em>https</em>",
+        "example": "https"
+      },
+      "example_3": {
+        "content": "<em>file</em>",
+        "example": "file"
+      }
+    }
+  },
+  "opt_guide_standard_query_text": {
+    "message": "如果存在整个查询字符串（例如$EXAMPLE$）",
+    "description": "选项页面标准部分下的指南选项卡上查询变量的描述。",
+    "placeholders": {
+      "example": {
+        "content": "<em>item=value&amp;item2=value2</em>",
+        "example": "item=value&item2=value2"
+      }
+    }
+  },
+  "opt_guide_standard_referrer_text": {
+    "message": "引用页面的$O_ABBR_1$统一资源定位符$O_ABBR_2$URL$C_ABBR$",
+    "description": "选项页面标准部分下的指南选项卡上引用变量的描述。",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      }
+    }
+  },
+  "opt_guide_standard_relative_text": {
+    "message": "包括查询字符串的文件的相对路径（例如$EXAMPLE$）",
+    "description": "选项页面标准部分下的指南选项卡上相对变量的描述。",
+    "placeholders": {
+      "example": {
+        "content": "<em>/folder/dir/index.html?item=value</em>",
+        "example": "/folder/dir/index.html?item=value"
+      }
+    }
+  },
+  "opt_guide_standard_screen_height_text": {
+    "message": "屏幕的高度",
+    "description": "选项页面标准部分下的指南选项卡上screenHeight变量的描述。"
+  },
+  "opt_guide_standard_screen_width_text": {
+    "message": "屏幕的宽度",
+    "description": "选项页面标准部分下的指南选项卡上screenWidth变量的描述。"
+  },
+  "opt_guide_standard_selection_html_text": {
+    "message": "当前选择的$O_ABBR_1$超文本标记语言$O_ABBR_2$HTML$C_ABBR$",
+    "description": "选项页面标准部分下的指南选项卡上selectionHTML变量的描述。",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      }
+    }
+  },
+  "opt_guide_standard_selection_markdown_text": {
+    "message": "当前选择的文本格式为$O_LINK_MARKDOWN$Markdown$C_LINK$",
+    "description": "选项页面标准部分下的指南选项卡上selectionMarkdown变量的描述。",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_link_markdown": {
+        "content": "<a href=\"http://en.wikipedia.org/wiki/Markdown\" target=\"_blank\">",
+        "example": "<a href=\"http://en.wikipedia.org/wiki/Markdown\">"
+      }
+    }
+  },
+  "opt_guide_standard_selection_text": {
+    "message": "当前选择的文本",
+    "description": "选项页面标准部分下的指南选项卡上selection变量的描述。"
+  },
+  "opt_guide_standard_text": {
+    "message": "$O_BOLD$标准$c_BOLD$变量通常使用简单标记访问。但是，还可以使用部分（包括反转）来添加条件。",
+    "description": "选项页面指南选项卡上标准部分的文本。",
+    "placeholders": {
+      "c_bold": {
+        "content": "</strong>",
+        "example": "</strong>"
+      },
+      "o_bold": {
+        "content": "<strong>",
+        "example": "<strong>"
+      }
+    }
+  },
+  "opt_guide_standard_text_text": {
+    "message": "页面的全部文本",
+    "description": "选项页面标准部分下的指南选项卡上text变量的描述。"
+  },
+  "opt_guide_standard_title_text": {
+    "message": "页面的标题或$URL_LABEL$（例如页面尚未完成加载）",
+    "description": "选项页面标准部分下的指南选项卡上title变量的描述。",
+    "placeholders": {
+      "url_label": {
+        "content": "<span class=\"label\">url</span>",
+        "example": "url"
+      }
+    }
+  },
+  "opt_guide_standard_url_text": {
+    "message": "正在解析的整个$O_ABBR_1$统一资源定位符$O_ABBR_2$URL$C_ABBR$",
+    "description": "选项页面标准部分下的指南选项卡上url变量的描述。",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      }
+    }
+  },
+  "opt_guide_standard_version_text": {
+    "message": "已安装的 $O_BOLD$模板$C_BOLD$ 版本（即 $VERSION$）",
+    "description": "选项页面标准部分下的指南选项卡上版本变量的描述。",
+    "placeholders": {
+      "c_bold": {
+        "content": "</strong>",
+        "example": "</strong>"
+      },
+      "o_bold": {
+        "content": "<strong>",
+        "example": "<strong>"
+      },
+      "version": {
+        "content": "<em>$1</em>",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "opt_guide_type_header": {
+    "message": "类型",
+    "description": "选项页面列表和对象部分下指南选项卡上类型列的标题。"
+  },
+  "opt_guide_type_list_text": {
+    "message": "列表",
+    "description": "选项页面列表和对象部分下指南选项卡上类型列中列表的显示文本。"
+  },
+  "opt_guide_type_object_text": {
+    "message": "对象",
+    "description": "选项页面列表和对象部分下指南选项卡上类型列中对象的显示文本。"
+  },
+  "opt_import_button_text": {
+    "message": "$ICON$ 导入",
+    "description": "选项页面模板选项卡上导入按钮的文本。",
+    "placeholders": {
+      "icon": {
+        "content": "<i class=\"icon-download\"></i>",
+        "example": "<i class=\"icon-download\"></i>"
+      }
+    }
+  },
+  "opt_import_button_title": {
+    "message": "将模板导入您的浏览器",
+    "description": "选项页面模板选项卡上导入按钮的悬停文本。"
+  },
+  "opt_import_wizard_header": {
+    "message": "导入",
+    "description": "导入对话框的标题。"
+  },
+  "opt_import_wizard_import_button": {
+    "message": "导入",
+    "description": "导入对话框中导入按钮的文本。"
+  },
+  "opt_import_wizard_paste_alt_button": {
+    "message": "已粘贴！",
+    "description": "导入对话框中粘贴按钮的文本。这是用户单击按钮后短暂使用的。"
+  },
+  "opt_import_wizard_paste_button": {
+    "message": "粘贴",
+    "description": "导入对话框中粘贴按钮的文本。"
+  },
+  "opt_import_wizard_stage_1_text": {
+    "message": "粘贴或上传模板数据。",
+    "description": "导入对话框的初始步骤的文本。"
+  },
+  "opt_import_wizard_stage_2_text_1": {
+    "message": "找到 $1 个有效的模板。",
+    "description": "导入对话框的最终成功步骤的第一段。"
+  },
+  "opt_import_wizard_stage_2_text_2": {
+    "message": "选择要导入的模板；",
+    "description": "导入对话框的最终成功步骤的第二段。"
+  },
+  "opt_links_header": {
+    "message": "链接",
+    "description": "链接部分的标题。"
+  },
+  "opt_links_target_label": {
+    "message": "新标签页/窗口",
+    "description": "新标签页/窗口字段的标签。"
+  },
+  "opt_links_target_text": {
+    "message": "单击链接时在新的浏览器标签页/窗口中打开",
+    "description": "新标签页/窗口字段的文本。"
+  },
+  "opt_links_text": {
+    "message": "此部分涉及由模板呈现的链接。这些选项仅适用于实现使用相应模板选项的逻辑的模板（有关更多信息，请参见$O_LINK_GUIDE$指南$C_LINK$），并非所有标记语言都支持这些选项所代表的功能。",
+    "description": "链接部分的文本。",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_link_guide": {
+        "content": "<a tabify=\"#guide_tab\">",
+        "example": "<a tabify=\"#guide_tab\">"
+      }
+    }
+  },
+  "opt_links_title_label": {
+    "message": "悬停文本",
+    "description": "悬停文本字段的标签。"
+  },
+  "opt_links_title_text": {
+    "message": "悬停链接时显示上下文标题",
+    "description": "悬停文本字段的文本。"
+  },
+  "opt_logger_enabled_label": {
+    "message": "已启用",
+    "description": "选项页面日志记录部分中开发人员工具对话框中已启用字段的标签。"
+  },
+  "opt_logger_enabled_text": {
+    "message": "将日志输出到 JavaScript 控制台",
+    "description": "选项页面日志记录部分中开发人员工具对话框中已启用字段的文本。"
+  },
+  "opt_logger_header": {
+    "message": "日志记录",
+    "description": "选项页面开发人员工具对话框中日志记录部分的标题。"
+  },
+  "opt_logger_help": {
+    "message": "$O_PARA$如果您想查看日志，请按照以下步骤操作：$C_PARA$$O_LIST$$O_ITEM$通过单击扳手图标并选择 $O_BOLD$工具 > 扩展程序$C_BOLD$，打开扩展程序管理页面$C_ITEM$$O_ITEM$确保页面右上角的 $O_BOLD$开发者模式$C_BOLD$ 已选中$C_ITEM$$O_ITEM$展开 $O_BOLD$Template$C_BOLD$ 的列表并单击 $FILE$ 链接$C_ITEM$$O_ITEM$在新的 $O_BOLD$开发者工具$C_BOLD$ 窗口中选择 $O_BOLD$Console$C_BOLD$ 选项卡$C_ITEM$$C_LIST$",
+    "description": "选项页面上开发者工具对话框中日志部分的帮助文本。",
+    "placeholders": {
+      "c_bold": {
+        "content": "</strong>",
+        "example": "</strong>"
+      },
+      "c_item": {
+        "content": "</li>",
+        "example": "</li>"
+      },
+      "c_list": {
+        "content": "</ol>",
+        "example": "</ol>"
+      },
+      "c_para": {
+        "content": "</p>",
+        "example": "</p>"
+      },
+      "file": {
+        "content": "<strong>pages/background.html</strong>",
+        "example": "pages/background.html"
+      },
+      "o_bold": {
+        "content": "<strong>",
+        "example": "<strong>"
+      },
+      "o_item": {
+        "content": "<li>",
+        "example": "<li>"
+      },
+      "o_list": {
+        "content": "<ol>",
+        "example": "<ol>"
+      },
+      "o_para": {
+        "content": "<p>",
+        "example": "<p>"
+      }
+    }
+  },
+  "opt_logger_help_label": {
+    "message": "如何查看日志？",
+    "description": "选项页面上开发者工具对话框中日志部分的帮助标签。"
+  },
+  "opt_logger_level_debug_text": {
+    "message": "调试",
+    "description": "选项页面上开发者工具对话框中日志部分级别字段的调试选项的文本。"
+  },
+  "opt_logger_level_error_text": {
+    "message": "错误（最高）",
+    "description": "选项页面上开发者工具对话框中日志部分级别字段的错误选项的文本。"
+  },
+  "opt_logger_level_information_text": {
+    "message": "信息",
+    "description": "选项页面上开发者工具对话框中日志部分级别字段的信息选项的文本。"
+  },
+  "opt_logger_level_label": {
+    "message": "级别",
+    "description": "选项页面上开发者工具对话框中日志部分级别字段的标签。"
+  },
+  "opt_logger_level_sub_text": {
+    "message": "仅显示此级别或更高级别的日志",
+    "description": "选项页面上开发者工具对话框中日志部分级别字段的帮助文本。"
+  },
+  "opt_logger_level_text": {
+    "message": "选择要执行的日志记录级别",
+    "description": "选项页面上开发者工具对话框中日志部分级别字段的文本。"
+  },
+  "opt_logger_level_trace_text": {
+    "message": "跟踪（最低）",
+    "description": "选项页面上开发者工具对话框中日志部分级别字段的跟踪选项的文本。"
+  },
+  "opt_logger_level_warning_text": {
+    "message": "警告",
+    "description": "选项页面上开发者工具对话框中日志部分级别字段的警告选项的文本。"
+  },
+  "opt_markdown_header": {
+    "message": "Markdown",
+    "description": "Markdown 部分的标题。"
+  },
+  "opt_markdown_text": {
+    "message": "此部分涉及从 $O_ABBR_1$超文本标记语言$O_ABBR_2$HTML$C_ABBR$ 转换为 $O_LINK_MARKDOWN$Markdown$C_LINK$ 的内容。",
+    "description": "Markdown 部分的文本。",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      },
+      "o_link_markdown": {
+        "content": "<a href=\"http://en.wikipedia.org/wiki/Markdown\" target=\"_blank\">",
+        "example": "<a href=\"http://en.wikipedia.org/wiki/Markdown\">"
+      }
+    }
+  },
+  "opt_markdown_inline_label": {
+    "message": "内联链接",
+    "description": "内联链接字段的标签。"
+  },
+  "opt_markdown_inline_sub_text": {
+    "message": "Markdown 链接使用内联样式 $CODE$ 进行渲染",
+    "description": "内联链接字段的帮助文本。",
+    "placeholders": {
+      "code": {
+        "content": "<code>[text](url)</code>",
+        "example": "[title](url)"
+      }
+    }
+  },
+  "opt_markdown_inline_text": {
+    "message": "不再在输出末尾列出链接引用",
+    "description": "内联链接字段的文本。"
+  },
+  "opt_menu_header": {
+    "message": "上下文菜单",
+    "description": "选项页面上通用选项卡下上下文菜单部分的标题。"
+  },
+  "opt_menu_enabled_label": {
+    "message": "右键单击",
+    "description": "选项页面上通用选项卡下上下文菜单部分右键单击字段的标签。"
+  },
+  "opt_menu_enabled_text": {
+    "message": "模板可以从上下文菜单中访问",
+    "description": "选项页面通用选项卡下上下文菜单部分右键单击字段的文本。"
+  },
+  "opt_menu_options_label": {
+    "message": "选项链接",
+    "description": "选项页面通用选项卡下上下文菜单部分选项链接字段的标签。"
+  },
+  "opt_menu_options_text": {
+    "message": "在菜单底部显示一个项目，以打开选项页面",
+    "description": "选项页面通用选项卡下上下文菜单部分选项链接字段的文本。"
+  },
+  "opt_menu_paste_label": {
+    "message": "自动粘贴",
+    "description": "选项页面通用选项卡下上下文菜单部分自动粘贴字段的标签。"
+  },
+  "opt_menu_paste_text": {
+    "message": "将模板结果粘贴到右键单击的可编辑字段中",
+    "description": "选项页面通用选项卡下上下文菜单部分自动粘贴字段的文本。"
+  },
+  "opt_message_error_header": {
+    "message": "糟糕！",
+    "description": "标准错误警报消息的标题。"
+  },
+  "opt_message_header": {
+    "message": "注意！",
+    "description": "标准信息警报消息的标题。"
+  },
+  "opt_message_success_header": {
+    "message": "干得好！",
+    "description": "标准成功警报消息的标题。"
+  },
+  "opt_message_warning_header": {
+    "message": "警告！",
+    "description": "标准警告警报消息的标题。"
+  },
+  "opt_misc_header": {
+    "message": "杂项",
+    "description": "选项页面通用选项卡下杂项部分的标题。"
+  },
+  "opt_no_templates_found_text": {
+    "message": "未找到模板...",
+    "description": "当找不到模板时，表格的文本。"
+  },
+  "opt_notification_header": {
+    "message": "桌面通知",
+    "description": "选项页面通用选项卡下桌面通知部分的标题。"
+  },
+  "opt_notification_label": {
+    "message": "通知",
+    "description": "选项页面通用选项卡下桌面通知部分通知字段的标签。"
+  },
+  "opt_notification_sub_text": {
+    "message": "这些通知也将用于通知您发生的任何错误",
+    "description": "选项页面通用选项卡下桌面通知部分通知字段的帮助文本。"
+  },
+  "opt_notification_text": {
+    "message": "显示桌面通知以显示使用模板的结果",
+    "description": "选项页面通用选项卡下桌面通知部分通知字段的文本。"
+  },
+  "opt_protected_sub_text": {
+    "message": "此功能在内部 Chrome 页面或 $O_LINK_WEBSTORE$Chrome 网上应用店$C_LINK$ 上不可用",
+    "description": "选项页面上的字段的帮助文本，其功能在受保护的页面上不起作用。",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_link_webstore": {
+        "content": "<a href=\"https://chrome.google.com/webstore\" target=\"_blank\">",
+        "example": "<a href=\"https://chrome.google.com/webstore\">"
+      }
+    }
+  },
+  "opt_reset_text": {
+    "message": "重置",
+    "description": "重置按钮的文本。"
+  },
+  "opt_search_placeholder_text": {
+    "message": "搜索...",
+    "description": "搜索字段的占位符文本。"
+  },
+  "opt_select_all_box": {
+    "message": "全选",
+    "description": "全选复选框的标题。"
+  },
+  "opt_select_all_box_checked": {
+    "message": "取消全选",
+    "description": "选中全选复选框的标题。"
+  },
+  "opt_select_box": {
+    "message": "选择",
+    "description": "选择复选框的标题。"
+  },
+  "opt_select_box_checked": {
+    "message": "取消选择",
+    "description": "选中选择复选框的标题。"
+  },
+  "opt_shortcuts_header": {
+    "message": "键盘快捷键",
+    "description": "选项页面通用选项卡下键盘快捷键部分的标题。"
+  },
+  "opt_shortcuts_enabled_label": {
+    "message": "热键",
+    "description": "选项页面通用选项卡下键盘快捷键部分热键字段的标签。"
+  },
+  "opt_shortcuts_enabled_text": {
+    "message": "可以使用键盘快捷键访问模板",
+    "description": "选项页面通用选项卡下键盘快捷键部分热键字段的文本。"
+  },
+  "opt_shortcuts_paste_label": {
+    "message": "自动粘贴",
+    "description": "选项页面通用选项卡下键盘快捷键部分自动粘贴字段的标签。"
+  },
+  "opt_shortcuts_paste_text": {
+    "message": "将模板结果粘贴到使用热键的可编辑字段中",
+    "description": "选项页面通用选项卡下键盘快捷键部分自动粘贴字段的文本。"
+  },
+  "opt_show_all_text": {
+    "message": "全部",
+    "description": "可见结果限制选择中的全部选项的文本。"
+  },
+  "opt_show_label": {
+    "message": "显示：",
+    "description": "可见结果限制选择的标签。"
+  },
+  "opt_template_content_label": {
+    "message": "内容",
+    "description": "选项页面模板选项卡下内容字段的标签。"
+  },
+  "opt_template_content_sub_text": {
+    "message": "需要帮助编写模板？尝试$O_LINK_GUIDE$阅读指南$C_LINK$",
+    "description": "选项页面模板选项卡下内容字段的帮助文本。",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_link_guide": {
+        "content": "<a tabify=\"#guide_tab\">",
+        "example": "<a tabify=\"#guide_tab\">"
+      }
+    }
+  },
+  "opt_template_delete_multiple_predefined_error_1": {
+    "message": "以下模板是预定义的，无法删除：",
+    "description": "当用户尝试删除多个预定义模板时显示的错误消息的第一段。"
+  },
+  "opt_template_delete_multiple_predefined_error_2": {
+    "message": "取消选择所有这些模板，然后重试。",
+    "description": "当用户尝试删除多个预定义模板时显示的错误消息的第二段。"
+  },
+  "opt_template_delete_predefined_error_1": {
+    "message": "以下模板是预定义模板，无法删除：",
+    "description": "当用户尝试删除单个预定义模板时显示的错误消息的第一段。"
+  },
+  "opt_template_delete_predefined_error_2": {
+    "message": "取消选择此模板，然后重试。",
+    "description": "当用户尝试删除单个预定义模板时显示的错误消息的第二段。"
+  },
+  "opt_template_enabled_label": {
+    "message": "已启用",
+    "description": "选项页面模板选项卡上“已启用”字段的标签。"
+  },
+  "opt_template_enabled_text": {
+    "message": "允许访问此模板",
+    "description": "选项页面模板选项卡上“已启用”字段的文本。"
+  },
+  "opt_template_header": {
+    "message": "模板",
+    "description": "选项页面模板选项卡的标题。这也显示在页面的导航中。"
+  },
+  "opt_template_image_label": {
+    "message": "图像",
+    "description": "选项页面模板选项卡上“图像”字段的标签。"
+  },
+  "opt_template_modify_title": {
+    "message": "修改$TEMPLATE$",
+    "description": "选项页面模板选项卡上模板链接的悬停文本。",
+    "placeholders": {
+      "template": {
+        "content": "$1",
+        "example": "URL"
+      }
+    }
+  },
+  "opt_template_move_title": {
+    "message": "拖放$TEMPLATE$以更改其顺序",
+    "description": "选项页面模板选项卡上拖放指示器的悬停文本。",
+    "placeholders": {
+      "template": {
+        "content": "$1",
+        "example": "URL"
+      }
+    }
+  },
+  "opt_template_new_header": {
+    "message": "新模板",
+    "description": "创建新模板时模板向导的标题。"
+  },
+  "opt_template_disabled_selected_title": {
+    "message": "所选模板已禁用",
+    "description": "仅选择禁用模板时动态按钮的悬停文本。"
+  },
+  "opt_template_enabled_selected_title": {
+    "message": "所选模板已启用",
+    "description": "仅选择启用模板时动态按钮的悬停文本。"
+  },
+  "opt_template_no_predefined_delete_title": {
+    "message": "无法删除预定义模板",
+    "description": "选择或上下文中选择预定义模板时动态删除按钮的悬停文本。"
+  },
+  "opt_template_none_selected_title": {
+    "message": "必须选择一个或多个模板",
+    "description": "未选择模板时动态按钮的悬停文本。"
+  },
+  "opt_template_shortcut_help": {
+    "message": "$O_PARA$此字段的以下规则适用：$C_PARA$$O_LIST$$O_ITEM$必须是字母数字键$C_ITEM$$O_ITEM$重复时，将激活第一个模板$C_ITEM$$O_ITEM$为空时，无法使用键盘快捷键激活模板$C_ITEM$$C_LIST$",
+    "description": "选项页面模板选项卡上“快捷键”字段的帮助文本。",
+    "placeholders": {
+      "break": {
+        "content": "<br>",
+        "example": "<br>"
+      },
+      "c_item": {
+        "content": "</li>",
+        "example": "</li>"
+      },
+      "c_list": {
+        "content": "</ul>",
+        "example": "</ul>"
+      },
+      "c_para": {
+        "content": "</p>",
+        "example": "</p>"
+      },
+      "o_item": {
+        "content": "<li>",
+        "example": "<li>"
+      },
+      "o_list": {
+        "content": "<ul>",
+        "example": "<ul>"
+      },
+      "o_para": {
+        "content": "<p>",
+        "example": "<p>"
+      }
+    }
+  },
+  "opt_template_shortcut_invalid": {
+    "message": "键盘快捷键使用无效键",
+    "description": "当用户尝试将无效的键盘快捷键分配给模板时显示的错误消息。"
+  },
+  "opt_template_shortcut_label": {
+    "message": "快捷键",
+    "description": "选项页面模板选项卡上“快捷键”字段的标签。"
+  },
+  "opt_template_title_invalid": {
+    "message": "标题缺失",
+    "description": "当用户尝试将空标题分配给模板时显示的错误消息。"
+  },
+  "opt_template_title_label": {
+    "message": "标题",
+    "description": "选项页面模板选项卡上“标题”字段的标签。"
+  },
+  "opt_toolbar_behaviour_header": {
+    "message": "工具栏行为",
+    "description": "选项页面常规选项卡上工具栏行为部分的标题。"
+  },
+  "opt_toolbar_behaviour_label": {
+    "message": "操作",
+    "description": "选项页面常规选项卡上工具栏行为部分中操作字段的标签。"
+  },
+  "opt_toolbar_behaviour_sub_text": {
+    "message": "配置单击工具栏图标时发生的情况",
+    "description": "选项页面常规选项卡上工具栏行为部分中操作字段的帮助文本。"
+  },
+  "opt_toolbar_close_label": {
+    "message": "关闭",
+    "description": "选项页面常规选项卡上工具栏行为部分中关闭字段的标签。仅在选择弹出时可见。"
+  },
+  "opt_toolbar_close_sub_text": {
+    "message": "这不适用于$O_EMPH$选项$C_EMPH$链接，该链接始终会在单击后关闭弹出窗口",
+    "description": "工具栏行为部分选项页面通用标签下的常规选项标签的操作字段的帮助文本。仅在选择弹出窗口时才可见。",
+    "placeholders": {
+      "c_emph": {
+        "content": "</em>",
+        "example": "</em>"
+      },
+      "o_emph": {
+        "content": "<em>",
+        "example": "<em>"
+      }
+    }
+  },
+  "opt_toolbar_close_text": {
+    "message": "在使用模板后自动关闭弹出窗口",
+    "description": "工具栏行为部分选项页面通用标签下的常规选项标签的操作字段的文本。仅在选择弹出窗口时才可见。"
+  },
+  "opt_toolbar_key_label": {
+    "message": "模板",
+    "description": "工具栏行为部分选项页面通用标签下的常规选项标签的模板字段的标签。仅在选择模板时才可见。"
+  },
+  "opt_toolbar_key_text": {
+    "message": "选择要使用的模板",
+    "description": "工具栏行为部分选项页面通用标签下的常规选项标签的模板字段的文本。仅在选择模板时才可见。"
+  },
+  "opt_toolbar_options_label": {
+    "message": "选项链接",
+    "description": "工具栏行为部分选项页面通用标签下的常规选项标签的选项链接字段的标签。仅在选择弹出窗口时才可见。"
+  },
+  "opt_toolbar_options_text": {
+    "message": "在弹出窗口底部显示链接到选项页面",
+    "description": "工具栏行为部分选项页面通用标签下的常规选项标签的选项链接字段的文本。仅在选择弹出窗口时才可见。"
+  },
+  "opt_toolbar_popup_no_button": {
+    "message": "$ICON$ 模板",
+    "description": "工具栏行为部分选项页面通用标签下的常规选项标签的操作字段的模板按钮的文本。",
+    "placeholders": {
+      "icon": {
+        "content": "<i class=\"icon-bookmark\"></i>",
+        "example": "<i class=\"icon-bookmark\"></i>"
+      }
+    }
+  },
+  "opt_toolbar_popup_no_title": {
+    "message": "单击工具栏图标时使用模板",
+    "description": "工具栏行为部分选项页面通用标签下的常规选项标签的操作字段的模板按钮的悬停文本。"
+  },
+  "opt_toolbar_popup_yes_button": {
+    "message": "$ICON$ 弹出窗口",
+    "description": "工具栏行为部分选项页面通用标签下的常规选项标签的操作字段的弹出窗口按钮的文本。",
+    "placeholders": {
+      "icon": {
+        "content": "<i class=\"icon-th-list\"></i>",
+        "example": "<i class=\"icon-th-list\"></i>"
+      }
+    }
+  },
+  "opt_toolbar_popup_yes_title": {
+    "message": "单击工具栏图标时显示弹出窗口",
+    "description": "工具栏行为部分选项页面通用标签下的常规选项标签的操作字段的弹出窗口按钮的悬停文本。"
+  },
+  "opt_tools_header": {
+    "message": "开发者工具",
+    "description": "选项页面上开发者工具对话框的标题。这也显示为页面导航中齿轮符号的悬停文本。"
+  },
+  "opt_tools_text": {
+    "message": "这些设置通常仅在开发过程中使用，但也可用于创建调试信息，以便在遇到问题时向开发人员提供。",
+    "description": "选项页面上开发者工具对话框的文本。"
+  },
+  "opt_top_button": {
+    "message": "返回顶部",
+    "description": "选项页面页脚中将用户带回页面顶部的链接的文本。"
+  },
+  "opt_undo_button": {
+    "message": "撤销",
+    "description": "撤销按钮的文本。"
+  },
+  "opt_url_shortener_account_label": {
+    "message": "账户",
+    "description": "选项页面上URL缩短器选项卡中配置列中账户字段的标签。"
+  },
+  "opt_url_shortener_account_title": {
+    "message": "将由$SERVICE$缩短的链接与您的账户关联",
+    "description": "选项页面上URL缩短器选项卡中配置列中账户字段内的登录/注销按钮的悬停文本。",
+    "placeholders": {
+      "service": {
+        "content": "$1",
+        "example": "bit.ly"
+      }
+    }
+  },
+  "opt_url_shortener_authentication_basic_button": {
+    "message": "$ICON$ 基本",
+    "description": "选项页面上URL缩短器选项卡中配置列中身份验证字段内的基本按钮的文本。",
+    "placeholders": {
+      "icon": {
+        "content": "<i class=\"icon-user\"></i>",
+        "example": "<i class=\"icon-user\"></i>"
+      }
+    }
+  },
+  "opt_url_shortener_authentication_label": {
+    "message": "身份验证",
+    "description": "选项页面上URL缩短器选项卡中配置列中身份验证字段的标签。"
+  },
+  "opt_url_shortener_authentication_none_button": {
+    "message": "$ICON$ 无",
+    "description": "选项页面上URL缩短器选项卡中配置列中身份验证字段内的无按钮的文本。",
+    "placeholders": {
+      "icon": {
+        "content": "<i class=\"icon-ban-circle\"></i>",
+        "example": "<i class=\"icon-ban-circle\"></i>"
+      }
+    }
+  },
+  "opt_url_shortener_authentication_advanced_button": {
+    "message": "$ICON$ 高级",
+    "description": "选项页面上URL缩短器选项卡中配置列中身份验证字段内的高级按钮的文本。",
+    "placeholders": {
+      "icon": {
+        "content": "<i class=\"icon-lock\"></i>",
+        "example": "<i class=\"icon-lock\"></i>"
+      }
+    }
+  },
+  "opt_url_shortener_config_header": {
+    "message": "配置",
+    "description": "选项页面上URL缩短器选项卡中配置列的标题。"
+  },
+  "opt_url_shortener_header": {
+    "message": "网址缩短",
+    "description": "选项页面中网址缩短选项卡的标题。也会显示在页面导航中。"
+  },
+  "opt_url_shortener_login_button": {
+    "message": "$ICON$ 登录",
+    "description": "选项页面中网址缩短选项卡中配置列中帐户字段中登录按钮的文本。",
+    "placeholders": {
+      "icon": {
+        "content": "<i class=\"icon-off icon-white\"></i>",
+        "example": "<i class=\"icon-off icon-white\"></i>"
+      }
+    }
+  },
+  "opt_url_shortener_logout_button": {
+    "message": "$ICON$ 登出",
+    "description": "选项页面中网址缩短选项卡中配置列中帐户字段中登出按钮的文本。",
+    "placeholders": {
+      "icon": {
+        "content": "<i class=\"icon-off icon-white\"></i>",
+        "example": "<i class=\"icon-off icon-white\"></i>"
+      }
+    }
+  },
+  "opt_url_shortener_password_label": {
+    "message": "密码",
+    "description": "选项页面中网址缩短选项卡中配置列中密码字段的标签。"
+  },
+  "opt_url_shortener_password_yourls_sub_text": {
+    "message": "这将以明文形式存储和发送，因为这是 $O_ABBR_1$应用程序编程接口$O_ABBR_2$API$C_ABBR$ 所要求的。",
+    "description": "选项页面中网址缩短选项卡中 YOURLS 部分下密码字段的帮助文本。",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      }
+    }
+  },
+  "opt_url_shortener_service_header": {
+    "message": "服务",
+    "description": "选项页面中网址缩短选项卡中服务列的标题。"
+  },
+  "opt_url_shortener_signature_label": {
+    "message": "签名",
+    "description": "选项页面中网址缩短选项卡中配置列中签名字段的标签。"
+  },
+  "opt_url_shortener_signature_yourls_sub_text": {
+    "message": "不知道在哪里找到？$O_LINK_API_DOCS$阅读本文$C_LINK$",
+    "description": "选项页面中网址缩短选项卡中 YOURLS 部分下签名字段的帮助文本。",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_link_api_docs": {
+        "content": "<a href=\"http://yourls.org/passwordlessapi\" target=\"_blank\">",
+        "example": "<a href=\"http://yourls.org/passwordlessapi\">"
+      }
+    }
+  },
+  "opt_url_shortener_url_label": {
+    "message": "$O_ABBR_1$统一资源定位符$O_ABBR_2$URL$C_ABBR$",
+    "description": "选项页面中网址缩短选项卡中配置列中 URL 字段的标签。",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      }
+    }
+  },
+  "opt_url_shortener_url_yourls_sub_text": {
+    "message": "例如：$EXAMPLE$",
+    "description": "选项页面中网址缩短选项卡中 YOURLS 部分下 URL 字段的帮助文本。",
+    "placeholders": {
+      "example": {
+        "content": "<em>http://exam.pl/yourls-api.php</em>",
+        "example": "http://exam.pl/yourls-api.php"
+      }
+    }
+  },
+  "opt_url_shortener_username_label": {
+    "message": "用户名",
+    "description": "选项页面中网址缩短选项卡中配置列中用户名字段的标签。"
+  },
+  "opt_wizard_all_button": {
+    "message": "全部",
+    "description": "对话框中常见的全部按钮的文本。"
+  },
+  "opt_wizard_back_button": {
+    "message": "返回",
+    "description": "对话框中常见的返回按钮的文本。"
+  },
+  "opt_wizard_cancel_button": {
+    "message": "取消",
+    "description": "对话框中常见的取消按钮的文本。"
+  },
+  "opt_wizard_close_button": {
+    "message": "关闭",
+    "description": "对话框中常见的关闭按钮的文本。"
+  },
+  "opt_wizard_continue_button": {
+    "message": "继续",
+    "description": "对话框中常见的继续按钮的文本。"
+  },
+  "opt_wizard_delete_button_text": {
+    "message": "删除",
+    "description": "对话框中常见的删除按钮的文本。"
+  },
+  "opt_wizard_delete_button_title": {
+    "message": "永久删除此模板",
+    "description": "对话框中常见的删除按钮的悬停文本。"
+  },
+  "opt_wizard_no_button": {
+    "message": "否",
+    "description": "对话框中常见的否按钮的文本。"
+  },
+  "opt_wizard_none_button": {
+    "message": "无",
+    "description": "对话框中常见的无按钮的文本。"
+  },
+  "opt_wizard_reset_button": {
+    "message": "重置",
+    "description": "对话框中常见的重置按钮的文本。"
+  },
+  "opt_wizard_save_button": {
+    "message": "保存",
+    "description": "对话框中常见的保存按钮的文本。"
+  },
+  "opt_wizard_yes_button": {
+    "message": "是",
+    "description": "对话框中通常出现的“是”按钮的文本。"
+  },
+  "options": {
+    "message": "选项",
+    "description": "选项弹出菜单/菜单项的文本。"
+  },
+  "result_bad_description": {
+    "message": "无法复制$TEMPLATE$",
+    "description": "处理模板时发生未知错误的通知。",
+    "placeholders": {
+      "template": {
+        "content": "$1",
+        "example": "锚点"
+      }
+    }
+  },
+  "result_bad_empty_description": {
+    "message": "$TEMPLATE$输出为空",
+    "description": "处理模板的结果是空字符串时的通知。",
+    "placeholders": {
+      "template": {
+        "content": "$1",
+        "example": "短"
+      }
+    }
+  },
+  "result_bad_error_description": {
+    "message": "收集信息时发生错误",
+    "description": "处理模板之前收集上下文数据时出现问题的通知。"
+  },
+  "result_bad_expression_description": {
+    "message": "解析表达式时出现问题",
+    "description": "处理模板时解析CSS选择器或XPath表达式时出现错误的通知。"
+  },
+  "result_bad_template_description": {
+    "message": "无法从当前上下文中推导出激活的模板",
+    "description": "当前上下文中无法推导出活动模板时的通知。"
+  },
+  "result_bad_type_description": {
+    "message": "请求信息时出现错误",
+    "description": "请求消息使用了无效类型时的通知。"
+  },
+  "result_bad_title": {
+    "message": "抱歉！",
+    "description": "处理模板时发生错误的通知标题。"
+  },
+  "result_bad_uri_description": {
+    "message": "URL未正确编码",
+    "description": "处理模板之前收集无效URL的数据时的通知。"
+  },
+  "result_good_description": {
+    "message": "$TEMPLATE$已复制",
+    "description": "成功处理模板时的通知。",
+    "placeholders": {
+      "template": {
+        "content": "$1",
+        "example": "Markdown"
+      }
+    }
+  },
+  "result_good_title": {
+    "message": "成功！",
+    "description": "成功处理模板时的通知标题。"
+  },
+  "shortener_bitly": {
+    "message": "bit.ly",
+    "description": "扩展中使用的bit.ly URL缩短器的名称。"
+  },
+  "shortener_config_error": {
+    "message": "$SERVICE$未正确配置",
+    "description": "处理模板时尝试使用未正确配置的URL缩短器时的通知。",
+    "placeholders": {
+      "service": {
+        "content": "$1",
+        "example": "YOURLS"
+      }
+    }
+  },
+  "shortener_detailed_error": {
+    "message": "$SERVICE$在缩短$URL$时遇到问题",
+    "description": "调用URL缩短器服务时出现问题的通知。这是shortener_error的更详细版本，因为它还显示了被缩短的URL。",
+    "placeholders": {
+      "service": {
+        "content": "$1",
+        "example": "goo.gl"
+      },
+      "url": {
+        "content": "$2",
+        "example": "http://template-extension.org/"
+      }
+    }
+  },
+  "shortener_error": {
+    "message": "$SERVICE$遇到问题",
+    "description": "调用URL缩短器服务时出现问题的通知。",
+    "placeholders": {
+      "service": {
+        "content": "$1",
+        "example": "bit.ly"
+      }
+    }
+  },
+  "shortener_googl": {
+    "message": "goo.gl",
+    "description": "扩展中使用的goo.gl URL缩短器的名称。"
+  },
+  "shortener_yourls": {
+    "message": "YOURLS",
+    "description": "扩展中使用的YOURLS URL缩短器的名称。"
+  }
+}

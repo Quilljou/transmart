@@ -1,0 +1,4158 @@
+{
+  "default_template_anchor": {
+    "message": "Anchor",
+    "description": "Title of the Anchor template."
+  },
+  "default_template_bbcode": {
+    "message": "BBCode",
+    "description": "Title of the BBCode template."
+  },
+  "default_template_encoded": {
+    "message": "Encoded",
+    "description": "Title of the Encoded template."
+  },
+  "default_template_markdown": {
+    "message": "Markdown",
+    "description": "Title of the Markdown template."
+  },
+  "default_template_markdown_selection": {
+    "message": "Selection in Markdown",
+    "description": "Title of the Selection in Markdown template."
+  },
+  "default_template_short": {
+    "message": "Short",
+    "description": "Title of the Short template."
+  },
+  "default_template_url": {
+    "message": "URL",
+    "description": "Title of the URL template."
+  },
+  "description": {
+    "message": "Quickly and easily copies info on the current page using a simple and unique template system",
+    "description": "Brief description of the extension."
+  },
+  "empty": {
+    "message": "Empty",
+    "description": "Popup/menu text where no Templates are active."
+  },
+  "error_file_aborted": {
+    "message": "Aborted!",
+    "description": "Error message for when a file upload is aborted."
+  },
+  "error_file_default": {
+    "message": "Could not read/write file!",
+    "description": "Error message for when an uploaded file couldn't be read."
+  },
+  "error_file_not_found": {
+    "message": "File not found!",
+    "description": "Error message for when a file could not be found."
+  },
+  "error_import_data": {
+    "message": "Unable to parse data!",
+    "description": "Error message for when imported data isn't valid."
+  },
+  "error_import_invalid": {
+    "message": "Some values are missing or corrupt!",
+    "description": "Error message for when imported data isn't structured correctly."
+  },
+  "icon_adjust": {
+    "message": "Adjust",
+    "description": "Adjust icon caption."
+  },
+  "icon_align_center": {
+    "message": "Align Centre",
+    "description": "Align Centre icon caption."
+  },
+  "icon_align_justify": {
+    "message": "Align Justify",
+    "description": "Align Justify icon caption."
+  },
+  "icon_align_left": {
+    "message": "Align Left",
+    "description": "Align Left icon caption."
+  },
+  "icon_align_right": {
+    "message": "Align Right",
+    "description": "Align Right icon caption."
+  },
+  "icon_arrow_down": {
+    "message": "Arrow Down",
+    "description": "Arrow Down icon caption."
+  },
+  "icon_arrow_left": {
+    "message": "Arrow Left",
+    "description": "Arrow Left icon caption."
+  },
+  "icon_arrow_right": {
+    "message": "Arrow Right",
+    "description": "Arrow Right icon caption."
+  },
+  "icon_arrow_up": {
+    "message": "Arrow Up",
+    "description": "Arrow Up icon caption."
+  },
+  "icon_asterisk": {
+    "message": "Asterisk",
+    "description": "Asterisk icon caption."
+  },
+  "icon_backward": {
+    "message": "Backward",
+    "description": "Backward icon caption."
+  },
+  "icon_ban_circle": {
+    "message": "Ban Circle",
+    "description": "Ban Circle icon caption."
+  },
+  "icon_barcode": {
+    "message": "Barcode",
+    "description": "Barcode icon caption."
+  },
+  "icon_bell": {
+    "message": "Bell",
+    "description": "Bell icon caption."
+  },
+  "icon_bold": {
+    "message": "Bold",
+    "description": "Bold icon caption."
+  },
+  "icon_book": {
+    "message": "Book",
+    "description": "Book icon caption."
+  },
+  "icon_bookmark": {
+    "message": "Bookmark",
+    "description": "Bookmark icon caption."
+  },
+  "icon_briefcase": {
+    "message": "Briefcase",
+    "description": "Briefcase icon caption."
+  },
+  "icon_bullhorn": {
+    "message": "Bullhorn",
+    "description": "Bullhorn icon caption."
+  },
+  "icon_calendar": {
+    "message": "Calendar",
+    "description": "Calendar icon caption."
+  },
+  "icon_camera": {
+    "message": "Camera",
+    "description": "Camera icon caption."
+  },
+  "icon_certificate": {
+    "message": "Certificate",
+    "description": "Certificate icon caption."
+  },
+  "icon_check": {
+    "message": "Check",
+    "description": "Check icon caption."
+  },
+  "icon_chevron_down": {
+    "message": "Chevron Down",
+    "description": "Chevron Down icon caption."
+  },
+  "icon_chevron_left": {
+    "message": "Chevron Left",
+    "description": "Chevron Left icon caption."
+  },
+  "icon_chevron_right": {
+    "message": "Chevron Right",
+    "description": "Chevron Right icon caption."
+  },
+  "icon_chevron_up": {
+    "message": "Chevron Up",
+    "description": "Chevron Up icon caption."
+  },
+  "icon_circle_arrow_down": {
+    "message": "Circle Arrow Down",
+    "description": "Circle Arrow Down icon caption."
+  },
+  "icon_circle_arrow_left": {
+    "message": "Circle Arrow Left",
+    "description": "Circle Arrow Left icon caption."
+  },
+  "icon_circle_arrow_right": {
+    "message": "Circle Arrow Right",
+    "description": "Circle Arrow Right icon caption."
+  },
+  "icon_circle_arrow_up": {
+    "message": "Circle Arrow Up",
+    "description": "Circle Arrow Up icon caption."
+  },
+  "icon_cog": {
+    "message": "Cog",
+    "description": "Cog icon caption."
+  },
+  "icon_comment": {
+    "message": "Comment",
+    "description": "Comment icon caption."
+  },
+  "icon_download": {
+    "message": "Download",
+    "description": "Download icon caption."
+  },
+  "icon_download_alt": {
+    "message": "Download (alt)",
+    "description": "Download (alt) icon caption."
+  },
+  "icon_edit": {
+    "message": "Edit",
+    "description": "Edit icon caption."
+  },
+  "icon_eject": {
+    "message": "Eject",
+    "description": "Eject icon caption."
+  },
+  "icon_envelope": {
+    "message": "Envelope",
+    "description": "Envelope icon caption."
+  },
+  "icon_exclamation_sign": {
+    "message": "Exclamation Sign",
+    "description": "Exclamation Sign icon caption."
+  },
+  "icon_eye_close": {
+    "message": "Eye Closed",
+    "description": "Eye Closed icon caption."
+  },
+  "icon_eye_open": {
+    "message": "Eye Open",
+    "description": "Eye Open icon caption."
+  },
+  "icon_facetime_video": {
+    "message": "Facetime Video",
+    "description": "Facetime Video icon caption."
+  },
+  "icon_fast_backward": {
+    "message": "Fast Backward",
+    "description": "Fast Backward icon caption."
+  },
+  "icon_fast_forward": {
+    "message": "Fast Forward",
+    "description": "Fast Forward icon caption."
+  },
+  "icon_file": {
+    "message": "File",
+    "description": "File icon caption."
+  },
+  "icon_film": {
+    "message": "Film",
+    "description": "Film icon caption."
+  },
+  "icon_filter": {
+    "message": "Filter",
+    "description": "Filter icon caption."
+  },
+  "icon_fire": {
+    "message": "Fire",
+    "description": "Fire icon caption."
+  },
+  "icon_flag": {
+    "message": "Flag",
+    "description": "Flag icon caption."
+  },
+  "icon_folder_close": {
+    "message": "Folder Closed",
+    "description": "Folder Closed icon caption."
+  },
+  "icon_folder_open": {
+    "message": "Folder Open",
+    "description": "Folder Open icon caption."
+  },
+  "icon_font": {
+    "message": "Font",
+    "description": "Font icon caption."
+  },
+  "icon_forward": {
+    "message": "Forward",
+    "description": "Forward icon caption."
+  },
+  "icon_fullscreen": {
+    "message": "Fullscreen",
+    "description": "Fullscreen icon caption."
+  },
+  "icon_gift": {
+    "message": "Gift",
+    "description": "Gift icon caption."
+  },
+  "icon_glass": {
+    "message": "Glass",
+    "description": "Glass icon caption."
+  },
+  "icon_globe": {
+    "message": "Globe",
+    "description": "Globe icon caption."
+  },
+  "icon_hand_down": {
+    "message": "Hand Down",
+    "description": "Hand Down icon caption."
+  },
+  "icon_hand_left": {
+    "message": "Hand Left",
+    "description": "Hand Left icon caption."
+  },
+  "icon_hand_right": {
+    "message": "Hand Right",
+    "description": "Hand Right icon caption."
+  },
+  "icon_hand_up": {
+    "message": "Hand Up",
+    "description": "Hand Up icon caption."
+  },
+  "icon_hdd": {
+    "message": "HDD",
+    "description": "HDD icon caption."
+  },
+  "icon_headphones": {
+    "message": "Headphones",
+    "description": "Headphones icon caption."
+  },
+  "icon_heart": {
+    "message": "Heart",
+    "description": "Heart icon caption."
+  },
+  "icon_home": {
+    "message": "Home",
+    "description": "Home icon caption."
+  },
+  "icon_inbox": {
+    "message": "Inbox",
+    "description": "Inbox icon caption."
+  },
+  "icon_indent_left": {
+    "message": "Indent Left",
+    "description": "Indent Left icon caption."
+  },
+  "icon_indent_right": {
+    "message": "Indent Right",
+    "description": "Indent Right icon caption."
+  },
+  "icon_info_sign": {
+    "message": "Info Sign",
+    "description": "Info Sign icon caption."
+  },
+  "icon_italic": {
+    "message": "Italic",
+    "description": "Italic icon caption."
+  },
+  "icon_leaf": {
+    "message": "Leaf",
+    "description": "Leaf icon caption."
+  },
+  "icon_list": {
+    "message": "List",
+    "description": "List icon caption."
+  },
+  "icon_list_alt": {
+    "message": "List (alt)",
+    "description": "List (alt) icon caption."
+  },
+  "icon_lock": {
+    "message": "Lock",
+    "description": "Lock icon caption."
+  },
+  "icon_magnet": {
+    "message": "Magnet",
+    "description": "Magnet icon caption."
+  },
+  "icon_map_marker": {
+    "message": "Map Marker",
+    "description": "Map Marker icon caption."
+  },
+  "icon_minus": {
+    "message": "Minus",
+    "description": "Minus icon caption."
+  },
+  "icon_minus_sign": {
+    "message": "Minus Sign",
+    "description": "Minus Sign icon caption."
+  },
+  "icon_move": {
+    "message": "Move",
+    "description": "Move icon caption."
+  },
+  "icon_music": {
+    "message": "Music",
+    "description": "Music icon caption."
+  },
+  "icon_none": {
+    "message": "None",
+    "description": "None icon caption."
+  },
+  "icon_off": {
+    "message": "Off",
+    "description": "Off icon caption."
+  },
+  "icon_ok": {
+    "message": "OK",
+    "description": "OK icon caption."
+  },
+  "icon_ok_circle": {
+    "message": "OK Circle",
+    "description": "OK Circle icon caption."
+  },
+  "icon_ok_sign": {
+    "message": "OK Sign",
+    "description": "OK Sign icon caption."
+  },
+  "icon_pause": {
+    "message": "Pause",
+    "description": "Pause icon caption."
+  },
+  "icon_pencil": {
+    "message": "Pencil",
+    "description": "Pencil icon caption."
+  },
+  "icon_picture": {
+    "message": "Picture",
+    "description": "Picture icon caption."
+  },
+  "icon_plane": {
+    "message": "Plane",
+    "description": "Plane icon caption."
+  },
+  "icon_play": {
+    "message": "Play",
+    "description": "Play icon caption."
+  },
+  "icon_play_circle": {
+    "message": "Play Circle",
+    "description": "Play Circle icon caption."
+  },
+  "icon_plus": {
+    "message": "Plus",
+    "description": "Plus icon caption."
+  },
+  "icon_plus_sign": {
+    "message": "Plus Sign",
+    "description": "Plus Sign icon caption."
+  },
+  "icon_print": {
+    "message": "Print",
+    "description": "Print icon caption."
+  },
+  "icon_qrcode": {
+    "message": "QR Code",
+    "description": "QR Code icon caption."
+  },
+  "icon_question_sign": {
+    "message": "Question Sign",
+    "description": "Question Sign icon caption."
+  },
+  "icon_random": {
+    "message": "Random",
+    "description": "Random icon caption."
+  },
+  "icon_refresh": {
+    "message": "Refresh",
+    "description": "Refresh icon caption."
+  },
+  "icon_remove": {
+    "message": "Remove",
+    "description": "Remove icon caption."
+  },
+  "icon_remove_circle": {
+    "message": "Remove Circle",
+    "description": "Remove Circle icon caption."
+  },
+  "icon_remove_sign": {
+    "message": "Remove Sign",
+    "description": "Remove Sign icon caption."
+  },
+  "icon_repeat": {
+    "message": "Repeat",
+    "description": "Repeat icon caption."
+  },
+  "icon_resize_full": {
+    "message": "Resize Full",
+    "description": "Resize Full icon caption."
+  },
+  "icon_resize_horizontal": {
+    "message": "Resize Horizontal",
+    "description": "Resize Horizontal icon caption."
+  },
+  "icon_resize_small": {
+    "message": "Resize Small",
+    "description": "Resize Small icon caption."
+  },
+  "icon_resize_vertical": {
+    "message": "Resize Vertical",
+    "description": "Resize Vertical icon caption."
+  },
+  "icon_retweet": {
+    "message": "Retweet",
+    "description": "Retweet icon caption."
+  },
+  "icon_road": {
+    "message": "Road",
+    "description": "Road icon caption."
+  },
+  "icon_screenshot": {
+    "message": "Screenshot",
+    "description": "Screenshot icon caption."
+  },
+  "icon_search": {
+    "message": "Search",
+    "description": "Search icon caption."
+  },
+  "icon_share": {
+    "message": "Share",
+    "description": "Share icon caption."
+  },
+  "icon_share_alt": {
+    "message": "Share (alt)",
+    "description": "Share (alt) icon caption."
+  },
+  "icon_shopping_cart": {
+    "message": "Shopping Cart",
+    "description": "Shopping Cart icon caption."
+  },
+  "icon_signal": {
+    "message": "Signal",
+    "description": "Signal icon caption."
+  },
+  "icon_star": {
+    "message": "Star",
+    "description": "Star icon caption."
+  },
+  "icon_star_empty": {
+    "message": "Star Empty",
+    "description": "Star Empty icon caption."
+  },
+  "icon_step_backward": {
+    "message": "Step Backward",
+    "description": "Step Backward icon caption."
+  },
+  "icon_step_forward": {
+    "message": "Step Forward",
+    "description": "Step Forward icon caption."
+  },
+  "icon_stop": {
+    "message": "Stop",
+    "description": "Stop icon caption."
+  },
+  "icon_tag": {
+    "message": "Tag",
+    "description": "Tag icon caption."
+  },
+  "icon_tags": {
+    "message": "Tags",
+    "description": "Tags icon caption."
+  },
+  "icon_tasks": {
+    "message": "Tasks",
+    "description": "Tasks icon caption."
+  },
+  "icon_text_height": {
+    "message": "Text Height",
+    "description": "Text Height icon caption."
+  },
+  "icon_text_width": {
+    "message": "Text Width",
+    "description": "Text Width icon caption."
+  },
+  "icon_th": {
+    "message": "Thumbnails",
+    "description": "Thumbnails icon caption."
+  },
+  "icon_th_large": {
+    "message": "Thumbnails Large",
+    "description": "Thumbnails Large icon caption."
+  },
+  "icon_th_list": {
+    "message": "Thumbnails List",
+    "description": "Thumbnails List icon caption."
+  },
+  "icon_thumbs_down": {
+    "message": "Thumbs Down",
+    "description": "Thumbs Down icon caption."
+  },
+  "icon_thumbs_up": {
+    "message": "Thumbs Up",
+    "description": "Thumbs Up icon caption."
+  },
+  "icon_time": {
+    "message": "Time",
+    "description": "Time icon caption."
+  },
+  "icon_tint": {
+    "message": "Tint",
+    "description": "Tint icon caption."
+  },
+  "icon_trash": {
+    "message": "Trash",
+    "description": "Trash icon caption."
+  },
+  "icon_upload": {
+    "message": "Upload",
+    "description": "Upload icon caption."
+  },
+  "icon_user": {
+    "message": "User",
+    "description": "User icon caption."
+  },
+  "icon_volume_down": {
+    "message": "Volume Down",
+    "description": "Volume Down icon caption."
+  },
+  "icon_volume_off": {
+    "message": "Volume Off",
+    "description": "Volume Off icon caption."
+  },
+  "icon_volume_up": {
+    "message": "Volume Up",
+    "description": "Volume Up icon caption."
+  },
+  "icon_warning_sign": {
+    "message": "Warning Sign",
+    "description": "Warning Sign icon caption."
+  },
+  "icon_wrench": {
+    "message": "Wrench",
+    "description": "Wrench icon caption."
+  },
+  "icon_zoom_in": {
+    "message": "Zoom In",
+    "description": "Zoom In icon caption."
+  },
+  "icon_zoom_out": {
+    "message": "Zoom Out",
+    "description": "Zoom Out icon caption."
+  },
+  "name": {
+    "message": "Template",
+    "description": "Name of the extension."
+  },
+  "opt_add_button_text": {
+    "message": "$ICON$ Add",
+    "description": "Text of button used to add templates.",
+    "placeholders": {
+      "icon": {
+        "content": "<i class=\"icon-plus icon-white\"></i>",
+        "example": "<i class=\"icon-plus icon-white\"></i>"
+      }
+    }
+  },
+  "opt_add_button_title": {
+    "message": "Create a new template",
+    "description": "Hover text of button used to add templates."
+  },
+  "opt_analytics_label": {
+    "message": "Analytics",
+    "description": "Label for the Analytics field."
+  },
+  "opt_analytics_sub_text": {
+    "message": "This information is only ever used to help improve user experience and will never be supplied to a 3rd party",
+    "description": "Help text for the Analytics field."
+  },
+  "opt_analytics_text": {
+    "message": "Send anonymous usage statistics",
+    "description": "Text for the Analytics field."
+  },
+  "opt_confirm_button": {
+    "message": "Confirm",
+    "description": "Text for a Confirm button."
+  },
+  "opt_delete_button_text": {
+    "message": "$ICON$ Delete",
+    "description": "Text for the Delete button.",
+    "placeholders": {
+      "icon": {
+        "content": "<i class=\"icon-trash icon-white\"></i>",
+        "example": "<i class=\"icon-trash icon-white\"></i>"
+      }
+    }
+  },
+  "opt_delete_button_title": {
+    "message": "Delete all selected templates",
+    "description": "Hover text for the Delete button."
+  },
+  "opt_delete_wizard_header": {
+    "message": "Confirm Deletion",
+    "description": "Header for the confirmation dialog displayed when deleting template(s)."
+  },
+  "opt_delete_wizard_text_1": {
+    "message": "This action is $O_BOLD$permanent$C_BOLD$ and cannot be reversed. The following template(s) will be removed;",
+    "description": "1st paragraph for the confirmation dialog displayed when deleting a template.",
+    "placeholders": {
+      "c_bold": {
+        "content": "</strong>",
+        "example": "</strong>"
+      },
+      "o_bold": {
+        "content": "<strong>",
+        "example": "<strong>"
+      }
+    }
+  },
+  "opt_delete_wizard_text_2": {
+    "message": "Do you want to continue anyway?",
+    "description": "2nd paragraph for the confirmation dialog displayed when deleting a template."
+  },
+  "opt_disable_button_text": {
+    "message": "$ICON$ Disable",
+    "description": "Text of button used to disable templates.",
+    "placeholders": {
+      "icon": {
+        "content": "<i class=\"icon-remove\"></i>",
+        "example": "<i class=\"icon-remove\"></i>"
+      }
+    }
+  },
+  "opt_disable_button_title": {
+    "message": "Disable all selected templates",
+    "description": "Hover text of button used to disable templates."
+  },
+  "opt_donate_button": {
+    "message": "$ICON$ Donate",
+    "description": "Text for the Donate button.",
+    "placeholders": {
+      "icon": {
+        "content": "<i class=\"icon-heart icon-white\"></i>",
+        "example": "<i class=\"icon-heart icon-white\"></i>"
+      }
+    }
+  },
+  "opt_donate_button_title": {
+    "message": "Share the love!",
+    "description": "Hover text for the Donate button."
+  },
+  "opt_enable_button_text": {
+    "message": "$ICON$ Enable",
+    "description": "Text of button used to enable templates.",
+    "placeholders": {
+      "icon": {
+        "content": "<i class=\"icon-ok\"></i>",
+        "example": "<i class=\"icon-ok\"></i>"
+      }
+    }
+  },
+  "opt_enable_button_title": {
+    "message": "Enable all selected templates",
+    "description": "Hover text of button used to enable templates."
+  },
+  "opt_errors_header": {
+    "message": "The following problem(s) need to be corrected;",
+    "description": "Preceding text for any errors on the Templates tab."
+  },
+  "opt_export_button_text": {
+    "message": "$ICON$ Export",
+    "description": "Text for the Export button.",
+    "placeholders": {
+      "icon": {
+        "content": "<i class=\"icon-upload\"></i>",
+        "example": "<i class=\"icon-upload\"></i>"
+      }
+    }
+  },
+  "opt_export_button_title": {
+    "message": "Export all selected templates",
+    "description": "Hover text for the Export button."
+  },
+  "opt_export_wizard_copy_alt_button": {
+    "message": "Copied!",
+    "description": "Text for the Copy button, used for a short duration after being clicked."
+  },
+  "opt_export_wizard_copy_button": {
+    "message": "Copy",
+    "description": "Text for the Copy button."
+  },
+  "opt_export_wizard_header": {
+    "message": "Export",
+    "description": "Header for the Export dialog."
+  },
+  "opt_export_wizard_save_as_button": {
+    "message": "Save As...",
+    "description": "Text for the Save As... button."
+  },
+  "opt_export_wizard_text": {
+    "message": "Copy or download the exported template data.",
+    "description": "Text for the Export dialog."
+  },
+  "opt_feedback_button": {
+    "message": "feedback",
+    "description": "Text of Feedback button on the Options page."
+  },
+  "opt_general_header": {
+    "message": "General",
+    "description": "Header of the General tab."
+  },
+  "opt_guide_argument_header": {
+    "message": "Argument",
+    "description": "Header for the Argument column."
+  },
+  "opt_guide_argument_number_text": {
+    "message": "Number",
+    "description": "Text for operations that take numeric arguments, displayed in the Argument column."
+  },
+  "opt_guide_argument_text_text": {
+    "message": "Text",
+    "description": "Text for operations that take string arguments, displayed in the Argument column."
+  },
+  "opt_guide_definitions_caption": {
+    "message": "Definitions",
+    "description": "Caption displayed above all Definitions tables."
+  },
+  "opt_guide_definitions_footer_1": {
+    "message": "Not available on internal Chrome pages or the $O_LINK_WEBSTORE$Chrome Web Store$C_LINK$",
+    "description": "First optional footer displayed below Definitions tables.",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_link_webstore": {
+        "content": "<a href=\"https://chrome.google.com/webstore\" target=\"_blank\">",
+        "example": "<a href=\"https://chrome.google.com/webstore\">"
+      }
+    }
+  },
+  "opt_guide_definitions_footer_2": {
+    "message": "Only available when Template is accessed via the context menu of a link",
+    "description": "Second optional footer displayed below Definitions tables."
+  },
+  "opt_guide_definitions_footer_3": {
+    "message": "Learn more about the $O_LINK_SELECTORS$Selectors API$C_LINK$",
+    "description": "Third optional footer displayed below Definitions tables.",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_link_selectors": {
+        "content": "<a href=\"http://www.w3.org/TR/selectors-api/\" target=\"_blank\">",
+        "example": "<a href=\"http://www.w3.org/TR/selectors-api/\">"
+      }
+    }
+  },
+  "opt_guide_definitions_footer_4": {
+    "message": "Learn more about the $O_LINK_XPATH$XPath API$C_LINK$",
+    "description": "Fourth optional footer displayed below Definitions tables.",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_link_xpath": {
+        "content": "<a href=\"http://www.w3.org/TR/xpath/\" target=\"_blank\">",
+        "example": "<a href=\"http://www.w3.org/TR/xpath/\">"
+      }
+    }
+  },
+  "opt_guide_description_header": {
+    "message": "Description",
+    "description": "Header for the Description column."
+  },
+  "opt_guide_examples_header": {
+    "message": "Examples",
+    "description": "Header for all expandable Examples areas."
+  },
+  "opt_guide_header": {
+    "message": "Guide",
+    "description": "Header for the Guide tab."
+  },
+  "opt_guide_introduction_case_sensitivity_header": {
+    "message": "Case Sensitivity",
+    "description": "Header for the Case Sensitivity area on the Guide tab of the Options page under the Introduction section."
+  },
+  "opt_guide_introduction_case_sensitivity_text": {
+    "message": "The names of simple tags and sections are case-insensitive, therefore $SYNTAX_1$ will output the same as $SYNTAX_2$. However, sections must be opened and closed with names in the same case (i.e. $SYNTAX_3$ will not work).",
+    "description": "Text for the Case Sensitivity area on the Guide tab of the Options page under the Introduction section.",
+    "placeholders": {
+      "syntax_1": {
+        "content": "<code>{name}</code>",
+        "example": "{name}"
+      },
+      "syntax_2": {
+        "content": "<code>{NaMe}</code>",
+        "example": "{NaMe}"
+      },
+      "syntax_3": {
+        "content": "<code>{#name}...{/NaMe}</code>",
+        "example": "{#name}...{/NaMe}"
+      }
+    }
+  },
+  "opt_guide_introduction_dot_notation_header": {
+    "message": "Dot Notation",
+    "description": "Header for the Dot Notation area on the Guide tab of the Options page under the Introduction section."
+  },
+  "opt_guide_introduction_dot_notation_text": {
+    "message": "Nested properties of objects can also be accessed using dot notation like $SYNTAX$ which would get the $O_EMPH$nested$C_EMPH$ property of the $O_EMPH$name$C_EMPH$ object. These expressions can be even chained to access properties of nested properties and so on.",
+    "description": "Text for the Dot Notation area on the Guide tab of the Options page under the Introduction section.",
+    "placeholders": {
+      "c_emph": {
+        "content": "</em>",
+        "example": "</em>"
+      },
+      "o_emph": {
+        "content": "<em>",
+        "example": "<em>"
+      },
+      "syntax": {
+        "content": "<code>{name.nested}</code>",
+        "example": "{name.nested}"
+      }
+    }
+  },
+  "opt_guide_introduction_header": {
+    "message": "Introduction",
+    "description": "Header for the Introductions section on the Guide tab of the Options page."
+  },
+  "opt_guide_introduction_inverted_section_access_text": {
+    "message": "$O_BOLD$Access$C_BOLD$ - Only renders the contents if the value is an empty object",
+    "description": "Text for the Access item in the list within the Inverted Section area on the Guide tab of the Options page under the Introduction section.",
+    "placeholders": {
+      "c_bold": {
+        "content": "</strong>",
+        "example": "</strong>"
+      },
+      "o_bold": {
+        "content": "<strong>",
+        "example": "<strong>"
+      }
+    }
+  },
+  "opt_guide_introduction_inverted_section_conditions_text": {
+    "message": "$O_BOLD$Conditions$C_BOLD$ - Only renders the contents if the value is $O_EMPH$falsey$C_EMPH$",
+    "description": "Text for the Conditions item in the list within the Inverted Section area on the Guide tab of the Options page under the Introduction section.",
+    "placeholders": {
+      "c_bold": {
+        "content": "</strong>",
+        "example": "</strong>"
+      },
+      "c_emph": {
+        "content": "</em>",
+        "example": "</em>"
+      },
+      "o_bold": {
+        "content": "<strong>",
+        "example": "<strong>"
+      },
+      "o_emph": {
+        "content": "<em>",
+        "example": "<em>"
+      }
+    }
+  },
+  "opt_guide_introduction_inverted_section_header": {
+    "message": "Inverted Section",
+    "description": "Header for the Inverted Section area on the Guide tab of the Options page under the Introduction section."
+  },
+  "opt_guide_introduction_inverted_section_iterating_text": {
+    "message": "$O_BOLD$Iterating$C_BOLD$ - Only renders the contents if the value is an empty list",
+    "description": "Text for the Iterating item in the list within the Inverted Section area on the Guide tab of the Options page under the Introduction section.",
+    "placeholders": {
+      "c_bold": {
+        "content": "</strong>",
+        "example": "</strong>"
+      },
+      "o_bold": {
+        "content": "<strong>",
+        "example": "<strong>"
+      }
+    }
+  },
+  "opt_guide_introduction_inverted_section_text": {
+    "message": "Inverted sections are very similar to normal sections but are written like this $SYNTAX$ and can be used in for the following purposes;",
+    "description": "Text for the Inverted Section area on the Guide tab of the Options page under the Introduction section.",
+    "placeholders": {
+      "syntax": {
+        "content": "<code>{^name}...{/name}</code>",
+        "example": "{^name}...{/name}"
+      }
+    }
+  },
+  "opt_guide_introduction_notes_text_1": {
+    "message": "If you are having problems with understanding this guide please $O_LINK_HELP_DESK$let us know$C_LINK$ and we will try to help you and take your comments on board, updating the documentation if required.",
+    "description": "1st paragraph for the Notes area on the Guide tab of the Options page under the Introduction section.",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_link_help_desk": {
+        "content": "<a href=\"http://template.uservoice.com/\" target=\"_blank\">",
+        "example": "<a href=\"http://template.uservoice.com/\">"
+      }
+    }
+  },
+  "opt_guide_introduction_notes_text_2": {
+    "message": "If you encounter any problems while using $O_BOLD$Template$C_BOLD$ and/or would like to see a change or addition, please $O_LINK_HELP_DESK$raise a ticket$C_LINK$ and we will have a look at it.",
+    "description": "2nd paragraph for the Notes area on the Guide tab of the Options page under the Introduction section.",
+    "placeholders": {
+      "c_bold": {
+        "content": "</strong>",
+        "example": "</strong>"
+      },
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_bold": {
+        "content": "<strong>",
+        "example": "<strong>"
+      },
+      "o_link_help_desk": {
+        "content": "<a href=\"http://template.uservoice.com/\" target=\"_blank\">",
+        "example": "<a href=\"http://template.uservoice.com/\">"
+      }
+    }
+  },
+  "opt_guide_introduction_notes_text_3": {
+    "message": "For more examples, try looking at the predefined templates.",
+    "description": "3rd paragraph for the Notes area on the Guide tab of the Options page under the Introduction section."
+  },
+  "opt_guide_introduction_section_access_text": {
+    "message": "$O_BOLD$Access$C_BOLD$ - If the value is an object it will render the contents while exposing the properties of that object as variables",
+    "description": "Text for the Access item in the list within the Section area on the Guide tab of the Options page under the Introduction section.",
+    "placeholders": {
+      "c_bold": {
+        "content": "</strong>",
+        "example": "</strong>"
+      },
+      "o_bold": {
+        "content": "<strong>",
+        "example": "<strong>"
+      }
+    }
+  },
+  "opt_guide_introduction_section_conditions_text": {
+    "message": "$O_BOLD$Conditions$C_BOLD$ - Only renders the contents if the value is $O_EMPH$truey$C_EMPH$",
+    "description": "Text for the Conditions item in the list within the Section area on the Guide tab of the Options page under the Introduction section.",
+    "placeholders": {
+      "c_bold": {
+        "content": "</strong>",
+        "example": "</strong>"
+      },
+      "c_emph": {
+        "content": "</em>",
+        "example": "</em>"
+      },
+      "o_bold": {
+        "content": "<strong>",
+        "example": "<strong>"
+      },
+      "o_emph": {
+        "content": "<em>",
+        "example": "<em>"
+      }
+    }
+  },
+  "opt_guide_introduction_section_header": {
+    "message": "Section",
+    "description": "Header for the Section area on the Guide tab of the Options page under the Introduction section."
+  },
+  "opt_guide_introduction_section_iterating_text": {
+    "message": "$O_BOLD$Iterating$C_BOLD$ - If the value is an array it will render the contents for each enumerable item of that value",
+    "description": "Text for the Iteration item in the list within the Section area on the Guide tab of the Options page under the Introduction section.",
+    "placeholders": {
+      "c_bold": {
+        "content": "</strong>",
+        "example": "</strong>"
+      },
+      "o_bold": {
+        "content": "<strong>",
+        "example": "<strong>"
+      }
+    }
+  },
+  "opt_guide_introduction_section_operations_text": {
+    "message": "$O_BOLD$Operations$C_BOLD$ - Renders the outcome of the operation, passing the contents as the argument",
+    "description": "Text for the Operations item in the list within the Section area on the Guide tab of the Options page under the Introduction section.",
+    "placeholders": {
+      "c_bold": {
+        "content": "</strong>",
+        "example": "</strong>"
+      },
+      "o_bold": {
+        "content": "<strong>",
+        "example": "<strong>"
+      }
+    }
+  },
+  "opt_guide_introduction_section_text": {
+    "message": "Sections are always surrounded by opening and closing tags like this $SYNTAX$ and can be used for the following purposes;",
+    "description": "Text for the Section area on the Guide tab of the Options page under the Introduction section.",
+    "placeholders": {
+      "syntax": {
+        "content": "<code>{#name}...{/name}</code>",
+        "example": "{#name}...{/name}"
+      }
+    }
+  },
+  "opt_guide_introduction_simple_tag_header": {
+    "message": "Simple Tag",
+    "description": "Header for the Simple Tag area on the Guide tab of the Options page under the Introduction section."
+  },
+  "opt_guide_introduction_simple_tag_text_1": {
+    "message": "Tags are always surrounded by curly braces like this $SYNTAX$ and output the value of the named variable. If that value is undefined or $O_EMPH$falsey$C_EMPH$ it will simply be deleted.",
+    "description": "1st paragraph for the Simple Tag area on the Guide tab of the Options page under the Introduction section.",
+    "placeholders": {
+      "c_emph": {
+        "content": "</em>",
+        "example": "</em>"
+      },
+      "o_emph": {
+        "content": "<em>",
+        "example": "<em>"
+      },
+      "syntax": {
+        "content": "<code>{name}</code>",
+        "example": "{name}"
+      }
+    }
+  },
+  "opt_guide_introduction_simple_tag_text_2": {
+    "message": "Values are not escaped by default and, in order to do so, you must either use double braces like $SYNTAX_DOUBLE$ or a leading ampersand like $SYNTAX_AMP$. This will escape $CHARACTERS$ characters so that the final output can be safely copied in to $O_ABBR_1$Extensible Markup Language$O_ABBR_2$XML$C_ABBR$ and $O_ABBR_1$Hyper Text Markup Language$O_ABBR_2$HTML$C_ABBR$.",
+    "description": "2nd paragraph for the Simple Tag area on the Guide tab of the Options page under the Introduction section.",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "characters": {
+        "content": "<code>&amp;</code> <code>&lt;</code> <code>&gt;</code> <code>&quot;</code> <code>&#39;</code>",
+        "example": "& < > \" '"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      },
+      "syntax_amp": {
+        "content": "<code>{&amp;name}</code>",
+        "example": "{&name}"
+      },
+      "syntax_double": {
+        "content": "<code>{{name}}</code>",
+        "example": "{{name}}"
+      }
+    }
+  },
+  "opt_guide_introduction_text": {
+    "message": "$O_BOLD$Template$C_BOLD$ uses an advanced, yet simple, template system to allows you to create and modify the content to be copied to the clipboard. The syntax is really straight-forward and consists of the following categories;",
+    "description": "Header for the Introductions section on the Guide tab of the Options page.",
+    "placeholders": {
+      "c_bold": {
+        "content": "</strong>",
+        "example": "</strong>"
+      },
+      "o_bold": {
+        "content": "<strong>",
+        "example": "<strong>"
+      }
+    }
+  },
+  "opt_guide_lists_objects_cookies_text": {
+    "message": "The names of all cookies associated with the page",
+    "description": "Description of the cookies variable on the Guide tab of the Options page under the Lists & Objects section."
+  },
+  "opt_guide_lists_objects_coords_text": {
+    "message": "The properties of your current physical location (e.g. $EXAMPLE_1$, $EXAMPLE_2$ and many more)",
+    "description": "Description of the coords variable on the Guide tab of the Options page under the Lists & Objects section.",
+    "placeholders": {
+      "example_1": {
+        "content": "<em>latitude</em>",
+        "example": "latitude"
+      },
+      "example_2": {
+        "content": "<em>longitude</em>",
+        "example": "longitude"
+      }
+    }
+  },
+  "opt_guide_lists_objects_examples_code_1": {
+    "message": "$URL$",
+    "description": "Text for the 1st code block in the Examples area on the Guide tab of the Options page under the Lists & Objects section.",
+    "placeholders": {
+      "url": {
+        "content": "http://example.com/test/index.html?foo=bar&amp;fu=baz",
+        "example": "http://example.com/test/index.html?foo=bar&fu=baz"
+      }
+    }
+  },
+  "opt_guide_lists_objects_examples_code_2": {
+    "message": "Follow the breadcrumbs;\n$SYNTAX$",
+    "description": "Text for the 2nd code block in the Examples area on the Guide tab of the Options page under the Lists & Objects section.",
+    "placeholders": {
+      "syntax": {
+        "content": "{#segments}\n * {.}\n{/segments}",
+        "example": "{#segments}\n * {.}\n{/segments}"
+      }
+    }
+  },
+  "opt_guide_lists_objects_examples_code_3": {
+    "message": "Follow the breadcrumbs;\n$LIST$",
+    "description": "Text for the 3rd code block in the Examples area on the Guide tab of the Options page under the Lists & Objects section.",
+    "placeholders": {
+      "list": {
+        "content": " * test\n * index.html",
+        "example": " * test\n * index.html"
+      }
+    }
+  },
+  "opt_guide_lists_objects_examples_code_4": {
+    "message": "$SYNTAX_1$$PARAM_1$ is &quot;{$PARAM_1$}&quot; and $PARAM_2$ is &quot;{$PARAM_2$}&quot;.$SYNTAX_3$\n$SYNTAX_2$No parameters could be found!$SYNTAX_3$",
+    "description": "Text for the 4th code block in the Examples area on the Guide tab of the Options page under the Lists & Objects section.",
+    "placeholders": {
+      "param_1": {
+        "content": "foo",
+        "example": "foo"
+      },
+      "param_2": {
+        "content": "fu",
+        "example": "fu"
+      },
+      "syntax_1": {
+        "content": "{#params}",
+        "example": "{#params}"
+      },
+      "syntax_2": {
+        "content": "{^params}",
+        "example": "{^params}"
+      },
+      "syntax_3": {
+        "content": "{/params}",
+        "example": "{/params}"
+      }
+    }
+  },
+  "opt_guide_lists_objects_examples_code_5": {
+    "message": "$PARAM_1$ is &quot;$VALUE_1$&quot; and $PARAM_2$ is &quot;$VALUE_2$&quot;.",
+    "description": "Text for the 5th code block in the Examples area on the Guide tab of the Options page under the Lists & Objects section.",
+    "placeholders": {
+      "param_1": {
+        "content": "foo",
+        "example": "foo"
+      },
+      "param_2": {
+        "content": "fu",
+        "example": "fu"
+      },
+      "value_1": {
+        "content": "bar",
+        "example": "bar"
+      },
+      "value_2": {
+        "content": "baz",
+        "example": "baz"
+      }
+    }
+  },
+  "opt_guide_lists_objects_examples_code_6": {
+    "message": "$PARAM_1$ is &quot;{$SYNTAX$$PARAM_1$}&quot; and $PARAM_2$ is &quot;{$SYNTAX$$PARAM_2$}&quot;.",
+    "description": "Text for the 6th code block in the Examples area on the Guide tab of the Options page under the Lists & Objects section.",
+    "placeholders": {
+      "param_1": {
+        "content": "foo",
+        "example": "foo"
+      },
+      "param_2": {
+        "content": "fu",
+        "example": "fu"
+      },
+      "syntax": {
+        "content": "params.",
+        "example": "params."
+      }
+    }
+  },
+  "opt_guide_lists_objects_examples_code_7": {
+    "message": "No parameters could be found!",
+    "description": "Text for the 7th code block in the Examples area on the Guide tab of the Options page under the Lists & Objects section."
+  },
+  "opt_guide_lists_objects_examples_code_8": {
+    "message": "The site has following information stored;\n$SYNTAX$",
+    "description": "Text for the 8th code block in the Examples area on the Guide tab of the Options page under the Lists & Objects section.",
+    "placeholders": {
+      "syntax": {
+        "content": "{#cookies}\n * {.} = &quot;{#cookie}{.}{/cookie}&quot;\n{/cookies}",
+        "example": "{#cookies}\n * {.} = \"{#cookie}{.}{/cookie}\"\n{/cookies}"
+      }
+    }
+  },
+  "opt_guide_lists_objects_examples_code_9": {
+    "message": "The site has following information stored;\n$LIST$",
+    "description": "Text for the 9th code block in the Examples area on the Guide tab of the Options page under the Lists & Objects section.",
+    "placeholders": {
+      "list": {
+        "content": " * JSESSIONID = &quot;2pkffy9ivmpfwntf12y6o4cgu&quot;\n * __utmc = &quot;224978569&quot;",
+        "example": " * JSESSIONID = \"2pkffy9ivmpfwntf12y6o4cgu\"\n * __utmc = \"224978569\""
+      }
+    }
+  },
+  "opt_guide_lists_objects_examples_code_10": {
+    "message": "$SYNTAX_1$View Larger Map$SYNTAX_2$",
+    "description": "Text for the 10th code block in the Examples area on the Guide tab of the Options page under the Lists & Objects section.",
+    "placeholders": {
+      "syntax_1": {
+        "content": "{#coords}\n&lt;iframe width=&quot;425&quot; height=&quot;350&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; marginheight=&quot;0&quot; marginwidth=&quot;0&quot; src=&quot;http://maps.google.com/maps?ll={latitude},{longitude}&amp;output=embed&quot;&gt;&lt;/iframe&gt;\n&lt;br&gt;\n&lt;small&gt;&lt;a href=&quot;http://maps.google.com/maps?ll={latitude},{longitude}&amp;source=embed&quot;&gt;",
+        "example": "{#coords}\n<iframe width=\"425\" height=\"350\" frameborder=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\" src=\"http://maps.google.com/maps?ll={latitude},{longitude}&output=embed\"></iframe>\n<br>\n<small><a href=\"http://maps.google.com/maps?ll={latitude},{longitude}&source=embed\">"
+      },
+      "syntax_2": {
+        "content": "&lt;/a&gt;&lt;/small&gt;\n{/coords}",
+        "example": "</a></small>\n{/coords}"
+      }
+    }
+  },
+  "opt_guide_lists_objects_examples_text_1": {
+    "message": "These examples will be using the following $O_ABBR_1$Uniform Resource Locator$O_ABBR_2$URL$C_ABBR$;",
+    "description": "Text for the 1st paragraph in the Examples area on the Guide tab of the Options page under the Lists & Objects section.",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      }
+    }
+  },
+  "opt_guide_lists_objects_examples_text_2": {
+    "message": "As it's a list, you can do the following to iterate over all the $SEGMENTS_LABEL$;",
+    "description": "Text for the 2nd paragraph in the Examples area on the Guide tab of the Options page under the Lists & Objects section.",
+    "placeholders": {
+      "segments_label": {
+        "content": "<span class=\"label\">segments</span>",
+        "example": "segments"
+      }
+    }
+  },
+  "opt_guide_lists_objects_examples_text_3": {
+    "message": "Would output the following;",
+    "description": "Text for the 3rd paragraph in the Examples area on the Guide tab of the Options page under the Lists & Objects section."
+  },
+  "opt_guide_lists_objects_examples_text_4": {
+    "message": "In order to access the properties of an object it couldn't be any easier than this;",
+    "description": "Text for the 4th paragraph in the Examples area on the Guide tab of the Options page under the Lists & Objects section."
+  },
+  "opt_guide_lists_objects_examples_text_5": {
+    "message": "This would output the following;",
+    "description": "Text for the 5th paragraph in the Examples area on the Guide tab of the Options page under the Lists & Objects section."
+  },
+  "opt_guide_lists_objects_examples_text_6": {
+    "message": "Alternatively, this could be achieved using dot notation as follows;",
+    "description": "Text for the 6th paragraph in the Examples area on the Guide tab of the Options page under the Lists & Objects section."
+  },
+  "opt_guide_lists_objects_examples_text_7": {
+    "message": "However, if the query string was empty it would output this instead;",
+    "description": "Text for the 7th paragraph in the Examples area on the Guide tab of the Options page under the Lists & Objects section."
+  },
+  "opt_guide_lists_objects_examples_text_8": {
+    "message": "Using the following you can access the name and values of all available cookies;",
+    "description": "Text for the 8th paragraph in the Examples area on the Guide tab of the Options page under the Lists & Objects section."
+  },
+  "opt_guide_lists_objects_examples_text_9": {
+    "message": "This will output in something like the following;",
+    "description": "Text for the 9th paragraph in the Examples area on the Guide tab of the Options page under the Lists & Objects section."
+  },
+  "opt_guide_lists_objects_examples_text_10": {
+    "message": "If you would like to embed a map of your current location (e.g. in a blog post) try the following snippet;",
+    "description": "Text for the 10th paragraph in the Examples area on the Guide tab of the Options page under the Lists & Objects section."
+  },
+  "opt_guide_lists_objects_fparams_text": {
+    "message": "The key/value pairs of all parameters within the hash fragment (e.g. fragment $EXAMPLE_1$ contains $EXAMPLE_2$ and $EXAMPLE_3$)",
+    "description": "Description of the fparams variable on the Guide tab of the Options page under the Lists & Objects section.",
+    "placeholders": {
+      "example_1": {
+        "content": "<code>foo=bar&amp;fu=baz</code>",
+        "example": "foo=bar&fu=baz"
+      },
+      "example_2": {
+        "content": "<em>foo</em>",
+        "example": "foo"
+      },
+      "example_3": {
+        "content": "<em>fu</em>",
+        "example": "fu"
+      }
+    }
+  },
+  "opt_guide_lists_objects_fsegments_text": {
+    "message": "The segments from the hash fragment's path",
+    "description": "Description of the fsegments variable on the Guide tab of the Options page under the Lists & Objects section."
+  },
+  "opt_guide_lists_objects_header": {
+    "message": "Lists &amp; Objects",
+    "description": "Header for the Lists & Objects section on the Guide tab of the Options page."
+  },
+  "opt_guide_lists_objects_images_text": {
+    "message": "The $O_ABBR_1$Uniform Resource Locator$O_ABBR_2$URL$C_ABBR$s of all images on the page",
+    "description": "Description of the images variable on the Guide tab of the Options page under the Lists & Objects section.",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      }
+    }
+  },
+  "opt_guide_lists_objects_keywords_text": {
+    "message": "The keywords from the page's meta information",
+    "description": "Description of the keywords variable on the Guide tab of the Options page under the Lists & Objects section."
+  },
+  "opt_guide_lists_objects_links_text": {
+    "message": "The $O_ABBR_1$Uniform Resource Locator$O_ABBR_2$URL$C_ABBR$s of all links on the page",
+    "description": "Description of the links variable on the Guide tab of the Options page under the Lists & Objects section.",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      }
+    }
+  },
+  "opt_guide_lists_objects_local_storage_text": {
+    "message": "The items stored in the $LOCAL_STORAGE$ of the page",
+    "description": "Description of the localStorage variable on the Guide tab of the Options page under the Lists & Objects section.",
+    "placeholders": {
+      "local_storage": {
+        "content": "<code>localStorage</code>",
+        "example": "localStorage"
+      }
+    }
+  },
+  "opt_guide_lists_objects_params_text": {
+    "message": "The key/value pairs of all parameters (e.g. query $EXAMPLE_1$ contains $EXAMPLE_2$ and $EXAMPLE_3$)",
+    "description": "Description of the params variable on the Guide tab of the Options page under the Lists & Objects section.",
+    "placeholders": {
+      "example_1": {
+        "content": "<code>foo=bar&amp;fu=baz</code>",
+        "example": "foo=bar&fu=baz"
+      },
+      "example_2": {
+        "content": "<em>foo</em>",
+        "example": "foo"
+      },
+      "example_3": {
+        "content": "<em>fu</em>",
+        "example": "fu"
+      }
+    }
+  },
+  "opt_guide_lists_objects_plugins_text": {
+    "message": "The names of all enabled browser plugins (e.g. $EXAMPLE$)",
+    "description": "Description of the plugins variable on the Guide tab of the Options page under the Lists & Objects section.",
+    "placeholders": {
+      "example": {
+        "content": "<em>Shockwave Flash</em>",
+        "example": "Shockwave Flash"
+      }
+    }
+  },
+  "opt_guide_lists_objects_popular_text": {
+    "message": "The properties of your most popular template (e.g. $EXAMPLE_1$, $EXAMPLE_2$, $EXAMPLE_3$ and many more)",
+    "description": "Description of the popular variable on the Guide tab of the Options page under the Lists & Objects section.",
+    "placeholders": {
+      "example_1": {
+        "content": "<em>title</em>",
+        "example": "title"
+      },
+      "example_2": {
+        "content": "<em>content</em>",
+        "example": "content"
+      },
+      "example_3": {
+        "content": "<em>shortcut</em>",
+        "example": "shortcut"
+      }
+    }
+  },
+  "opt_guide_lists_objects_scripts_text": {
+    "message": "The $O_ABBR_1$Uniform Resource Locator$O_ABBR_2$URL$C_ABBR$s of all external script used by the page",
+    "description": "Description of the scripts variable on the Guide tab of the Options page under the Lists & Objects section.",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      }
+    }
+  },
+  "opt_guide_lists_objects_segments_text": {
+    "message": "The segments from the $O_ABBR_1$Uniform Resource Locator$O_ABBR_2$URL$C_ABBR$'s path",
+    "description": "Description of the segments variable on the Guide tab of the Options page under the Lists & Objects section.",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      }
+    }
+  },
+  "opt_guide_lists_objects_selected_images_text": {
+    "message": "The $O_ABBR_1$Uniform Resource Locator$O_ABBR_2$URL$C_ABBR$s of all images within the current selection",
+    "description": "Description of the selectedImages variable on the Guide tab of the Options page under the Lists & Objects section.",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      }
+    }
+  },
+  "opt_guide_lists_objects_selected_links_text": {
+    "message": "The $O_ABBR_1$Uniform Resource Locator$O_ABBR_2$URL$C_ABBR$s of all links within the current selection",
+    "description": "Description of the selectedLinks variable on the Guide tab of the Options page under the Lists & Objects section.",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      }
+    }
+  },
+  "opt_guide_lists_objects_session_storage_text": {
+    "message": "The items stored in the $SESSION_STORAGE$ of the page",
+    "description": "Description of the sessionStorage variable on the Guide tab of the Options page under the Lists & Objects section.",
+    "placeholders": {
+      "session_storage": {
+        "content": "<code>sessionStorage</code>",
+        "example": "sessionStorage"
+      }
+    }
+  },
+  "opt_guide_lists_objects_style_sheets_text": {
+    "message": "The $O_ABBR_1$Uniform Resource Locator$O_ABBR_2$URL$C_ABBR$s of all external $O_ABBR_1$Cascading Style Sheets$O_ABBR_2$CSS$C_ABBR$ resources used by the page",
+    "description": "Description of the styleSheets variable on the Guide tab of the Options page under the Lists & Objects section.",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      }
+    }
+  },
+  "opt_guide_lists_objects_tabs_text": {
+    "message": "The $O_ABBR_1$Uniform Resource Locator$O_ABBR_2$URL$C_ABBR$s of all tabs open in the current window",
+    "description": "Description of the tabs variable on the Guide tab of the Options page under the Lists & Objects section.",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      }
+    }
+  },
+  "opt_guide_lists_objects_template_text": {
+    "message": "The properties of the activated template (e.g. $EXAMPLE_1$, $EXAMPLE_2$, $EXAMPLE_3$ and many more)",
+    "description": "Description of the template variable on the Guide tab of the Options page under the Lists & Objects section.",
+    "placeholders": {
+      "example_1": {
+        "content": "<em>title</em>",
+        "example": "title"
+      },
+      "example_2": {
+        "content": "<em>image</em>",
+        "example": "image"
+      },
+      "example_3": {
+        "content": "<em>usage</em>",
+        "example": "usage"
+      }
+    }
+  },
+  "opt_guide_lists_objects_text": {
+    "message": "$O_BOLD$Lists &amp; Objects$C_BOLD$ are generally accessed using sections (including inverted) to iterate over and access properties respectively. However, simple tags can be used to output the contents of a list or the properties of an object in $O_ABBR_1$Comma-Separated Values$O_ABBR_2$CSV$C_ABBR$ format.",
+    "description": "Text for the Lists & Objects section on the Guide tab of the Options page.",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "c_bold": {
+        "content": "</strong>",
+        "example": "</strong>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      },
+      "o_bold": {
+        "content": "<strong>",
+        "example": "<strong>"
+      }
+    }
+  },
+  "opt_guide_name_header": {
+    "message": "Name",
+    "description": "Header for the Name column on the Guide tab of the Options page under all of the specific sections."
+  },
+  "opt_guide_new_text": {
+    "message": "New",
+    "description": "Label for new variables on the Guide tab of the Options page under all of the specific sections."
+  },
+  "opt_guide_notes_header": {
+    "message": "Notes",
+    "description": "Header for the Notes area on the Guide tab of the Options page under some sections."
+  },
+  "opt_guide_operations_capitalise_name": {
+    "message": "capitalise",
+    "description": "Name of the capitalise variable on the Guide tab of the Options page under the Operations section."
+  },
+  "opt_guide_operations_capitalise_text": {
+    "message": "Transform the text provided into title case",
+    "description": "Description of the capitalise variable on the Guide tab of the Options page under the Operations section."
+  },
+  "opt_guide_operations_cookie_text": {
+    "message": "Get the value for the cookie with the name provided",
+    "description": "Description of the cookie variable on the Guide tab of the Options page under the Operations section."
+  },
+  "opt_guide_operations_date_time_text_1": {
+    "message": "Format the current date &amp; time using the pattern provided",
+    "description": "1st line of the description of the dateTime variable on the Guide tab of the Options page under the Operations section."
+  },
+  "opt_guide_operations_date_time_text_2": {
+    "message": "(see $O_LINK_PHP_DATE$$O_ABBR_1$Hypertext Preprocessor$O_ABBR_2$PHP$C_ABBR$s date$C_LINK$ for more details)",
+    "description": "2nd line of the description of the dateTime variable on the Guide tab of the Options page under the Operations section.",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      },
+      "o_link_php_date": {
+        "content": "<a href=\"http://php.net/manual/en/function.date.php#refsect1-function.date-parameters\" target=\"_blank\">",
+        "example": "<a href=\"http://php.net/manual/en/function.date.php#refsect1-function.date-parameters\">"
+      }
+    }
+  },
+  "opt_guide_operations_decode_text": {
+    "message": "Decode the previously encoded text provided",
+    "description": "Description of the decode variable on the Guide tab of the Options page under the Operations section."
+  },
+  "opt_guide_operations_encode_text": {
+    "message": "Encode the text provided so that it can be safely used in a query string",
+    "description": "Description of the encode variable on the Guide tab of the Options page under the Operations section."
+  },
+  "opt_guide_operations_escape_text": {
+    "message": "Escape the text provided so that it can be safely inserted into $O_ABBR_1$HyperText Markup Language$O_ABBR_2$HTML$C_ABBR$",
+    "description": "Description of the escape variable on the Guide tab of the Options page under the Operations section.",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      }
+    }
+  },
+  "opt_guide_operations_examples_code_1": {
+    "message": "$URL$",
+    "description": "Text for the 1st code block in the Examples area on the Guide tab of the Options page under the Operations section.",
+    "placeholders": {
+      "url": {
+        "content": "http://example.com/test/index.html?foo=bar&amp;fu=baz",
+        "example": "http://example.com/test/index.html?foo=bar&fu=baz"
+      }
+    }
+  },
+  "opt_guide_operations_examples_code_2": {
+    "message": "Today is $SYNTAX$.",
+    "description": "Text for the 2nd code block in the Examples area on the Guide tab of the Options page under the Operations section.",
+    "placeholders": {
+      "syntax": {
+        "content": "{#dateTime}Y-m-d\\TH:i:sP{/dateTime}",
+        "example": "{#dateTime}Y-m-d\\TH:i:sP{/dateTime}"
+      }
+    }
+  },
+  "opt_guide_operations_examples_code_3": {
+    "message": "$URL$",
+    "description": "Text for the 3rd code block in the Examples area on the Guide tab of the Options page under the Operations section.",
+    "placeholders": {
+      "url": {
+        "content": "http://example.com/something.do?url={#encode}{url}{/encode}",
+        "example": "http://example.com/something.do?url={#encode}{url}{/encode}"
+      }
+    }
+  },
+  "opt_guide_operations_examples_code_4": {
+    "message": "$URL$",
+    "description": "Text for the 4th code block in the Examples area on the Guide tab of the Options page under the Operations section.",
+    "placeholders": {
+      "url": {
+        "content": "http://example.com/something.do?url=http%3A%2F%2Fexample.com%2Ftest%2Findex.html%3Ffoo%3Dbar%26fu%3Dbaz",
+        "example": "http://example.com/something.do?url=http%3A%2F%2Fexample.com%2Ftest%2Findex.html%3Ffoo%3Dbar%26fu%3Dbaz"
+      }
+    }
+  },
+  "opt_guide_operations_examples_code_5": {
+    "message": "I am currently viewing $SYNTAX$.",
+    "description": "Text for the 5th code block in the Examples area on the Guide tab of the Options page under the Operations section.",
+    "placeholders": {
+      "syntax": {
+        "content": "&quot;{#segment}-1{/segment}&quot;",
+        "example": "\"{#segment}-1{/segment}\""
+      }
+    }
+  },
+  "opt_guide_operations_examples_code_6": {
+    "message": "I am currently viewing $SYNTAX$.",
+    "description": "Text for the 6th code block in the Examples area on the Guide tab of the Options page under the Operations section.",
+    "placeholders": {
+      "syntax": {
+        "content": "&quot;index.html&quot;",
+        "example": "\"index.html\""
+      }
+    }
+  },
+  "opt_guide_operations_examples_code_7": {
+    "message": "The value of $PARAM$ is $SYNTAX_1$$PARAM$$SYNTAX_2$.",
+    "description": "Text for the 7th code block in the Examples area on the Guide tab of the Options page under the Operations section.",
+    "placeholders": {
+      "param": {
+        "content": "foo",
+        "example": "foo"
+      },
+      "syntax_1": {
+        "content": "&quot;{#param}",
+        "example": "\"{#param}"
+      },
+      "syntax_2": {
+        "content": "{/param}&quot;",
+        "example": "{/param}\""
+      }
+    }
+  },
+  "opt_guide_operations_examples_code_8": {
+    "message": "The value of $PARAM$ is $SYNTAX$.",
+    "description": "Text for the 8th code block in the Examples area on the Guide tab of the Options page under the Operations section.",
+    "placeholders": {
+      "param": {
+        "content": "foo",
+        "example": "foo"
+      },
+      "syntax": {
+        "content": "&quot;bar&quot;",
+        "example": "\"bar\""
+      }
+    }
+  },
+  "opt_guide_operations_examples_text_1": {
+    "message": "These examples will be using the following $O_ABBR_1$Uniform Resource Locator$O_ABBR_2$URL$C_ABBR$;",
+    "description": "Text for the 1st paragraph in the Examples area on the Guide tab of the Options page under the Operations section.",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      }
+    }
+  },
+  "opt_guide_operations_examples_text_2": {
+    "message": "To output the current date &amp; time in $O_LINK_ISO_8601$ISO 8601$C_LINK$ format you would use;",
+    "description": "Text for the 2nd paragraph in the Examples area on the Guide tab of the Options page under the Operations section.",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_link_iso_8601": {
+        "content": "<a href=\"http://en.wikipedia.org/wiki/ISO_8601\" target=\"_blank\">",
+        "example": "<a href=\"http://en.wikipedia.org/wiki/ISO_8601\">"
+      }
+    }
+  },
+  "opt_guide_operations_examples_text_3": {
+    "message": "Also, the $O_EMPH$c$C_EMPH$ parameter would also have the same outcome in this case. If you wanted to safely pass the whole $O_ABBR_1$Uniform Resource Locator$O_ABBR_2$URL$C_ABBR$ as a parameter in a query string;",
+    "description": "Text for the 3rd paragraph in the Examples area on the Guide tab of the Options page under the Operations section.",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "c_emph": {
+        "content": "</em>",
+        "example": "</em>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      },
+      "o_emph": {
+        "content": "<em>",
+        "example": "<em>"
+      }
+    }
+  },
+  "opt_guide_operations_examples_text_4": {
+    "message": "This escapes all of the necessary characters within $O_ABBR_1$Uniform Resource Locator$O_ABBR_2$URL$C_ABBR$ and outputs the following;",
+    "description": "Text for the 4th paragraph in the Examples area on the Guide tab of the Options page under the Operations section.",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      }
+    }
+  },
+  "opt_guide_operations_examples_text_5": {
+    "message": "To access the last segment of the $O_ABBR_1$Uniform Resource Locator$O_ABBR_2$URL$C_ABBR$'s path;",
+    "description": "Text for the 5th paragraph in the Examples area on the Guide tab of the Options page under the Operations section.",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      }
+    }
+  },
+  "opt_guide_operations_examples_text_6": {
+    "message": "Would render the following output;",
+    "description": "Text for the 6th paragraph in the Examples area on the Guide tab of the Options page under the Operations section."
+  },
+  "opt_guide_operations_examples_text_7": {
+    "message": "Accessing the value of the $PARAM$ parameter is as simple as the following;",
+    "description": "Text for the 7th paragraph in the Examples area on the Guide tab of the Options page under the Operations section.",
+    "placeholders": {
+      "param": {
+        "content": "<em>foo</em>",
+        "example": "foo"
+      }
+    }
+  },
+  "opt_guide_operations_examples_text_8": {
+    "message": "This would cause the following output to be rendered;",
+    "description": "Text for the 8th paragraph in the Examples area on the Guide tab of the Options page under the Operations section."
+  },
+  "opt_guide_operations_fparam_text": {
+    "message": "Get the value of the parameter provided from within the hash fragment",
+    "description": "Description of the fparam variable on the Guide tab of the Options page under the Operations section."
+  },
+  "opt_guide_operations_fsegment_text": {
+    "message": "Get the segment at the index provided from within the hash fragment",
+    "description": "Description of the fsegment variable on the Guide tab of the Options page under the Operations section."
+  },
+  "opt_guide_operations_header": {
+    "message": "Operations",
+    "description": "Header for the Operations section on the Guide tab of the Options page."
+  },
+  "opt_guide_operations_last_modified_text_1": {
+    "message": "Format the last modified date &amp; time of the page using the pattern provided",
+    "description": "1st line of the description of the lastModified variable on the Guide tab of the Options page under the Operations section."
+  },
+  "opt_guide_operations_last_modified_text_2": {
+    "message": "(see $O_LINK_PHP_DATE$$O_ABBR_1$Hypertext Preprocessor$O_ABBR_2$PHP$C_ABBR$s date$C_LINK$ for more details)",
+    "description": "2nd line of the description of the lastModified variable on the Guide tab of the Options page under the Operations section.",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      },
+      "o_link_php_date": {
+        "content": "<a href=\"http://php.net/manual/en/function.date.php#refsect1-function.date-parameters\" target=\"_blank\">",
+        "example": "<a href=\"http://php.net/manual/en/function.date.php#refsect1-function.date-parameters\">"
+      }
+    }
+  },
+  "opt_guide_operations_length_text": {
+    "message": "Get the character length of the text provided",
+    "description": "Description of the length variable on the Guide tab of the Options page under the Operations section."
+  },
+  "opt_guide_operations_lower_case_text": {
+    "message": "Transform the text provided into lower case",
+    "description": "Description of the lowerCase variable on the Guide tab of the Options page under the Operations section."
+  },
+  "opt_guide_operations_meta_text": {
+    "message": "Get the content of the page's meta information with the text provided",
+    "description": "Description of the meta variable on the Guide tab of the Options page under the Operations section."
+  },
+  "opt_guide_operations_notes_text_1": {
+    "message": "The following notes only apply to $SEGMENT_LABEL$ and $FSEGMENT_LABEL$ operations;",
+    "description": "1st paragraph for the Notes area on the Guide tab of the Options page under the Operations section.",
+    "placeholders": {
+      "fsegment_label": {
+        "content": "<span class=\"label\">fsegment</span>",
+        "example": "fsegment"
+      },
+      "segment_label": {
+        "content": "<span class=\"label\">segment</span>",
+        "example": "segment"
+      }
+    }
+  },
+  "opt_guide_operations_notes_text_2": {
+    "message": "The count is not zero-indexed like an array (e.g. $SYNTAX$ returns the first segment)",
+    "description": "Text for the 1st list item in the Notes area on the Guide tab of the Options page under the Operations section.",
+    "placeholders": {
+      "syntax": {
+        "content": "<code>{#segment}1{/segment}</code>",
+        "example": "{#segment}1{/segment}"
+      }
+    }
+  },
+  "opt_guide_operations_notes_text_3": {
+    "message": "The argument can be negative values, in which case it will count back from the end of the path rather than forwards from the start",
+    "description": "Text for the 2nd list item in the Notes area on the Guide tab of the Options page under the Operations section."
+  },
+  "opt_guide_operations_param_text": {
+    "message": "Get the value of the parameter provided",
+    "description": "Description of the param variable on the Guide tab of the Options page under the Operations section."
+  },
+  "opt_guide_operations_segment_text": {
+    "message": "Get the segment at the index provided",
+    "description": "Description of the segment variable on the Guide tab of the Options page under the Operations section."
+  },
+  "opt_guide_operations_select_all_html_text": {
+    "message": "Concatenate the $O_ABBR_1$HyperText Markup Language$O_ABBR_2$HTML$C_ABBR$ contents of all matching elements",
+    "description": "Description of the selectAllHTML variable on the Guide tab of the Options page under the Operations section.",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      }
+    }
+  },
+  "opt_guide_operations_select_all_markdown_text": {
+    "message": "Concatenate the contents of all matching elements as $O_LINK_MARKDOWN$Markdown$C_LINK$",
+    "description": "Description of the selectAllMarkdown variable on the Guide tab of the Options page under the Operations section.",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_link_markdown": {
+        "content": "<a href=\"http://en.wikipedia.org/wiki/Markdown\" target=\"_blank\">",
+        "example": "<a href=\"http://en.wikipedia.org/wiki/Markdown\">"
+      }
+    }
+  },
+  "opt_guide_operations_select_all_text": {
+    "message": "Concatenate the text of all matching elements",
+    "description": "Description of the selectAll variable on the Guide tab of the Options page under the Operations section."
+  },
+  "opt_guide_operations_select_html_text": {
+    "message": "Get the $O_ABBR_1$HyperText Markup Language$O_ABBR_2$HTML$C_ABBR$ contents of the first matching element",
+    "description": "Description of the selectHTML variable on the Guide tab of the Options page under the Operations section.",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      }
+    }
+  },
+  "opt_guide_operations_select_markdown_text": {
+    "message": "Get the contents of the first matching element as $O_LINK_MARKDOWN$Markdown$C_LINK$",
+    "description": "Description of the selectMarkdown variable on the Guide tab of the Options page under the Operations section.",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_link_markdown": {
+        "content": "<a href=\"http://en.wikipedia.org/wiki/Markdown\" target=\"_blank\">",
+        "example": "<a href=\"http://en.wikipedia.org/wiki/Markdown\">"
+      }
+    }
+  },
+  "opt_guide_operations_select_text": {
+    "message": "Get the text of first matching element",
+    "description": "Description of the select variable on the Guide tab of the Options page under the Operations section."
+  },
+  "opt_guide_operations_shorten_text": {
+    "message": "Shorten the $O_ABBR_1$Uniform Resource Locator$O_ABBR_2$URL$C_ABBR$ provided using the active $O_ABBR_1$Uniform Resource Locator$O_ABBR_2$URL$C_ABBR$ shortener",
+    "description": "Description of the shorten variable on the Guide tab of the Options page under the Operations section.",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      }
+    }
+  },
+  "opt_guide_operations_text": {
+    "message": "$O_BOLD$Operations$C_BOLD$ are performed using sections, accepting its rendered contents as an argument.",
+    "description": "Text for the Operations section on the Guide tab of the Options page.",
+    "placeholders": {
+      "c_bold": {
+        "content": "</strong>",
+        "example": "</strong>"
+      },
+      "o_bold": {
+        "content": "<strong>",
+        "example": "<strong>"
+      }
+    }
+  },
+  "opt_guide_operations_tidy_text": {
+    "message": "Reduce all of the joined spaces and tabs into single spaces within the text provided before removing all leading and trailing whitespace",
+    "description": "Description of the tidy variable on the Guide tab of the Options page under the Operations section."
+  },
+  "opt_guide_operations_trim_text": {
+    "message": "Remove all leading and trailing whitespace from the text provided",
+    "description": "Description of the trim variable on the Guide tab of the Options page under the Operations section."
+  },
+  "opt_guide_operations_trim_left_text": {
+    "message": "Remove all leading whitespace from the text provided",
+    "description": "Description of the trimLeft variable on the Guide tab of the Options page under the Operations section."
+  },
+  "opt_guide_operations_trim_right_text": {
+    "message": "Remove all trailing whitespace from the text provided",
+    "description": "Description of the trimRight variable on the Guide tab of the Options page under the Operations section."
+  },
+  "opt_guide_operations_unescape_text": {
+    "message": "The opposite of $ESCAPE_LABEL$; Replace escaped characters in text provided with their unescaped counterparts",
+    "description": "Description of the unescape variable on the Guide tab of the Options page under the Operations section.",
+    "placeholders": {
+      "escape_label": {
+        "content": "<span class=\"label\">escape</span>",
+        "example": "escape"
+      }
+    }
+  },
+  "opt_guide_operations_upper_case_text": {
+    "message": "Transform the text provided into upper case",
+    "description": "Description of the upperCase variable on the Guide tab of the Options page under the Operations section."
+  },
+  "opt_guide_operations_word_count_text": {
+    "message": "Get the number of words in the text provided",
+    "description": "Description of the wordCount variable on the Guide tab of the Options page under the Operations section."
+  },
+  "opt_guide_operations_xpath_all_html_text": {
+    "message": "Concatenate the $O_ABBR_1$HyperText Markup Language$O_ABBR_2$HTML$C_ABBR$ contents of all results for the $O_LINK_XPATH$XPath$C_LINK$ expression",
+    "description": "Description of the xpathAllHTML variable on the Guide tab of the Options page under the Operations section.",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      },
+      "o_link_xpath": {
+        "content": "<a href=\"http://en.wikipedia.org/wiki/XPath\" target=\"_blank\">",
+        "example": "<a href=\"http://en.wikipedia.org/wiki/XPath\">"
+      }
+    }
+  },
+  "opt_guide_operations_xpath_all_markdown_text": {
+    "message": "Concatenate the contents of all results for the $O_LINK_XPATH$XPath$C_LINK$ expression as $O_LINK_MARKDOWN$Markdown$C_LINK$",
+    "description": "Description of the xpathAllMarkdown variable on the Guide tab of the Options page under the Operations section.",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_link_markdown": {
+        "content": "<a href=\"http://en.wikipedia.org/wiki/Markdown\" target=\"_blank\">",
+        "example": "<a href=\"http://en.wikipedia.org/wiki/Markdown\">"
+      },
+      "o_link_xpath": {
+        "content": "<a href=\"http://en.wikipedia.org/wiki/XPath\" target=\"_blank\">",
+        "example": "<a href=\"http://en.wikipedia.org/wiki/XPath\">"
+      }
+    }
+  },
+  "opt_guide_operations_xpath_all_text": {
+    "message": "Concatenate all results for the $O_LINK_XPATH$XPath$C_LINK$ expression",
+    "description": "Description of the xpathAll variable on the Guide tab of the Options page under the Operations section.",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_link_xpath": {
+        "content": "<a href=\"http://en.wikipedia.org/wiki/XPath\" target=\"_blank\">",
+        "example": "<a href=\"http://en.wikipedia.org/wiki/XPath\">"
+      }
+    }
+  },
+  "opt_guide_operations_xpath_html_text": {
+    "message": "Get the $O_ABBR_1$HyperText Markup Language$O_ABBR_2$HTML$C_ABBR$ contents of the first result for the $O_LINK_XPATH$XPath$C_LINK$ expression",
+    "description": "Description of the xpathHTML variable on the Guide tab of the Options page under the Operations section.",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      },
+      "o_link_xpath": {
+        "content": "<a href=\"http://en.wikipedia.org/wiki/XPath\" target=\"_blank\">",
+        "example": "<a href=\"http://en.wikipedia.org/wiki/XPath\">"
+      }
+    }
+  },
+  "opt_guide_operations_xpath_markdown_text": {
+    "message": "Get the contents of the first result for the $O_LINK_XPATH$XPath$C_LINK$ expression as $O_LINK_MARKDOWN$Markdown$C_LINK$",
+    "description": "Description of the xpathMarkdown variable on the Guide tab of the Options page under the Operations section.",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_link_markdown": {
+        "content": "<a href=\"http://en.wikipedia.org/wiki/Markdown\" target=\"_blank\">",
+        "example": "<a href=\"http://en.wikipedia.org/wiki/Markdown\">"
+      },
+      "o_link_xpath": {
+        "content": "<a href=\"http://en.wikipedia.org/wiki/XPath\" target=\"_blank\">",
+        "example": "<a href=\"http://en.wikipedia.org/wiki/XPath\">"
+      }
+    }
+  },
+  "opt_guide_operations_xpath_text": {
+    "message": "Get the first result for the $O_LINK_XPATH$XPath$C_LINK$ expression as text",
+    "description": "Description of the xpath variable on the Guide tab of the Options page under the Operations section.",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_link_xpath": {
+        "content": "<a href=\"http://en.wikipedia.org/wiki/XPath\" target=\"_blank\">",
+        "example": "<a href=\"http://en.wikipedia.org/wiki/XPath\">"
+      }
+    }
+  },
+  "opt_guide_options_header": {
+    "message": "Options",
+    "description": "Header for the Options section on the Guide tab of the Options page."
+  },
+  "opt_guide_options_bitly_account_text": {
+    "message": "Whether or not you are currently logged in to your $O_LINK_BITLY$bit.ly$C_LINK$ account",
+    "description": "Description of the bitlyAccount variable on the Guide tab of the Options page under the Options section.",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_link_bitly": {
+        "content": "<a href=\"http://bit.ly\" target=\"_blank\">",
+        "example": "<a href=\"http://bit.ly\">"
+      }
+    }
+  },
+  "opt_guide_options_bitly_text": {
+    "message": "Whether or not $O_LINK_BITLY$bit.ly$C_LINK$ is the enabled $O_ABBR_1$Uniform Resource Locator$O_ABBR_2$URL$C_ABBR$ shortener",
+    "description": "Description of the bitly variable on the Guide tab of the Options page under the Options section.",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      },
+      "o_link_bitly": {
+        "content": "<a href=\"http://bit.ly\" target=\"_blank\">",
+        "example": "<a href=\"http://bit.ly\">"
+      }
+    }
+  },
+  "opt_guide_options_examples_code_1": {
+    "message": "$URL$",
+    "description": "Text for the 1st code block in the Examples area on the Guide tab of the Options page under the Options section.",
+    "placeholders": {
+      "url": {
+        "content": "http://example.com/test/index.html",
+        "example": "http://example.com/test/index.html"
+      }
+    }
+  },
+  "opt_guide_options_examples_code_2": {
+    "message": "$SYNTAX_1$This is a test!$SYNTAX_2$",
+    "description": "Text for the 2nd code block in the Examples area on the Guide tab of the Options page under the Options section.",
+    "placeholders": {
+      "syntax_1": {
+        "content": "&lt;a href=&quot;{url}&quot;{#linksTitle} title=&quot;{{title}}&quot;{/linksTitle}&gt;",
+        "example": "<a href=\"{url}\"{#linksTitle} title=\"{{title}}\"{/linksTitle}>"
+      },
+      "syntax_2": {
+        "content": "&lt;/a&gt;",
+        "example": "</a>"
+      }
+    }
+  },
+  "opt_guide_options_examples_code_3": {
+    "message": "$SYNTAX_1$Test$SYNTAX_2$This is a test!$SYNTAX_3$",
+    "description": "Text for the 3rd code block in the Examples area on the Guide tab of the Options page under the Options section.",
+    "placeholders": {
+      "syntax_1": {
+        "content": "&lt;a href=&quot;http://example.com/test/index.html&quot; title=&quot;",
+        "example": "<a href=\"http://example.com/test/index.html\" title=\""
+      },
+      "syntax_2": {
+        "content": "&quot;&gt;",
+        "example": "\">"
+      },
+      "syntax_3": {
+        "content": "&lt;/a&gt;",
+        "example": "</a>"
+      }
+    }
+  },
+  "opt_guide_options_examples_code_4": {
+    "message": "$SYNTAX_1$This is a test!$SYNTAX_2$",
+    "description": "Text for the 4th code block in the Examples area on the Guide tab of the Options page under the Options section.",
+    "placeholders": {
+      "syntax_1": {
+        "content": "&lt;a href=&quot;http://example.com/test/index.html&quot;&gt;",
+        "example": "<a href=\"http://example.com/test/index.html\">"
+      },
+      "syntax_2": {
+        "content": "&lt;/a&gt;",
+        "example": "</a>"
+      }
+    }
+  },
+  "opt_guide_options_examples_text_1": {
+    "message": "These examples will be using the following $O_ABBR_1$Uniform Resource Locator$O_ABBR_2$URL$C_ABBR$;",
+    "description": "Text for the 1st paragraph in the Examples area on the Guide tab of the Options page under the Options section.",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      }
+    }
+  },
+  "opt_guide_options_examples_text_2": {
+    "message": "To include the $SYNTAX$ attribute in an anchor tag only if you have enabled the corresponding option;",
+    "description": "Text for the 2nd paragraph in the Examples area on the Guide tab of the Options page under the Options section.",
+    "placeholders": {
+      "syntax": {
+        "content": "<em>title</em>",
+        "example": "title"
+      }
+    }
+  },
+  "opt_guide_options_examples_text_3": {
+    "message": "This would output the following if you've enabled the option;",
+    "description": "Text for the 3rd paragraph in the Examples area on the Guide tab of the Options page under the Options section."
+  },
+  "opt_guide_options_examples_text_4": {
+    "message": "However, if you have disabled the option it will output this;",
+    "description": "Text for the 4th paragraph in the Examples area on the Guide tab of the Options page under the Options section."
+  },
+  "opt_guide_options_googl_account_text": {
+    "message": "Whether or not you are currently logged in to your $O_LINK_GOOGL$goo.gl$C_LINK$ account",
+    "description": "Description of the googlAccount variable on the Guide tab of the Options page under the Options section.",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_link_googl": {
+        "content": "<a href=\"http://goo.gl\" target=\"_blank\">",
+        "example": "<a href=\"http://goo.gl\">"
+      }
+    }
+  },
+  "opt_guide_options_googl_text": {
+    "message": "Whether or not $O_LINK_GOOGL$goo.gl$C_LINK$ is the enabled $O_ABBR_1$Uniform Resource Locator$O_ABBR_2$URL$C_ABBR$ shortener",
+    "description": "Description of the googl variable on the Guide tab of the Options page under the Options section.",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      },
+      "o_link_googl": {
+        "content": "<a href=\"http://goo.gl\" target=\"_blank\">",
+        "example": "<a href=\"http://goo.gl\">"
+      }
+    }
+  },
+  "opt_guide_options_links_target_text": {
+    "message": "Whether or not the option to render links with instructions to open them in a new tab/window is enabled",
+    "description": "Description of the linksTarget variable on the Guide tab of the Options page under the Options section."
+  },
+  "opt_guide_options_links_title_text": {
+    "message": "Whether or not the option to render links with hover text is enabled",
+    "description": "Description of the linksTitle variable on the Guide tab of the Options page under the Options section."
+  },
+  "opt_guide_options_markdown_inline_text": {
+    "message": "Whether or not the option to render $O_LINK_MARKDOWN$Markdown$C_LINK$ links using the inline style is enabled",
+    "description": "Description of the markdownInline variable on the Guide tab of the Options page under the Options section.",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_link_markdown": {
+        "content": "<a href=\"http://en.wikipedia.org/wiki/Markdown\" target=\"_blank\">",
+        "example": "<a href=\"http://en.wikipedia.org/wiki/Markdown\">"
+      }
+    }
+  },
+  "opt_guide_options_menu_text": {
+    "message": "Whether or not the option to show the context (right-click) menu is enabled",
+    "description": "Description of the menu variable on the Guide tab of the Options page under the Options section."
+  },
+  "opt_guide_options_menu_options_text": {
+    "message": "Whether or not the $O_EMPH$Options$C_EMPH$ item is displayed at the bottom of the context (right-click) menu",
+    "description": "Description of the menuOptions variable on the Guide tab of the Options page under the Options section.",
+    "placeholders": {
+      "c_emph": {
+        "content": "</em>",
+        "example": "</em>"
+      },
+      "o_emph": {
+        "content": "<em>",
+        "example": "<em>"
+      }
+    }
+  },
+  "opt_guide_options_menu_paste_text": {
+    "message": "Whether or not the Template output is automatically pasted into the field where the context (right-click) menu was activated",
+    "description": "Description of the menuPaste variable on the Guide tab of the Options page under the Options section."
+  },
+  "opt_guide_options_notifications_text": {
+    "message": "Whether or not the option to show desktop notifications is enabled",
+    "description": "Description of the notifications variable on the Guide tab of the Options page under the Options section."
+  },
+  "opt_guide_options_shortcuts_paste_text": {
+    "message": "Whether or not the Template output is automatically pasted into the field where the keyboard shortcut was detected",
+    "description": "Description of the shortcutsPaste variable on the Guide tab of the Options page under the Options section."
+  },
+  "opt_guide_options_shortcuts_text": {
+    "message": "Whether or not the option to allow keyboard shortcuts is enabled",
+    "description": "Description of the shortcuts variable on the Guide tab of the Options page under the Options section."
+  },
+  "opt_guide_options_text": {
+    "message": "$O_BOLD$Options$C_BOLD$ are variables that represent your current $O_BOLD$Template$C_BOLD$ settings and are generally accessed in the same way as standard variables.",
+    "description": "Text for the Options section on the Guide tab of the Options page.",
+    "placeholders": {
+      "c_bold": {
+        "content": "</strong>",
+        "example": "</strong>"
+      },
+      "o_bold": {
+        "content": "<strong>",
+        "example": "<strong>"
+      }
+    }
+  },
+  "opt_guide_options_toolbar_close_text": {
+    "message": "Whether or not the popup is closed immediately after a template is selected",
+    "description": "Description of the toolbarClose variable on the Guide tab of the Options page under the Options section."
+  },
+  "opt_guide_options_toolbar_key_text": {
+    "message": "The unique key of the template activated when the toolbar button is clicked",
+    "description": "Description of the toolbarKey variable on the Guide tab of the Options page under the Options section."
+  },
+  "opt_guide_options_toolbar_options_text": {
+    "message": "Whether or not the $O_EMPH$Options$C_EMPH$ link is displayed at the bottom of the popup",
+    "description": "Description of the toolbarOptions variable on the Guide tab of the Options page under the Options section.",
+    "placeholders": {
+      "c_emph": {
+        "content": "</em>",
+        "example": "</em>"
+      },
+      "o_emph": {
+        "content": "<em>",
+        "example": "<em>"
+      }
+    }
+  },
+  "opt_guide_options_toolbar_popup_text": {
+    "message": "Whether or not the popup is shown when the toolbar button is clicked",
+    "description": "Description of the toolbarPopup variable on the Guide tab of the Options page under the Options section."
+  },
+  "opt_guide_options_yourls_authentication_text": {
+    "message": "The authentication used for the $O_LINK_YOURLS$YOURLS$C_LINK$ service (e.g. $EXAMPLE_1$, $EXAMPLE_2$, or nothing if $EXAMPLE_3$)",
+    "description": "Description of the yourlsAuthentication variable on the Guide tab of the Options page under the Options section.",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "example_1": {
+        "content": "<em>advanced</em>",
+        "example": "advanced"
+      },
+      "example_2": {
+        "content": "<em>basic</em>",
+        "example": "basic"
+      },
+      "example_3": {
+        "content": "<em>none</em>",
+        "example": "none"
+      },
+      "o_link_yourls": {
+        "content": "<a href=\"http://yourls.org\" target=\"_blank\">",
+        "example": "<a href=\"http://yourls.org\">"
+      }
+    }
+  },
+  "opt_guide_options_yourls_password_text": {
+    "message": "The password for the $O_LINK_YOURLS$YOURLS$C_LINK$ service",
+    "description": "Description of the yourlsPassword variable on the Guide tab of the Options page under the Options section.",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_link_yourls": {
+        "content": "<a href=\"http://yourls.org\" target=\"_blank\">",
+        "example": "<a href=\"http://yourls.org\">"
+      }
+    }
+  },
+  "opt_guide_options_yourls_signature_text": {
+    "message": "The signature for the $O_LINK_YOURLS$YOURLS$C_LINK$ service (e.g. $EXAMPLE$)",
+    "description": "Description of the yourlsSignature variable on the Guide tab of the Options page under the Options section.",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "example": {
+        "content": "<em>3002a61584</em>",
+        "example": "3002a61584"
+      },
+      "o_link_yourls": {
+        "content": "<a href=\"http://yourls.org\" target=\"_blank\">",
+        "example": "<a href=\"http://yourls.org\">"
+      }
+    }
+  },
+  "opt_guide_options_yourls_text": {
+    "message": "Whether or not $O_LINK_YOURLS$YOURLS$C_LINK$ is the enabled $O_ABBR_1$Uniform Resource Locator$O_ABBR_2$URL$C_ABBR$ shortener",
+    "description": "Description of the yourls variable on the Guide tab of the Options page under the Options section.",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      },
+      "o_link_yourls": {
+        "content": "<a href=\"http://yourls.org\" target=\"_blank\">",
+        "example": "<a href=\"http://yourls.org\">"
+      }
+    }
+  },
+  "opt_guide_options_yourls_url_text": {
+    "message": "The $O_ABBR_1$Uniform Resource Locator$O_ABBR_2$URL$C_ABBR$ of the $O_LINK_YOURLS$YOURLS$C_LINK$ service (e.g. $EXAMPLE$)",
+    "description": "Description of the yourlsUrl variable on the Guide tab of the Options page under the Options section.",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "example": {
+        "content": "<em>http://example.com/yourls-api.php</em>",
+        "example": "http://example.com/yourls-api.php"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      },
+      "o_link_yourls": {
+        "content": "<a href=\"http://yourls.org\" target=\"_blank\">",
+        "example": "<a href=\"http://yourls.org\">"
+      }
+    }
+  },
+  "opt_guide_options_yourls_username_text": {
+    "message": "The username for the $O_LINK_YOURLS$YOURLS$C_LINK$ service",
+    "description": "Description of the yourlsUsername variable on the Guide tab of the Options page under the Options section.",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_link_yourls": {
+        "content": "<a href=\"http://yourls.org\" target=\"_blank\">",
+        "example": "<a href=\"http://yourls.org\">"
+      }
+    }
+  },
+  "opt_guide_standard_author_text": {
+    "message": "The author from the page's meta information",
+    "description": "Description of the author variable on the Guide tab of the Options page under the Standard section."
+  },
+  "opt_guide_standard_base_text": {
+    "message": "The base domain (e.g. $EXAMPLE$)",
+    "description": "Description of the base variable on the Guide tab of the Options page under the Standard section.",
+    "placeholders": {
+      "example": {
+        "content": "<em>https://www.example.com:443</em>",
+        "example": "https://www.example.com:443"
+      }
+    }
+  },
+  "opt_guide_standard_browser_text": {
+    "message": "The name of the browser (i.e. $O_EMPH$Chrome$C_EMPH$)",
+    "description": "Description of the browser variable on the Guide tab of the Options page under the Standard section.",
+    "placeholders": {
+      "c_emph": {
+        "content": "</em>",
+        "example": "</em>"
+      },
+      "o_emph": {
+        "content": "<em>",
+        "example": "<em>"
+      }
+    }
+  },
+  "opt_guide_standard_browser_version_text": {
+    "message": "The current version of the browser (e.g. $EXAMPLE$)",
+    "description": "Description of the browserVersion variable on the Guide tab of the Options page under the Standard section.",
+    "placeholders": {
+      "example": {
+        "content": "<em>16.0.912.77</em>",
+        "example": "16.0.912.77"
+      }
+    }
+  },
+  "opt_guide_standard_character_set_text": {
+    "message": "The $O_LINK_CHAR_SET$character set$C_LINK$ used by the page (e.g. $EXAMPLE$)",
+    "description": "Description of the characterSet variable on the Guide tab of the Options page under the Standard section.",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "example": {
+        "content": "<em>UTF-8</em>",
+        "example": "UTF-8"
+      },
+      "o_link_char_set": {
+        "content": "<a href=\"http://www.iana.org/assignments/character-sets\" target=\"_blank\">",
+        "example": "<a href=\"http://www.iana.org/assignments/character-sets\">"
+      }
+    }
+  },
+  "opt_guide_standard_cookies_enabled_text": {
+    "message": "Whether or not cookies are enabled",
+    "description": "Description of the cookiesEnabled variable on the Guide tab of the Options page under the Standard section."
+  },
+  "opt_guide_standard_count_text": {
+    "message": "The total number of templates",
+    "description": "Description of the count variable on the Guide tab of the Options page under the Standard section."
+  },
+  "opt_guide_standard_custom_count_text": {
+    "message": "The total number of user-defined templates",
+    "description": "Description of the customCount variable on the Guide tab of the Options page under the Standard section."
+  },
+  "opt_guide_standard_date_time_text": {
+    "message": "The current date &amp; time in $O_LINK_RFC_2822$RFC 2822$C_LINK$ format",
+    "description": "Description of the dateTime variable on the Guide tab of the Options page under the Standard section.",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_link_rfc_2822": {
+        "content": "<a href=\"http://www.faqs.org/rfcs/rfc2822.html\" target=\"_blank\">",
+        "example": "<a href=\"http://www.faqs.org/rfcs/rfc2822.html\">"
+      }
+    }
+  },
+  "opt_guide_standard_depth_text": {
+    "message": "The colour depth in bits (e.g. $EXAMPLE$)",
+    "description": "Description of the depth variable on the Guide tab of the Options page under the Standard section.",
+    "placeholders": {
+      "example": {
+        "content": "<em>24</em>",
+        "example": "24"
+      }
+    }
+  },
+  "opt_guide_standard_description_text": {
+    "message": "The description from the page's meta information",
+    "description": "Description of the description variable on the Guide tab of the Options page under the Standard section."
+  },
+  "opt_guide_standard_directory_text": {
+    "message": "The directory part of the path (e.g. $EXAMPLE$)",
+    "description": "Description of the directory variable on the Guide tab of the Options page under the Standard section.",
+    "placeholders": {
+      "example": {
+        "content": "<em>/folder/dir/</em>",
+        "example": "/folder/dir/"
+      }
+    }
+  },
+  "opt_guide_standard_examples_code_1": {
+    "message": "$URL$",
+    "description": "Text for the 1st code block in the Examples area on the Guide tab of the Options page under the Standard section.",
+    "placeholders": {
+      "url": {
+        "content": "http://example.com/test/index.html",
+        "example": "http://example.com/test/index.html"
+      }
+    }
+  },
+  "opt_guide_standard_examples_code_2": {
+    "message": "Title:\n$SYNTAX_1$\nDescription:\n$SYNTAX_2$\n$SYNTAX_3$N/A$SYNTAX_4$",
+    "description": "Text for the 2nd code block in the Examples area on the Guide tab of the Options page under the Standard section.",
+    "placeholders": {
+      "syntax_1": {
+        "content": "{title}",
+        "example": "{title}"
+      },
+      "syntax_2": {
+        "content": "{#description}{description}{/description}",
+        "example": "{#description}{description}{/description}"
+      },
+      "syntax_3": {
+        "content": "{^description}",
+        "example": "{^description}"
+      },
+      "syntax_4": {
+        "content": "{/description}",
+        "example": "{/description}"
+      }
+    }
+  },
+  "opt_guide_standard_examples_code_3": {
+    "message": "Title:\nTest\nDescription:\nThis is a test!",
+    "description": "Text for the 3rd code block in the Examples area on the Guide tab of the Options page under the Standard section."
+  },
+  "opt_guide_standard_examples_code_4": {
+    "message": "Title:\nTest\nDescription:\nN/A",
+    "description": "Text for the 4th code block in the Examples area on the Guide tab of the Options page under the Standard section."
+  },
+  "opt_guide_standard_examples_text_1": {
+    "message": "These examples will be using the following $O_ABBR_1$Uniform Resource Locator$O_ABBR_2$URL$C_ABBR$;",
+    "description": "Text for the 1st paragraph in the Examples area on the Guide tab of the Options page under the Standard section.",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      }
+    }
+  },
+  "opt_guide_standard_examples_text_2": {
+    "message": "A great of example of using standard variables is showing the title of the current page along with its meta description, where possible;",
+    "description": "Text for the 2nd paragraph in the Examples area on the Guide tab of the Options page under the Standard section."
+  },
+  "opt_guide_standard_examples_text_3": {
+    "message": "If the page contains a meta description this would output something like this;",
+    "description": "Text for the 3rd paragraph in the Examples area on the Guide tab of the Options page under the Standard section."
+  },
+  "opt_guide_standard_examples_text_4": {
+    "message": "Otherwise, you can expect to the see the following;",
+    "description": "Text for the 4th paragraph in the Examples area on the Guide tab of the Options page under the Standard section."
+  },
+  "opt_guide_standard_favicon_text": {
+    "message": "The whole $O_ABBR_1$Uniform Resource Locator$O_ABBR_2$URL$C_ABBR$ of the page's favicon",
+    "description": "Description of the favicon variable on the Guide tab of the Options page under the Standard section.",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      }
+    }
+  },
+  "opt_guide_standard_file_text": {
+    "message": "The basename of the file (e.g. $EXAMPLE$)",
+    "description": "Description of the file variable on the Guide tab of the Options page under the Standard section.",
+    "placeholders": {
+      "example": {
+        "content": "<em>index.html</em>",
+        "example": "index.html"
+      }
+    }
+  },
+  "opt_guide_standard_fragment_anchor_text": {
+    "message": "The entire string after the hash (#) symbol",
+    "description": "Description of the fragment and anchor variables on the Guide tab of the Options page under the Standard section."
+  },
+  "opt_guide_standard_header": {
+    "message": "Standard",
+    "description": "Header for the Standard section on the Guide tab of the Options page."
+  },
+  "opt_guide_standard_host_text": {
+    "message": "For example; $EXAMPLE_1$, $EXAMPLE_2$",
+    "description": "Description of the host variable on the Guide tab of the Options page under the Standard section.",
+    "placeholders": {
+      "example_1": {
+        "content": "<em>www.example.com</em>",
+        "example": "www.example.com"
+      },
+      "example_2": {
+        "content": "<em>localhost</em>",
+        "example": "localhost"
+      }
+    }
+  },
+  "opt_guide_standard_html_text": {
+    "message": "The entire $O_ABBR_1$HyperText Markup Language$O_ABBR_2$HTML$C_ABBR$ contents of the page",
+    "description": "Description of the html variable on the Guide tab of the Options page under the Standard section.",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      }
+    }
+  },
+  "opt_guide_standard_java_text": {
+    "message": "Whether or not $O_LINK_JAVA$Java$C_LINK$ is enabled",
+    "description": "Description of the java variable on the Guide tab of the Options page under the Standard section.",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_link_java": {
+        "content": "<a href=\"http://www.java.com\" target=\"_blank\">",
+        "example": "<a href=\"http://www.java.com\">"
+      }
+    }
+  },
+  "opt_guide_standard_last_modified_text": {
+    "message": "The last modified date &amp; time of the page in $O_LINK_RFC_2822$RFC 2822$C_LINK$ format",
+    "description": "Description of the lastModified variable on the Guide tab of the Options page under the Standard section.",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_link_rfc_2822": {
+        "content": "<a href=\"http://www.faqs.org/rfcs/rfc2822.html\" target=\"_blank\">",
+        "example": "<a href=\"http://www.faqs.org/rfcs/rfc2822.html\">"
+      }
+    }
+  },
+  "opt_guide_standard_link_html_text": {
+    "message": "The $O_ABBR_1$Hypertext Markup Language$O_ABBR_2$HTML$C_ABBR$ behind the contextual (right-clicked) link",
+    "description": "Description of the linkHTML variable on the Guide tab of the Options page under the Standard section.",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      }
+    }
+  },
+  "opt_guide_standard_link_markdown_text": {
+    "message": "The contents of the contextual (right-clicked) link formatted as $O_LINK_MARKDOWN$Markdown$C_LINK$",
+    "description": "Description of the linkMarkdown variable on the Guide tab of the Options page under the Standard section.",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_link_markdown": {
+        "content": "<a href=\"http://en.wikipedia.org/wiki/Markdown\" target=\"_blank\">",
+        "example": "<a href=\"http://en.wikipedia.org/wiki/Markdown\">"
+      }
+    }
+  },
+  "opt_guide_standard_link_text_text": {
+    "message": "The contextual (right-clicked) link text",
+    "description": "Description of the linkText variable on the Guide tab of the Options page under the Standard section."
+  },
+  "opt_guide_standard_locale_text": {
+    "message": "The $O_LINK_ISO_639$ISO 639$C_LINK$ code for the detected page language",
+    "description": "Description of the locale variable on the Guide tab of the Options page under the Standard section.",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_link_iso_639": {
+        "content": "<a href=\"http://en.wikipedia.org/wiki/ISO_639_macrolanguage\" target=\"_blank\">",
+        "example": "<a href=\"http://en.wikipedia.org/wiki/ISO_639_macrolanguage\">"
+      }
+    }
+  },
+  "opt_guide_standard_markdown_text": {
+    "message": "The entire contents of the page as $O_LINK_MARKDOWN$Markdown$C_LINK$",
+    "description": "Description of the markdown variable on the Guide tab of the Options page under the Standard section.",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_link_markdown": {
+        "content": "<a href=\"http://en.wikipedia.org/wiki/Markdown\" target=\"_blank\">",
+        "example": "<a href=\"http://en.wikipedia.org/wiki/Markdown\">"
+      }
+    }
+  },
+  "opt_guide_standard_offline_text": {
+    "message": "Whether or not you are currently offline",
+    "description": "Description of the offline variable on the Guide tab of the Options page under the Standard section."
+  },
+  "opt_guide_standard_original_title_text": {
+    "message": "The original title of the page (may be different than $TITLE_LABEL$ if a supported extension was detected and the value of $TITLE_LABEL$ was extracted from this)",
+    "description": "Description of the originalTitle variable on the Guide tab of the Options page under the Standard section.",
+    "placeholders": {
+      "title_label": {
+        "content": "<span class=\"label\">title</span>",
+        "example": "title"
+      }
+    }
+  },
+  "opt_guide_standard_original_url_text": {
+    "message": "The original whole $O_ABBR_1$Uniform Resource Locator$O_ABBR_2$URL$C_ABBR$ being parsed (may be different than $URL_LABEL$ if a supported extension was detected and the value of $URL_LABEL$ was extracted from this)",
+    "description": "Description of the originalUrl variable on the Guide tab of the Options page under the Standard section.",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      },
+      "url_label": {
+        "content": "<span class=\"label\">url</span>",
+        "example": "url"
+      }
+    }
+  },
+  "opt_guide_standard_os_text": {
+    "message": "The family of your operating system (i.e. $O_EMPH$Windows$C_EMPH$, $O_EMPH$Mac$C_EMPH$, $O_EMPH$Linux$C_EMPH$)",
+    "description": "Description of the os variable on the Guide tab of the Options page under the Standard section.",
+    "placeholders": {
+      "c_emph": {
+        "content": "</em>",
+        "example": "</em>"
+      },
+      "o_emph": {
+        "content": "<em>",
+        "example": "<em>"
+      }
+    }
+  },
+  "opt_guide_standard_page_height_text": {
+    "message": "The height of the page",
+    "description": "Description of the pageHeight variable on the Guide tab of the Options page under the Standard section."
+  },
+  "opt_guide_standard_page_width_text": {
+    "message": "The width of the page",
+    "description": "Description of the pageWidth variable on the Guide tab of the Options page under the Standard section."
+  },
+  "opt_guide_standard_path_text": {
+    "message": "The path to the file (e.g. $EXAMPLE$)",
+    "description": "Description of the path variable on the Guide tab of the Options page under the Standard section.",
+    "placeholders": {
+      "example": {
+        "content": "<em>/folder/dir/index.html</em>",
+        "example": "/folder/dir/index.html"
+      }
+    }
+  },
+  "opt_guide_standard_port_text": {
+    "message": "For example; $EXAMPLE_1$, $EXAMPLE_2$",
+    "description": "Description of the port variable on the Guide tab of the Options page under the Standard section.",
+    "placeholders": {
+      "example_1": {
+        "content": "<em>80</em>",
+        "example": "80"
+      },
+      "example_2": {
+        "content": "<em>443</em>",
+        "example": "443"
+      }
+    }
+  },
+  "opt_guide_standard_protocol_text": {
+    "message": "For example; $EXAMPLE_1$, $EXAMPLE_2$, $EXAMPLE_3$",
+    "description": "Description of the protocol variable on the Guide tab of the Options page under the Standard section.",
+    "placeholders": {
+      "example_1": {
+        "content": "<em>http</em>",
+        "example": "http"
+      },
+      "example_2": {
+        "content": "<em>https</em>",
+        "example": "https"
+      },
+      "example_3": {
+        "content": "<em>file</em>",
+        "example": "file"
+      }
+    }
+  },
+  "opt_guide_standard_query_text": {
+    "message": "The entire query string if it exists (e.g. $EXAMPLE$)",
+    "description": "Description of the query variable on the Guide tab of the Options page under the Standard section.",
+    "placeholders": {
+      "example": {
+        "content": "<em>item=value&amp;item2=value2</em>",
+        "example": "item=value&item2=value2"
+      }
+    }
+  },
+  "opt_guide_standard_referrer_text": {
+    "message": "The $O_ABBR_1$Uniform Resource Locator$O_ABBR_2$URL$C_ABBR$ of the referring page",
+    "description": "Description of the referrer variable on the Guide tab of the Options page under the Standard section.",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      }
+    }
+  },
+  "opt_guide_standard_relative_text": {
+    "message": "The relative path to the file including the query string (e.g. $EXAMPLE$)",
+    "description": "Description of the relative variable on the Guide tab of the Options page under the Standard section.",
+    "placeholders": {
+      "example": {
+        "content": "<em>/folder/dir/index.html?item=value</em>",
+        "example": "/folder/dir/index.html?item=value"
+      }
+    }
+  },
+  "opt_guide_standard_screen_height_text": {
+    "message": "The height of the screen",
+    "description": "Description of the screenHeight variable on the Guide tab of the Options page under the Standard section."
+  },
+  "opt_guide_standard_screen_width_text": {
+    "message": "The width of the screen",
+    "description": "Description of the screenWidth variable on the Guide tab of the Options page under the Standard section."
+  },
+  "opt_guide_standard_selection_html_text": {
+    "message": "The $O_ABBR_1$Hypertext Markup Language$O_ABBR_2$HTML$C_ABBR$ behind the current selection",
+    "description": "Description of the selectionHTML variable on the Guide tab of the Options page under the Standard section.",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      }
+    }
+  },
+  "opt_guide_standard_selection_markdown_text": {
+    "message": "The current selection formatted as $O_LINK_MARKDOWN$Markdown$C_LINK$",
+    "description": "Description of the selectionMarkdown variable on the Guide tab of the Options page under the Standard section.",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_link_markdown": {
+        "content": "<a href=\"http://en.wikipedia.org/wiki/Markdown\" target=\"_blank\">",
+        "example": "<a href=\"http://en.wikipedia.org/wiki/Markdown\">"
+      }
+    }
+  },
+  "opt_guide_standard_selection_text": {
+    "message": "The currently selected text",
+    "description": "Description of the selection variable on the Guide tab of the Options page under the Standard section."
+  },
+  "opt_guide_standard_text": {
+    "message": "$O_BOLD$Standard$c_BOLD$ variables are generally accessed using simple tags. However, sections (including inverted) can also be used to add conditions.",
+    "description": "Text for the Standard section on the Guide tab of the Options page.",
+    "placeholders": {
+      "c_bold": {
+        "content": "</strong>",
+        "example": "</strong>"
+      },
+      "o_bold": {
+        "content": "<strong>",
+        "example": "<strong>"
+      }
+    }
+  },
+  "opt_guide_standard_text_text": {
+    "message": "The entire text of the page",
+    "description": "Description of the text variable on the Guide tab of the Options page under the Standard section."
+  },
+  "opt_guide_standard_title_text": {
+    "message": "The title of the page or $URL_LABEL$ if the title could not be detected (e.g. page had not finished loading)",
+    "description": "Description of the title variable on the Guide tab of the Options page under the Standard section.",
+    "placeholders": {
+      "url_label": {
+        "content": "<span class=\"label\">url</span>",
+        "example": "url"
+      }
+    }
+  },
+  "opt_guide_standard_url_text": {
+    "message": "The whole $O_ABBR_1$Uniform Resource Locator$O_ABBR_2$URL$C_ABBR$ being parsed",
+    "description": "Description of the url variable on the Guide tab of the Options page under the Standard section.",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      }
+    }
+  },
+  "opt_guide_standard_version_text": {
+    "message": "The installed version of $O_BOLD$Template$C_BOLD$ (i.e. $VERSION$)",
+    "description": "Description of the version variable on the Guide tab of the Options page under the Standard section.",
+    "placeholders": {
+      "c_bold": {
+        "content": "</strong>",
+        "example": "</strong>"
+      },
+      "o_bold": {
+        "content": "<strong>",
+        "example": "<strong>"
+      },
+      "version": {
+        "content": "<em>$1</em>",
+        "example": "1.0.0"
+      }
+    }
+  },
+  "opt_guide_type_header": {
+    "message": "Type",
+    "description": "Header for the Type column on the Guide tab of the Options page under the Lists & Objects section."
+  },
+  "opt_guide_type_list_text": {
+    "message": "List",
+    "description": "Text displayed for lists in the Type column on the Guide tab of the Options page under the Lists & Objects section."
+  },
+  "opt_guide_type_object_text": {
+    "message": "Object",
+    "description": "Text displayed for objects in the Type column on the Guide tab of the Options page under the Lists & Objects section."
+  },
+  "opt_import_button_text": {
+    "message": "$ICON$ Import",
+    "description": "Text for the Import button on the Templates tab of the Options page.",
+    "placeholders": {
+      "icon": {
+        "content": "<i class=\"icon-download\"></i>",
+        "example": "<i class=\"icon-download\"></i>"
+      }
+    }
+  },
+  "opt_import_button_title": {
+    "message": "Import templates into your browser",
+    "description": "Hover text for the Import button on the Templates tab of the Options page."
+  },
+  "opt_import_wizard_header": {
+    "message": "Import",
+    "description": "Header for the Import dialog."
+  },
+  "opt_import_wizard_import_button": {
+    "message": "Import",
+    "description": "Text for the Import button in the Import dialog."
+  },
+  "opt_import_wizard_paste_alt_button": {
+    "message": "Pasted!",
+    "description": "Text for the Paste button in the Import dialog. This is used for a short duration after the user clicks the button."
+  },
+  "opt_import_wizard_paste_button": {
+    "message": "Paste",
+    "description": "Text for the Paste button in the Import dialog."
+  },
+  "opt_import_wizard_stage_1_text": {
+    "message": "Paste or upload the template data.",
+    "description": "Text for the initial step of the Import dialog."
+  },
+  "opt_import_wizard_stage_2_text_1": {
+    "message": "valid template(s) were found.",
+    "description": "1st paragraph for the final successful step of the Import dialog."
+  },
+  "opt_import_wizard_stage_2_text_2": {
+    "message": "Select those to be imported;",
+    "description": "2nd paragraph for the final successful step of the Import dialog."
+  },
+  "opt_links_header": {
+    "message": "Links",
+    "description": "Header for the Links section."
+  },
+  "opt_links_target_label": {
+    "message": "New Tab/Window",
+    "description": "Label for the New Tab/Window field."
+  },
+  "opt_links_target_text": {
+    "message": "Links open in a new browser tab/window when clicked",
+    "description": "Text for the New Tab/Window field."
+  },
+  "opt_links_text": {
+    "message": "This section refers to links that are rendered by the templates. These options only apply to templates that implement logic using the corresponding template options (see the $O_LINK_GUIDE$Guide$C_LINK$ for more information) and not all markup languages support the functionality that these options represent.",
+    "description": "Text for the Links section.",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_link_guide": {
+        "content": "<a tabify=\"#guide_tab\">",
+        "example": "<a tabify=\"#guide_tab\">"
+      }
+    }
+  },
+  "opt_links_title_label": {
+    "message": "Hover Text",
+    "description": "Label for the Hover Text field."
+  },
+  "opt_links_title_text": {
+    "message": "Links show the contextual title when hovered over",
+    "description": "Text for the Hover Text field."
+  },
+  "opt_logger_enabled_label": {
+    "message": "Enabled",
+    "description": "Label for the Enabled field in the Developer Tools dialog on the Options page under the Logging section."
+  },
+  "opt_logger_enabled_text": {
+    "message": "Output logs to the JavaScript console",
+    "description": "Text for the Enabled field in the Developer Tools dialog on the Options page under the Logging section."
+  },
+  "opt_logger_header": {
+    "message": "Logging",
+    "description": "Header for the Logging section in the Developer Tools dialog on the Options page."
+  },
+  "opt_logger_help": {
+    "message": "$O_PARA$Follow these steps if you would like to view the logs;$C_PARA$$O_LIST$$O_ITEM$Bring up the extensions management page by clicking the wrench icon and choosing $O_BOLD$Tools > Extensions$C_BOLD$$C_ITEM$$O_ITEM$Ensure $O_BOLD$Developer mode$C_BOLD$ is checked in the top right of the page$C_ITEM$$O_ITEM$Expand the listing for $O_BOLD$Template$C_BOLD$ and click the $FILE$ link$C_ITEM$$O_ITEM$Select the $O_BOLD$Console$C_BOLD$ tab in the new $O_BOLD$Developer Tools$C_BOLD$ window$C_ITEM$$C_LIST$",
+    "description": "Help text for the Logging section in the Developer Tools dialog on the Options page.",
+    "placeholders": {
+      "c_bold": {
+        "content": "</strong>",
+        "example": "</strong>"
+      },
+      "c_item": {
+        "content": "</li>",
+        "example": "</li>"
+      },
+      "c_list": {
+        "content": "</ol>",
+        "example": "</ol>"
+      },
+      "c_para": {
+        "content": "</p>",
+        "example": "</p>"
+      },
+      "file": {
+        "content": "<strong>pages/background.html</strong>",
+        "example": "pages/background.html"
+      },
+      "o_bold": {
+        "content": "<strong>",
+        "example": "<strong>"
+      },
+      "o_item": {
+        "content": "<li>",
+        "example": "<li>"
+      },
+      "o_list": {
+        "content": "<ol>",
+        "example": "<ol>"
+      },
+      "o_para": {
+        "content": "<p>",
+        "example": "<p>"
+      }
+    }
+  },
+  "opt_logger_help_label": {
+    "message": "How can I view the logs?",
+    "description": "Help label for the Logging section in the Developer Tools dialog on the Options page."
+  },
+  "opt_logger_level_debug_text": {
+    "message": "Debug",
+    "description": "Text for the Debug option for the Level field in the Developer Tools dialog on the Options page under the Logging section."
+  },
+  "opt_logger_level_error_text": {
+    "message": "Error (Highest)",
+    "description": "Text for the Error option for the Level field in the Developer Tools dialog on the Options page under the Logging section."
+  },
+  "opt_logger_level_information_text": {
+    "message": "Information",
+    "description": "Text for the Information option for the Level field in the Developer Tools dialog on the Options page under the Logging section."
+  },
+  "opt_logger_level_label": {
+    "message": "Level",
+    "description": "Label for the Level field in the Developer Tools dialog on the Options page under the Logging section."
+  },
+  "opt_logger_level_sub_text": {
+    "message": "Only logs at this level or above will be shown",
+    "description": "Help text for the Level field in the Developer Tools dialog on the Options page under the Logging section."
+  },
+  "opt_logger_level_text": {
+    "message": "Select the level of logging to be performed",
+    "description": "Text for the Level field in the Developer Tools dialog on the Options page under the Logging section."
+  },
+  "opt_logger_level_trace_text": {
+    "message": "Trace (Lowest)",
+    "description": "Text for the Trace option for the Level field in the Developer Tools dialog on the Options page under the Logging section."
+  },
+  "opt_logger_level_warning_text": {
+    "message": "Warning",
+    "description": "Text for the Warning option for the Level field in the Developer Tools dialog on the Options page under the Logging section."
+  },
+  "opt_markdown_header": {
+    "message": "Markdown",
+    "description": "Header for the Markdown section."
+  },
+  "opt_markdown_text": {
+    "message": "This section refers to content that is converted to $O_LINK_MARKDOWN$Markdown$C_LINK$ from $O_ABBR_1$HyperText Markup Language$O_ABBR_2$HTML$C_ABBR$.",
+    "description": "Text for the Markdown section.",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      },
+      "o_link_markdown": {
+        "content": "<a href=\"http://en.wikipedia.org/wiki/Markdown\" target=\"_blank\">",
+        "example": "<a href=\"http://en.wikipedia.org/wiki/Markdown\">"
+      }
+    }
+  },
+  "opt_markdown_inline_label": {
+    "message": "Inline Links",
+    "description": "Label for the Inline Links field."
+  },
+  "opt_markdown_inline_sub_text": {
+    "message": "Markdown links are rendered using the inline style $CODE$",
+    "description": "Help text for the Inline Links field.",
+    "placeholders": {
+      "code": {
+        "content": "<code>[text](url)</code>",
+        "example": "[title](url)"
+      }
+    }
+  },
+  "opt_markdown_inline_text": {
+    "message": "Link references no longer listed at the end of the output",
+    "description": "Text for the Inline Links field."
+  },
+  "opt_menu_header": {
+    "message": "Context Menu",
+    "description": "Header for the Context Menu section on the General tab of the Options page."
+  },
+  "opt_menu_enabled_label": {
+    "message": "Right-Click",
+    "description": "Label for the Right-Click field on the General tab of the Options page under the Context Menu section."
+  },
+  "opt_menu_enabled_text": {
+    "message": "Templates are accessible from the context menu",
+    "description": "Text for the Right-Click field on the General tab of the Options page under the Context Menu section."
+  },
+  "opt_menu_options_label": {
+    "message": "Options Link",
+    "description": "Label for the Options Link field on the General tab of the Options page under the Context Menu section."
+  },
+  "opt_menu_options_text": {
+    "message": "Display an item to open the Options page at the bottom of the menu",
+    "description": "Text for the Options Link field on the General tab of the Options page under the Context Menu section."
+  },
+  "opt_menu_paste_label": {
+    "message": "Automatically Paste",
+    "description": "Label for the Automatically Paste field on the General tab of the Options page under the Context Menu section."
+  },
+  "opt_menu_paste_text": {
+    "message": "Paste the Template result into the right-clicked editable field",
+    "description": "Text for the Automatically Paste field on the General tab of the Options page under the Context Menu section."
+  },
+  "opt_message_error_header": {
+    "message": "Oh snap!",
+    "description": "Header for standard error alert message."
+  },
+  "opt_message_header": {
+    "message": "Heads up!",
+    "description": "Header for standard informative alert message."
+  },
+  "opt_message_success_header": {
+    "message": "Well done!",
+    "description": "Header for standard success alert message."
+  },
+  "opt_message_warning_header": {
+    "message": "Warning!",
+    "description": "Header for standard warning alert message."
+  },
+  "opt_misc_header": {
+    "message": "Miscellaneous",
+    "description": "Header for the Miscellaneous section on the General tab of the Options page."
+  },
+  "opt_no_templates_found_text": {
+    "message": "No templates found...",
+    "description": "Text for table when no templates could be found."
+  },
+  "opt_notification_header": {
+    "message": "Desktop Notifications",
+    "description": "Header for the Desktop Notifications section on the General tab of the Options page."
+  },
+  "opt_notification_label": {
+    "message": "Notifications",
+    "description": "Label for the Notifications field on the General tab of the Options page under the Desktop Notifications section."
+  },
+  "opt_notification_sub_text": {
+    "message": "These will also be used to notify you of any errors that occur",
+    "description": "Help text for the Notifications field on the General tab of the Options page under the Desktop Notifications section."
+  },
+  "opt_notification_text": {
+    "message": "Show desktop notifications to display the outcome of using a template",
+    "description": "Text for the Notifications field on the General tab of the Options page under the Desktop Notifications section."
+  },
+  "opt_protected_sub_text": {
+    "message": "This is not available on internal Chrome pages or the $O_LINK_WEBSTORE$Chrome Web Store$C_LINK$",
+    "description": "Help text for fields on the Options page whose functionality does not work on protected pages.",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_link_webstore": {
+        "content": "<a href=\"https://chrome.google.com/webstore\" target=\"_blank\">",
+        "example": "<a href=\"https://chrome.google.com/webstore\">"
+      }
+    }
+  },
+  "opt_reset_text": {
+    "message": "Reset",
+    "description": "Text for a Reset button."
+  },
+  "opt_search_placeholder_text": {
+    "message": "Search...",
+    "description": "Placeholder text for a Search field."
+  },
+  "opt_select_all_box": {
+    "message": "Select All",
+    "description": "Title for the Select All checkbox."
+  },
+  "opt_select_all_box_checked": {
+    "message": "Deselect All",
+    "description": "Title for the Select All checkbox when checked."
+  },
+  "opt_select_box": {
+    "message": "Select",
+    "description": "Title for the Select checkbox."
+  },
+  "opt_select_box_checked": {
+    "message": "Deselect",
+    "description": "Title for the Select checkbox when checked."
+  },
+  "opt_shortcuts_header": {
+    "message": "Keyboard Shortcuts",
+    "description": "Header for the Keyboard Shortcuts section on the General tab of the Options page."
+  },
+  "opt_shortcuts_enabled_label": {
+    "message": "Hotkeys",
+    "description": "Label for the Hotkeys field on the General tab of the Options page under the Keyboard Shortcuts section."
+  },
+  "opt_shortcuts_enabled_text": {
+    "message": "Templates are accessible using keyboard shortcuts",
+    "description": "Text for the Hotkeys field on the General tab of the Options page under the Keyboard Shortcuts section."
+  },
+  "opt_shortcuts_paste_label": {
+    "message": "Automatically Paste",
+    "description": "Label for the Automatically Paste field on the General tab of the Options page under the Keyboard Shortcuts section."
+  },
+  "opt_shortcuts_paste_text": {
+    "message": "Paste the Template result into the editable field where the hotkey was used",
+    "description": "Text for the Automatically Paste field on the General tab of the Options page under the Keyboard Shortcuts section."
+  },
+  "opt_show_all_text": {
+    "message": "All",
+    "description": "Text for the All option in a selection of limits for visible results."
+  },
+  "opt_show_label": {
+    "message": "Show:",
+    "description": "Label for a selection of limits for visible results."
+  },
+  "opt_template_content_label": {
+    "message": "Content",
+    "description": "Label for the Content field on the Templates tab of the Options page."
+  },
+  "opt_template_content_sub_text": {
+    "message": "Need help writing templates? Try $O_LINK_GUIDE$reading the guide$C_LINK$",
+    "description": "Help text for the Content field on the Templates tab of the Options page.",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_link_guide": {
+        "content": "<a tabify=\"#guide_tab\">",
+        "example": "<a tabify=\"#guide_tab\">"
+      }
+    }
+  },
+  "opt_template_delete_multiple_predefined_error_1": {
+    "message": "The following templates cannot be deleted as they are predefined:",
+    "description": "First paragraph of the error message displayed when a user attempts to delete multiple predefined templates."
+  },
+  "opt_template_delete_multiple_predefined_error_2": {
+    "message": "Deselect all of these templates and try again.",
+    "description": "Second paragraph of the error message displayed when a user attempts to delete multiple predefined templates."
+  },
+  "opt_template_delete_predefined_error_1": {
+    "message": "The following template cannot be deleted as it is predefined:",
+    "description": "First paragraph of the error message displayed when a user attempts to delete a single predefined template."
+  },
+  "opt_template_delete_predefined_error_2": {
+    "message": "Deselect this template and try again.",
+    "description": "Second paragraph of the error message displayed when a user attempts to delete a single predefined template."
+  },
+  "opt_template_enabled_label": {
+    "message": "Enabled",
+    "description": "Label for the Enabled field on the Templates tab of the Options page."
+  },
+  "opt_template_enabled_text": {
+    "message": "Allow access to this template",
+    "description": "Text for the Enabled field on the Templates tab of the Options page."
+  },
+  "opt_template_header": {
+    "message": "Templates",
+    "description": "Header of the Templates tab of the Options page. This is also displayed in the page's navigation."
+  },
+  "opt_template_image_label": {
+    "message": "Image",
+    "description": "Label for the Image field on the Templates tab of the Options page."
+  },
+  "opt_template_modify_title": {
+    "message": "Modify $TEMPLATE$",
+    "description": "Hover text for a template link on the Templates tab of the Options page.",
+    "placeholders": {
+      "template": {
+        "content": "$1",
+        "example": "URL"
+      }
+    }
+  },
+  "opt_template_move_title": {
+    "message": "Drag and drop $TEMPLATE$ to change its order",
+    "description": "Hover text for a drag and drop indicator on the Templates tab of the Options page.",
+    "placeholders": {
+      "template": {
+        "content": "$1",
+        "example": "URL"
+      }
+    }
+  },
+  "opt_template_new_header": {
+    "message": "New Template",
+    "description": "Header for the template wizard when creating a new template."
+  },
+  "opt_template_disabled_selected_title": {
+    "message": "Selected templates are already disabled",
+    "description": "Hover text for dynamic buttons when only disabled templates are selected."
+  },
+  "opt_template_enabled_selected_title": {
+    "message": "Selected templates are already enabled",
+    "description": "Hover text for dynamic buttons when only enabled templates are selected."
+  },
+  "opt_template_no_predefined_delete_title": {
+    "message": "Predefined templates cannot be deleted",
+    "description": "Hover text for dynamic Delete buttons when predefined templates are selected or in context."
+  },
+  "opt_template_none_selected_title": {
+    "message": "One or more templates must be selected",
+    "description": "Hover text for dynamic buttons when no templates are selected."
+  },
+  "opt_template_shortcut_help": {
+    "message": "$O_PARA$The following rules apply to this field;$C_PARA$$O_LIST$$O_ITEM$Must be an alphanumeric key$C_ITEM$$O_ITEM$Where duplicated, the first template will be activated$C_ITEM$$O_ITEM$When blank, the template cannot be activated using keyboard shortcuts$C_ITEM$$C_LIST$",
+    "description": "Help text for the Shortcut field on the Templates tab of the Options page.",
+    "placeholders": {
+      "break": {
+        "content": "<br>",
+        "example": "<br>"
+      },
+      "c_item": {
+        "content": "</li>",
+        "example": "</li>"
+      },
+      "c_list": {
+        "content": "</ul>",
+        "example": "</ul>"
+      },
+      "c_para": {
+        "content": "</p>",
+        "example": "</p>"
+      },
+      "o_item": {
+        "content": "<li>",
+        "example": "<li>"
+      },
+      "o_list": {
+        "content": "<ul>",
+        "example": "<ul>"
+      },
+      "o_para": {
+        "content": "<p>",
+        "example": "<p>"
+      }
+    }
+  },
+  "opt_template_shortcut_invalid": {
+    "message": "Keyboard shortcut uses invalid key",
+    "description": "Error message displayed when a user attempts to assign an invalid keyboard shortcut to a template."
+  },
+  "opt_template_shortcut_label": {
+    "message": "Shortcut",
+    "description": "Label for the Shortcut field on the Templates tab of the Options page."
+  },
+  "opt_template_title_invalid": {
+    "message": "Title is missing",
+    "description": "Error message displayed when a user attempts to assign a blank title to a template."
+  },
+  "opt_template_title_label": {
+    "message": "Title",
+    "description": "Label for the Title field on the Templates tab of the Options page."
+  },
+  "opt_toolbar_behaviour_header": {
+    "message": "Toolbar Behaviour",
+    "description": "Header for the Toolbar Behaviour section on the General tab of the Options page."
+  },
+  "opt_toolbar_behaviour_label": {
+    "message": "Action",
+    "description": "Label for the Action field on the General tab of the Options page under the Toolbar Behaviour section."
+  },
+  "opt_toolbar_behaviour_sub_text": {
+    "message": "Configure what happens when you click the toolbar icon",
+    "description": "Help text for the Action field on the General tab of the Options page under the Toolbar Behaviour section."
+  },
+  "opt_toolbar_close_label": {
+    "message": "Closing",
+    "description": "Label for the Closing field on the General tab of the Options page under the Toolbar Behaviour section. This is only visible when Popup is the selected Action."
+  },
+  "opt_toolbar_close_sub_text": {
+    "message": "This does not apply to the $O_EMPH$Options$C_EMPH$ link, which will always cause the popup to close once clicked",
+    "description": "Help text for the Action field on the General tab of the Options page under the Toolbar Behaviour section. This is only visible when Popup is the selected Action.",
+    "placeholders": {
+      "c_emph": {
+        "content": "</em>",
+        "example": "</em>"
+      },
+      "o_emph": {
+        "content": "<em>",
+        "example": "<em>"
+      }
+    }
+  },
+  "opt_toolbar_close_text": {
+    "message": "Automatically close the popup after using a template",
+    "description": "Text for the Action field on the General tab of the Options page under the Toolbar Behaviour section. This is only visible when Popup is the selected Action."
+  },
+  "opt_toolbar_key_label": {
+    "message": "Template",
+    "description": "Label for the Template field on the General tab of the Options page under the Toolbar Behaviour section. This is only visible when Template is the selected Action."
+  },
+  "opt_toolbar_key_text": {
+    "message": "Select the template to be used",
+    "description": "Text for the Template field on the General tab of the Options page under the Toolbar Behaviour section. This is only visible when Template is the selected Action."
+  },
+  "opt_toolbar_options_label": {
+    "message": "Options Link",
+    "description": "Label for the Options Link field on the General tab of the Options page under the Toolbar Behaviour section. This is only visible when Popup is the selected Action."
+  },
+  "opt_toolbar_options_text": {
+    "message": "Display a link to the Options page at the bottom of the popup",
+    "description": "Text for the Options Link field on the General tab of the Options page under the Toolbar Behaviour section. This is only visible when Popup is the selected Action."
+  },
+  "opt_toolbar_popup_no_button": {
+    "message": "$ICON$ Template",
+    "description": "Text for the Template button in the Action field on the General tab of the Options page under the Toolbar Behaviour section.",
+    "placeholders": {
+      "icon": {
+        "content": "<i class=\"icon-bookmark\"></i>",
+        "example": "<i class=\"icon-bookmark\"></i>"
+      }
+    }
+  },
+  "opt_toolbar_popup_no_title": {
+    "message": "Use a template when the toolbar icon is clicked",
+    "description": "Hover text for the Template button in the Action field on the General tab of the Options page under the Toolbar Behaviour section."
+  },
+  "opt_toolbar_popup_yes_button": {
+    "message": "$ICON$ Popup",
+    "description": "Text for the Popup button in the Action field on the General tab of the Options page under the Toolbar Behaviour section.",
+    "placeholders": {
+      "icon": {
+        "content": "<i class=\"icon-th-list\"></i>",
+        "example": "<i class=\"icon-th-list\"></i>"
+      }
+    }
+  },
+  "opt_toolbar_popup_yes_title": {
+    "message": "Show a popup when the toolbar icon is clicked",
+    "description": "Hover text for the Popup button in the Action field on the General tab of the Options page under the Toolbar Behaviour section."
+  },
+  "opt_tools_header": {
+    "message": "Developer Tools",
+    "description": "Header for the Developer Tools dialog on the Options page. This is also displayed as a hover text for the cog symbol in the page's navigation."
+  },
+  "opt_tools_text": {
+    "message": "These settings are normally only used during development but can also be used to create debug information to provide developers with if you're experiencing an issue.",
+    "description": "Text for the Developer Tools dialog on the Options page."
+  },
+  "opt_top_button": {
+    "message": "Back to top",
+    "description": "Text for the link in the footer of the Options page that takes the user to the top of the page."
+  },
+  "opt_undo_button": {
+    "message": "Undo",
+    "description": "Text for a Undo button."
+  },
+  "opt_url_shortener_account_label": {
+    "message": "Account",
+    "description": "Label for the Account field in the Configuration column on the URL Shorteners tab of the Options page."
+  },
+  "opt_url_shortener_account_title": {
+    "message": "Associate links shortened by $SERVICE$ with your account",
+    "description": "Hover text for the Login/Logout button within the Account field in the Configuration column on the URL Shorteners tab of the Options page.",
+    "placeholders": {
+      "service": {
+        "content": "$1",
+        "example": "bit.ly"
+      }
+    }
+  },
+  "opt_url_shortener_authentication_basic_button": {
+    "message": "$ICON$ Basic",
+    "description": "Text for the Basic button within the Authentication field in the Configuration column on the URL Shorteners tab of the Options page.",
+    "placeholders": {
+      "icon": {
+        "content": "<i class=\"icon-user\"></i>",
+        "example": "<i class=\"icon-user\"></i>"
+      }
+    }
+  },
+  "opt_url_shortener_authentication_label": {
+    "message": "Authentication",
+    "description": "Label for the Authentication field in the Configuration column on the URL Shorteners tab of the Options page."
+  },
+  "opt_url_shortener_authentication_none_button": {
+    "message": "$ICON$ None",
+    "description": "Text for the None button within the Authentication field in the Configuration column on the URL Shorteners tab of the Options page.",
+    "placeholders": {
+      "icon": {
+        "content": "<i class=\"icon-ban-circle\"></i>",
+        "example": "<i class=\"icon-ban-circle\"></i>"
+      }
+    }
+  },
+  "opt_url_shortener_authentication_advanced_button": {
+    "message": "$ICON$ Advanced",
+    "description": "Text for the Advanced button within the Authentication field in the Configuration column on the URL Shorteners tab of the Options page.",
+    "placeholders": {
+      "icon": {
+        "content": "<i class=\"icon-lock\"></i>",
+        "example": "<i class=\"icon-lock\"></i>"
+      }
+    }
+  },
+  "opt_url_shortener_config_header": {
+    "message": "Configuration",
+    "description": "Header for the Configuration column on the URL Shorteners tab of the Options page."
+  },
+  "opt_url_shortener_header": {
+    "message": "URL Shorteners",
+    "description": "Header of the URL Shorteners tab of the Options page. This is also displayed in the page's navigation."
+  },
+  "opt_url_shortener_login_button": {
+    "message": "$ICON$ Login",
+    "description": "Text for the Login button within the Account field in the Configuration column on the URL Shorteners tab of the Options page.",
+    "placeholders": {
+      "icon": {
+        "content": "<i class=\"icon-off icon-white\"></i>",
+        "example": "<i class=\"icon-off icon-white\"></i>"
+      }
+    }
+  },
+  "opt_url_shortener_logout_button": {
+    "message": "$ICON$ Logout",
+    "description": "Text for the Logout button within the Account field in the Configuration column on the URL Shorteners tab of the Options page.",
+    "placeholders": {
+      "icon": {
+        "content": "<i class=\"icon-off icon-white\"></i>",
+        "example": "<i class=\"icon-off icon-white\"></i>"
+      }
+    }
+  },
+  "opt_url_shortener_password_label": {
+    "message": "Password",
+    "description": "Label for the Password field in the Configuration column on the URL Shorteners tab of the Options page."
+  },
+  "opt_url_shortener_password_yourls_sub_text": {
+    "message": "This is stored and sent in plain text as is required by the $O_ABBR_1$Application Programming Interface$O_ABBR_2$API$C_ABBR$",
+    "description": "Help text for the Password field in the Configuration column on the URL Shorteners tab of the Options page under the YOURLS section.",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      }
+    }
+  },
+  "opt_url_shortener_service_header": {
+    "message": "Service",
+    "description": "Header for the Service column on the URL Shorteners tab of the Options page."
+  },
+  "opt_url_shortener_signature_label": {
+    "message": "Signature",
+    "description": "Label for the Signature field in the Configuration column on the URL Shorteners tab of the Options page."
+  },
+  "opt_url_shortener_signature_yourls_sub_text": {
+    "message": "Don't know where to find this? $O_LINK_API_DOCS$Read this article$C_LINK$",
+    "description": "Help text for the Signature field in the Configuration column on the URL Shorteners tab of the Options page under the YOURLS section.",
+    "placeholders": {
+      "c_link": {
+        "content": "</a>",
+        "example": "</a>"
+      },
+      "o_link_api_docs": {
+        "content": "<a href=\"http://yourls.org/passwordlessapi\" target=\"_blank\">",
+        "example": "<a href=\"http://yourls.org/passwordlessapi\">"
+      }
+    }
+  },
+  "opt_url_shortener_url_label": {
+    "message": "$O_ABBR_1$Uniform Resource Locator$O_ABBR_2$URL$C_ABBR$",
+    "description": "Label for the URL field in the Configuration column on the URL Shorteners tab of the Options page.",
+    "placeholders": {
+      "c_abbr": {
+        "content": "</abbr>",
+        "example": "</abbr>"
+      },
+      "o_abbr_1": {
+        "content": "<abbr title=\"",
+        "example": "<abbr title=\""
+      },
+      "o_abbr_2": {
+        "content": "\">",
+        "example": "\">"
+      }
+    }
+  },
+  "opt_url_shortener_url_yourls_sub_text": {
+    "message": "For example; $EXAMPLE$",
+    "description": "Help text for the URL field in the Configuration column on the URL Shorteners tab of the Options page under the YOURLS section.",
+    "placeholders": {
+      "example": {
+        "content": "<em>http://exam.pl/yourls-api.php</em>",
+        "example": "http://exam.pl/yourls-api.php"
+      }
+    }
+  },
+  "opt_url_shortener_username_label": {
+    "message": "Username",
+    "description": "Label for the Username field in the Configuration column on the URL Shorteners tab of the Options page."
+  },
+  "opt_wizard_all_button": {
+    "message": "All",
+    "description": "Text for All buttons commonly found in dialogs."
+  },
+  "opt_wizard_back_button": {
+    "message": "Back",
+    "description": "Text for Back buttons commonly found in dialogs."
+  },
+  "opt_wizard_cancel_button": {
+    "message": "Cancel",
+    "description": "Text for Cancel buttons commonly found in dialogs."
+  },
+  "opt_wizard_close_button": {
+    "message": "Close",
+    "description": "Text for Close buttons commonly found in dialogs."
+  },
+  "opt_wizard_continue_button": {
+    "message": "Continue",
+    "description": "Text for Continue buttons commonly found in dialogs."
+  },
+  "opt_wizard_delete_button_text": {
+    "message": "Delete",
+    "description": "Text for Delete buttons commonly found in dialogs."
+  },
+  "opt_wizard_delete_button_title": {
+    "message": "Permanently delete this template",
+    "description": "Hover text for Delete buttons commonly found in dialogs."
+  },
+  "opt_wizard_no_button": {
+    "message": "No",
+    "description": "Text for No buttons commonly found in dialogs."
+  },
+  "opt_wizard_none_button": {
+    "message": "None",
+    "description": "Text for None buttons commonly found in dialogs."
+  },
+  "opt_wizard_reset_button": {
+    "message": "Reset",
+    "description": "Text for Reset buttons commonly found in dialogs."
+  },
+  "opt_wizard_save_button": {
+    "message": "Save",
+    "description": "Text for Save buttons commonly found in dialogs."
+  },
+  "opt_wizard_yes_button": {
+    "message": "Yes",
+    "description": "Text for Yes buttons commonly found in dialogs."
+  },
+  "options": {
+    "message": "Options",
+    "description": "Text for the Options popup/menu item."
+  },
+  "result_bad_description": {
+    "message": "$TEMPLATE$ could not be copied",
+    "description": "Notification for when something unknown went wrong while processing a template.",
+    "placeholders": {
+      "template": {
+        "content": "$1",
+        "example": "Anchor"
+      }
+    }
+  },
+  "result_bad_empty_description": {
+    "message": "$TEMPLATE$ output was empty",
+    "description": "Notification for when the outcome of processing a template is an empty string.",
+    "placeholders": {
+      "template": {
+        "content": "$1",
+        "example": "Short"
+      }
+    }
+  },
+  "result_bad_error_description": {
+    "message": "An error occurred while collecting information",
+    "description": "Notification for when something went wrong while collecting contextual data before processing a template."
+  },
+  "result_bad_expression_description": {
+    "message": "There was a problem parsing an expression",
+    "description": "Notification for when an error occurs when parsing CSS selector or XPath expressions while processing a template."
+  },
+  "result_bad_template_description": {
+    "message": "An error occurred while deriving the activated template",
+    "description": "Notification for when no active template can be derived from the current context."
+  },
+  "result_bad_type_description": {
+    "message": "An error occurred while requesting information",
+    "description": "Notification for when an invalid type was used by the requesting message."
+  },
+  "result_bad_title": {
+    "message": "Sorry!",
+    "description": "Notification header for when something bad happened while processing a template."
+  },
+  "result_bad_uri_description": {
+    "message": "The URL is not properly encoded",
+    "description": "Notification for when collecting data for an invalid URL before processing a template."
+  },
+  "result_good_description": {
+    "message": "$TEMPLATE$ has been copied",
+    "description": "Notification for when a template is processed successfully.",
+    "placeholders": {
+      "template": {
+        "content": "$1",
+        "example": "Markdown"
+      }
+    }
+  },
+  "result_good_title": {
+    "message": "Success!",
+    "description": "Notification header for when a template is processed successfully."
+  },
+  "shortener_bitly": {
+    "message": "bit.ly",
+    "description": "Name of the bit.ly URL shortener used throughout the extension."
+  },
+  "shortener_config_error": {
+    "message": "$SERVICE$ has not been configured correctly",
+    "description": "Notification for when attempting to use an incorrectly configured URL Shortener while processing a template.",
+    "placeholders": {
+      "service": {
+        "content": "$1",
+        "example": "YOURLS"
+      }
+    }
+  },
+  "shortener_detailed_error": {
+    "message": "$SERVICE$ experienced a problem while shortening $URL$",
+    "description": "Notification for when something went wrong while calling a URL Shortener service. This is a more detailed version of shortener_error as it also displays the URL being shortened.",
+    "placeholders": {
+      "service": {
+        "content": "$1",
+        "example": "goo.gl"
+      },
+      "url": {
+        "content": "$2",
+        "example": "http://template-extension.org/"
+      }
+    }
+  },
+  "shortener_error": {
+    "message": "$SERVICE$ experienced a problem",
+    "description": "Notification for when something went wrong while calling a URL Shortener service.",
+    "placeholders": {
+      "service": {
+        "content": "$1",
+        "example": "bit.ly"
+      }
+    }
+  },
+  "shortener_googl": {
+    "message": "goo.gl",
+    "description": "Name of the goo.gl URL shortener used throughout the extension."
+  },
+  "shortener_yourls": {
+    "message": "YOURLS",
+    "description": "Name of the YOURLS URL shortener used throughout the extension."
+  }
+}
