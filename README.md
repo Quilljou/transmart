@@ -1,20 +1,30 @@
-# Transmart
+
+
+<center>
+
+# Transmart ![alt](./assets/logo.png)
+
+</center>
+
+
 
 ![npm](https://img.shields.io/npm/v/@transmart/cli?style=flat-square)
 
 > Automate your i18n localization with AI.
 
-![alt](./screenshots/record.gif)
+![alt](./assets/record.gif)
 
 
 Transmart is an open-source developer tool that utilizes ChatGPT to automate i18n translation. Given a base language and specifying all the languages that need to be output, running it will generate all i18n locale files.
 
 It consists of two parts: Cli and Core. Core is the NodeJS core implementation of Transmart, while Cli is a command-line tool that encapsulates Core. In most cases, only Cli is used.
 
+This project is currently under active development，PRs are welcome
+
 ## Features
 
-- [x] Supports Large file sizes，don't worry about the 4096 tokens limit
-- [x] Supports all languages that ChatGPT can be displayed using [Intl.DisplayNames](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DisplayNames/DisplayNames) and can be processed by ChatGPT.
+- [x] Supports Large size files，don't worry about the 4096 tokens limit
+- [x] Supports all languages that can be displayed using [Intl.DisplayNames](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DisplayNames/DisplayNames) and can be processed by ChatGPT.
 - [x] Supports [i18next](https://www.i18next.com/)
 - [ ] Supports [vue-i18n](https://kazupon.github.io/vue-i18n/)
 - [x] Supports [Chrome.i18n](https://developer.chrome.com/docs/webstore/i18n/#choosing-locales-to-support)
@@ -57,8 +67,10 @@ module.exports = {
 
 ```
 
+All Options [Reference](#options)
 
-### 3. Start translation.
+
+### 3. Translate.
 
 Add transmart command to your npm scripts
 
@@ -80,7 +92,7 @@ Or you can execute directly with `npx` prefix in command line
 npx transmart
 ```
 
-🎉🎉 Enjoy Coding! 
+🎉🎉 Enjoy i18n 
 
 
 ## Examples
@@ -88,36 +100,19 @@ npx transmart
 - [next.js](./examples/next)
 - [chrome extension](./examples/chrome-extension/)
 
-## Cli options
+## Options
 
-Here are all the available options for CLI.  Running `npx transmart -h` will display them.
+| Name             | Type                   | Description                                              | Required |
+|------------------|------------------------|----------------------------------------------------------|:--------:|
+| baseLocale       | string                 | The language that Transmart will use as translation ref.  |    Yes   |
+| locales          | string[]               | All languages that need to be translated                  |    Yes   |
+| localePath       | string                 | Where you store your locale files                        |    Yes   |
+| openAIApiKey     | string                 | The OpenAI API Key.                                      |    Yes   |
+| namespaceGlob    | string\|string[]       | Glob for namespace(s) to process                          |    No   |
+| openAIApiUrl     | string     | Optional base url of OpenAI API, useful with proxy        |    No    |
+| openAIApiUrlPath | string     | Optional URL endpoint of OpenAI API, useful with proxy    |    No    |
+                                                     |
 
-Tips: Using command line options while using transmart.config.js will override the options in transmart.config.js.
-
-```sh
-Usage: transmart [options]
-
-🚀 Automate your i18n localization with AI.
-  
- Example: 
-
- npx transmart (transmart.config.js must be present)
-  
- Or more verbose way: 
-
- npx transmart -b en-US -p public/locales -l zh-CN,jp,de -k <your-own-openai-api-key>
-
-Options:
-  -c, --config <configurationFile>         transmart.config.js or transmartrc.json whatever config file format which cosmiconfig supports
-  -b, --base-locale <baseLocale>           the language that Transmart will use as a reference to translate other target languages
-  -l, --locales <locales...>               all the languages that need to be translated (including baseLocale which is also acceptable)
-  -p, --locale-path <localePath>           where you store your locale files
-  -k, --openai-api-key <openAIApiKey>      the OpenAI API Key. For instructions on how to obtain a key, please refer to: https://gptforwork.com/setup/how-to-create-openai-api-key
-  --openai-api-url <openAIApiUrl>          OpenAI API base url, useful when using proxy
-  --openai-api-urlpath <openAIApiUrlPath>  OpenAI API url endpoint, which is useful when using proxy
-  -V, --version                            output the version number
-  -h, --help                               display help for command
-```
 
 
 
@@ -132,3 +127,4 @@ To contribute to Transmart，refer to [contributing.md](./CONTRIBUTING.md)
 
 - https://chatgpt-i18n.vercel.app/
 - https://twitter.com/forgebitz/status/1634100746617597955
+- https://github.com/yetone/openai-translator

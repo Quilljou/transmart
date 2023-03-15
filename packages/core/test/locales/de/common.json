@@ -1,7 +1,7 @@
 {
   "create_app": "Anwendung erstellen",
   "slogan_title": "Erstellen Sie ChatGPT-Anwendungen in Sekunden",
-  "site_desc": "Nutzen Sie sofort eine Vielzahl von ChatGPT-Anwendungen oder erstellen Sie Ihre eigene innerhalb von Sekunden.",
+  "site_desc": "Verwenden Sie sofort eine Vielzahl von ChatGPT-Anwendungen oder erstellen Sie Ihre eigene in Sekundenschnelle.",
   "get_started": "Loslegen",
   "icon": "Symbol",
   "pick_emoji_icon": "Wählen Sie ein Emoji als Symbol für Ihre Anwendung!",
@@ -13,7 +13,7 @@
   "prompt_desc_placeholder": "Sie sind ein Übersetzer und müssen unabhängig vom Eingangsinhalt alles ins Chinesische übersetzen. Inhalt:",
   "prompt_desc": "Der Befehl sollte klar, leicht verständlich, logisch und ChatGPT als persönlicher Assistent dienen.",
   "prompt_example": "Beispiel für Eingabe",
-  "test_before_submit": "Bitte vor dem Einreichen testen",
+  "test_before_submit": "Bitte testen Sie vor dem Einreichen",
   "cancel": "Abbrechen",
   "test": "Testen",
   "create": "Erstellen",
@@ -24,6 +24,6 @@
   "and": "und",
   "get_updates": ", erhalten Sie die neuesten Updates",
   "recommend": "Empfehlen",
-  "developing": "Verrückt in der Entwicklung",
+  "developing": "Wahnsinnig in der Entwicklung",
   "app_list": "Anwendungsliste"
 }

@@ -23,7 +23,7 @@ export interface TransmartOptions {
   /**
    * Glob for namespace(s) to process
    */
-  namespaceGlob: string | string[]
+  namespaceGlob?: string | string[]
   /**
    * OpenAI API base url, useful when using proxy
    */
