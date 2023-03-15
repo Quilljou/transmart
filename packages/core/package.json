@@ -15,7 +15,9 @@
     "build:watch": "npm run clean && tsc -p tsconfig.build.json --watch"
   },
   "dependencies": {
+    "@types/glob": "^8.1.0",
     "fs-extra": "^11.1.0",
+    "glob": "^9.3.0",
     "gpt-3-encoder": "^1.1.4",
     "gpt3-tokenizer": "^1.1.5",
     "node-fetch": "^2.6.9",

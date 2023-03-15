@@ -2,8 +2,9 @@ import { translate } from './translate'
 import * as fs from 'fs-extra'
 import * as path from 'path'
 import { TransmartOptions, TranslateResult, RunOptions, RunWork } from './types'
-import { Task } from './work'
+import { Task } from './task'
 import { limit } from './limit'
+import { glob } from 'glob'
 
 const DEFAULT_PARAMS: Partial<TransmartOptions> = {
   openAIApiUrl: 'https://api.openai.com',
@@ -18,11 +19,13 @@ export class Transmart {
 
   public async run(options: RunOptions): Promise<any> {
     this.validateParams()
-    const { baseLocale, locales, localePath } = this.options
+    const { baseLocale, locales, localePath, namespaceGlob = '**/*.json' } = this.options
     const targetLocales = locales.filter((item) => item !== baseLocale)
     const runworks: RunWork[] = []
     const baseLocaleFullPath = path.resolve(localePath, baseLocale)
-    const namespaces = fs.readdirSync(baseLocaleFullPath)
+    const namespaces = await glob(namespaceGlob, {
+      cwd: baseLocaleFullPath,
+    })
     targetLocales.forEach((targetLocale) => {
       namespaces.forEach((ns) => {
         const inputNSFilePath = path.resolve(baseLocaleFullPath, ns)
@@ -34,7 +37,7 @@ export class Transmart {
         })
       })
     })
-    return Promise.all(runworks.map((work) => limit(() => this.processSingleNamespace(work, options))))
+    return Promise.all(runworks.map((work) => this.processSingleNamespace(work, options)))
   }
 
   private async processSingleNamespace(work: RunWork, options: RunOptions): Promise<void> {

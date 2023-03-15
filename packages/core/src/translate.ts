@@ -9,14 +9,14 @@ export async function translate(params: TranslateParams) {
     Authorization: `Bearer ${openAIApiKey}`,
   }
   const languageName = getLanguageDisplayName(targetLang)
-  const systemPrompt = `I have a i18n JSON file that needs to be translated to ${languageName} follow BCP 47, keep the keys the same`
+  const spell = `Translate the i18n JSON file to ${languageName} according to the BCP 47 standard. Keep the keys the same as the original file and make sure the output remains a valid i18n JSON file.`
   const body = {
     model: 'gpt-3.5-turbo',
     temperature: 0,
     messages: [
       {
         role: 'system',
-        content: systemPrompt,
+        content: spell,
       },
       { role: 'user', content: `${content}` },
     ],

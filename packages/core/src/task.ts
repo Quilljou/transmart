@@ -18,21 +18,19 @@ export class Task {
     const content = await readFile(inputNSFilePath, { encoding: 'utf-8' })
     const chunks = splitJSONtoSmallChunks(JSON.parse(content))
     let count = 0
+
     const p = chunks.map((chunk, index) => {
-      return limit(async () => {
-        const result = await this.run(JSON.stringify(chunk, null, 2), index)
-        count++
-        onProgress(count, chunks.length)
-        return result
-      })
+      return limit(() =>
+        (async () => {
+          const result = await this.run(JSON.stringify(chunk, null, 2), index)
+          count++
+          onProgress(count, chunks.length)
+          return result
+        })(),
+      )
     })
-    try {
-      const results = await Promise.all(p)
-      return this.pack(results)
-    } catch (error) {
-      console.log(error)
-      throw error
-    }
+    const results = await Promise.all(p)
+    return this.pack(results)
   }
 
   private async run(content: string, index: number): Promise<TaskResult> {
