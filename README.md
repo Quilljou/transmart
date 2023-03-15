@@ -1,14 +1,13 @@
 
 
-<center>
+<p align="center">
+  <img src="./assets/logo.png" />
+</p>
 
- ![alt](./assets/logo.png)
+<p align="center">
+<b>Transmart - Automate your i18n localization with AI.</b>
+</p>
 
-</center>
-
-<center>
-
-Transmart - Automate your i18n localization with AI.
 
 </center>
 
