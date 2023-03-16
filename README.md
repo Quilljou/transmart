@@ -96,7 +96,7 @@ Or you can execute directly with `npx` prefix in command line
 npx transmart
 ```
 
-If you are not satisfied with the result of AI translation，use [`overrides`](#options) option to overwrite the generated JSON 
+If you are not satisfied with the result of AI translation，use [`overrides`](#options) option to overwrite the generated JSON partially
 
 🎉🎉 Enjoy i18n
 
