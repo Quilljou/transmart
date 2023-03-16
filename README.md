@@ -104,7 +104,7 @@ If you are not satisfied with the result of AI translation，use [`overrides`](#
 
 ## Examples
 
-- [next.js](./examples/next)
+- [next.js](./examples/next.js)
 - [chrome extension](./examples/chrome-extension/)
 
 ## Options
