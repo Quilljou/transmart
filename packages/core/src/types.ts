@@ -25,6 +25,10 @@ export interface TransmartOptions {
    */
   namespaceGlob?: string | string[]
   /**
+   * OpenAI API model, default to `gpt-3.5-turbo`
+   */
+  openAIApiModel?: string
+  /**
    * OpenAI API base url, useful when using proxy
    */
   openAIApiUrl?: string
@@ -32,6 +36,19 @@ export interface TransmartOptions {
    * OpenAI API url endpoint, which is useful when using proxy
    */
   openAIApiUrlPath?: string
+  /**
+   * It can be used to overwrite the generated JSON if you are not satisfied with the result of AI translation.
+   * @example
+   * ```js
+   * {
+   *  [locale]: {
+   *      [namespace]: { title: "translated by hand" }
+   *      chat: { title: "translated by hand" },
+   *   }
+   * }
+   * ```
+   */
+  overrides?: Record<string, Record<string, Record<string, any>>>
 }
 
 export interface Stats {
@@ -49,6 +66,7 @@ export interface TransmartStats {
 export interface TranslateParams {
   content: string
   targetLang: string
+  openAIApiModel: string
   openAIApiKey: string
   openAIApiUrl: string
   openAIApiUrlPath: string
@@ -70,6 +88,7 @@ export interface RunOptions {
 }
 
 export interface RunWork {
+  namespace: string
   locale: string
   inputNSFilePath: string
   outputNSFilePath: string

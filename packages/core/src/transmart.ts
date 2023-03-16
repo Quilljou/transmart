@@ -9,6 +9,7 @@ import { glob } from 'glob'
 const DEFAULT_PARAMS: Partial<TransmartOptions> = {
   openAIApiUrl: 'https://api.openai.com',
   openAIApiUrlPath: '/v1/chat/completions',
+  openAIApiModel: 'gpt-3.5-turbo',
 }
 
 export class Transmart {
@@ -30,7 +31,9 @@ export class Transmart {
       namespaces.forEach((ns) => {
         const inputNSFilePath = path.resolve(baseLocaleFullPath, ns)
         const outputNSFilePath = path.resolve(localePath, targetLocale, ns)
+        const namespace = path.parse(ns).name
         runworks.push({
+          namespace: namespace,
           locale: targetLocale,
           inputNSFilePath,
           outputNSFilePath,

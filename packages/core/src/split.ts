@@ -36,7 +36,7 @@ export function splitJSONtoSmallChunks(object: Record<string, unknown>) {
   return chunks
 }
 
-function isPlainObject(obj: unknown): obj is Record<string, unknown> {
+export function isPlainObject(obj: unknown): obj is Record<string, unknown> {
   return Object.prototype.toString.call(obj) === '[object Object]'
 }
 // almost close to json

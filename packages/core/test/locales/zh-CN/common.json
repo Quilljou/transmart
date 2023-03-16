@@ -1,5 +1,5 @@
 {
-  "create_app": "创建应用",
+  "create_app": "Create my Application",
   "slogan_title": "在几秒钟内创建 ChatGPT 应用程序",
   "site_desc": "即刻使用各种 ChatGPT 应用程序，或在几秒钟内创建您自己的应用程序。",
   "get_started": "开始",
@@ -13,7 +13,7 @@
   "prompt_desc_placeholder": "您是一名翻译员，无论输入是什么，您都必须将其翻译成中文。内容：",
   "prompt_desc": "命令应该清晰、易于理解、逻辑性强，并让 ChatGPT 成为您的个人助手。",
   "prompt_example": "输入示例",
-  "test_before_submit": "请在提交之前进行测试",
+  "test_before_submit": "提交前请测试",
   "cancel": "取消",
   "test": "测试",
   "create": "创建",

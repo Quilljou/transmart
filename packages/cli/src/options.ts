@@ -30,6 +30,7 @@ program
   )
   .option('--openai-api-url <openAIApiUrl>', 'OpenAI API base url, useful when using proxy')
   .option('--openai-api-urlpath <openAIApiUrlPath>', 'OpenAI API url endpoint, which is useful when using proxy')
+  .option('--openai-api-model ', 'OpenAI API model, default to`gpt-3.5-turbo`')
   .option('-n, --namespace-glob <namespaceGlobs...>', 'glob pattern(s) to match namespace(s)')
   .version(pkg.version)
   .parse()

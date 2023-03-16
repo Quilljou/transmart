@@ -2,7 +2,7 @@ import { Transmart } from './transmart'
 import { RunWork, TranslateResult } from './types'
 import { readFile } from 'node:fs/promises'
 import { translate } from './translate'
-import { splitJSONtoSmallChunks } from './split'
+import { isPlainObject, splitJSONtoSmallChunks } from './split'
 import { limit } from './limit'
 
 interface TaskResult {
@@ -14,7 +14,7 @@ export class Task {
   constructor(private transmart: Transmart, private work: RunWork) {}
 
   async start(onProgress: (current: number, total: number) => any) {
-    const { inputNSFilePath, outputNSFilePath, locale } = this.work
+    const { inputNSFilePath, namespace, locale } = this.work
     const content = await readFile(inputNSFilePath, { encoding: 'utf-8' })
     const chunks = splitJSONtoSmallChunks(JSON.parse(content))
     let count = 0
@@ -30,16 +30,32 @@ export class Task {
       )
     })
     const results = await Promise.all(p)
-    return this.pack(results)
+    const namespaceResult = this.pack(results)
+    const { overrides } = this.transmart.options
+
+    // override with user provided
+    if (overrides && isPlainObject(overrides)) {
+      Object.entries(overrides).forEach(([overrideKey, value]) => {
+        if (overrideKey === locale && isPlainObject(value)) {
+          Object.entries(value).forEach(([overrideNs, overrideValues]) => {
+            if (overrideNs === namespace) {
+              Object.assign(namespaceResult, overrideValues)
+            }
+          })
+        }
+      })
+    }
+    return JSON.stringify(namespaceResult, null, 2)
   }
 
   private async run(content: string, index: number): Promise<TaskResult> {
-    const { openAIApiKey, openAIApiUrl, openAIApiUrlPath, localePath } = this.transmart.options
+    const { openAIApiKey, openAIApiUrl, openAIApiUrlPath, openAIApiModel } = this.transmart.options
     const { locale } = this.work
 
     const data = await translate({
       content,
       targetLang: locale,
+      openAIApiModel,
       openAIApiKey,
       openAIApiUrl,
       openAIApiUrlPath,
@@ -50,7 +66,7 @@ export class Task {
     }
   }
 
-  pack(result: TaskResult[]): string {
+  pack(result: TaskResult[]): Record<string, any> {
     // TODO: validate valid JSON or merge it into one
     const onePiece = result
       .sort((a, b) => a.index - b.index)
@@ -60,6 +76,7 @@ export class Task {
           ...JSON.parse(next.content),
         }
       }, {})
-    return JSON.stringify(onePiece, null, 2)
+
+    return onePiece
   }
 }
