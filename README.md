@@ -11,6 +11,8 @@
 ![alt](./assets/record.gif)
 
 ![npm](https://img.shields.io/npm/v/@transmart/cli?style=flat-square)
+[![Open in CodeSandbox](https://img.shields.io/badge/Open%20in-CodeSandbox-blue?logo=codesandbox)](https://codesandbox.io/p/sandbox/v12-12v2h6?file=%2FREADME.md)
+
 
 Transmart is an open-source developer tool that utilizes ChatGPT to automate i18n translation. Given a base language and specifying all the languages that need to be output, running it will generate all i18n locale files.
 
