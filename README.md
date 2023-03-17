@@ -3,10 +3,11 @@
 </p>
 
 <p align="center">
-<b>Transmart - Automate your i18n localization with AI.</b>
+  <b>Transmart - Automate your i18n localization with AI.</b>
 </p>
 
-</center>
+English | [简体中文](./README-zh_CN.md)
+
 
 ![alt](./assets/record.gif)
 
