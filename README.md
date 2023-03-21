@@ -73,6 +73,9 @@ module.exports = {
 }
 ```
 
+
+
+
 All Options [Reference](#options)
 
 ### 3. Translate.
@@ -118,7 +121,7 @@ If you are not satisfied with the result of AI translation，use [`overrides`](#
 | openAIApiKey     | string                                | The OpenAI API Key.                                                                             |   Yes    |
 | openAIApiModel   | string                                | OpenAI API model, default to `gpt-3.5-turbo`                                                    |    No    |
 | overrides        | `Record<string, Record<string, Record<string, any>>>` | used to overwrite the generated JSON if you are not satisfied with the result of AI translation (locale-namespace-key:value) |    No    |
-| namespaceGlob    | string\|string[]                      | Glob for namespace(s) to process                                                                |    No    |
+| namespaceGlob    | string\|string[]                      | Glob for namespace(s) to process, useful to include or exclude some files, learn more [glob](https://www.npmjs.com/package/glob#usage)                                                            |    No    |
 | openAIApiUrl     | string                                | Optional base url of OpenAI API, useful with proxy                                              |    No    |
 | openAIApiUrlPath | string                                | Optional URL endpoint of OpenAI API, useful with proxy                                          |    No    |
 |  |
