@@ -9,7 +9,7 @@ import { glob } from 'glob'
 const DEFAULT_PARAMS: Partial<TransmartOptions> = {
   openAIApiUrl: 'https://api.openai.com',
   openAIApiUrlPath: '/v1/chat/completions',
-  openAIApiModel: 'gpt-3.5-turbo',
+  openAIApiModel: 'gpt-3.5-turbo-16k-0613',
 }
 
 export class Transmart {

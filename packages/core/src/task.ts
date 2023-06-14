@@ -49,12 +49,13 @@ export class Task {
   }
 
   private async run(content: string, index: number): Promise<TaskResult> {
-    const { openAIApiKey, openAIApiUrl, openAIApiUrlPath, openAIApiModel } = this.transmart.options
+    const { openAIApiKey, openAIApiUrl, openAIApiUrlPath, openAIApiModel, context } = this.transmart.options
     const { locale } = this.work
 
     const data = await translate({
       content,
       targetLang: locale,
+      context,
       openAIApiModel,
       openAIApiKey,
       openAIApiUrl,

@@ -25,6 +25,10 @@ export interface TransmartOptions {
    */
   namespaceGlob?: string | string[]
   /**
+   * Provide some context for a more accurate translation.
+   */
+  context?: string
+  /**
    * OpenAI API model, default to `gpt-3.5-turbo`
    */
   openAIApiModel?: string
@@ -66,6 +70,7 @@ export interface TransmartStats {
 export interface TranslateParams {
   content: string
   targetLang: string
+  context?: string
   openAIApiModel: string
   openAIApiKey: string
   openAIApiUrl: string

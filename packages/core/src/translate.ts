@@ -3,13 +3,16 @@ import { getLanguageDisplayName } from './language'
 import { TranslateParams } from './types'
 
 export async function translate(params: TranslateParams) {
-  const { targetLang, openAIApiKey, openAIApiUrl, openAIApiUrlPath, content, openAIApiModel } = params
+  const { targetLang, openAIApiKey, openAIApiUrl, openAIApiUrlPath, content, openAIApiModel, context } = params
   const headers = {
     'Content-Type': 'application/json',
     Authorization: `Bearer ${openAIApiKey}`,
   }
   const languageName = getLanguageDisplayName(targetLang)
-  const spell = `Translate the i18n JSON file to ${languageName} according to the BCP 47 standard. Keep the keys the same as the original file and make sure the output remains a valid i18n JSON file.`
+  const spell =
+    'Translate the i18n JSON file to ${languageName} according to the BCP 47 standard' + context
+      ? `\nHere are some contexts to help with better translation.  ---${context}---`
+      : '' + `\n Keep the keys the same as the original file and make sure the output remains a valid i18n JSON file.`
   const body = {
     model: openAIApiModel,
     temperature: 0,

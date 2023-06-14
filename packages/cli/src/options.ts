@@ -28,9 +28,10 @@ program
     '-k, --openai-api-key <openAIApiKey>',
     'the OpenAI API Key. For instructions on how to obtain a key, please refer to: https://gptforwork.com/setup/how-to-create-openai-api-key',
   )
+  .option('--context <context>', 'Provide some context for a more accurate translation.')
   .option('--openai-api-url <openAIApiUrl>', 'OpenAI API base url, useful when using proxy')
   .option('--openai-api-urlpath <openAIApiUrlPath>', 'OpenAI API url endpoint, which is useful when using proxy')
-  .option('--openai-api-model ', 'OpenAI API model, default to`gpt-3.5-turbo`')
+  .option('--openai-api-model <openAIApiModel>', 'OpenAI API model, default to`gpt-3.5-turbo`')
   .option('-n, --namespace-glob <namespaceGlobs...>', 'glob pattern(s) to match namespace(s)')
   .version(pkg.version)
   .parse()

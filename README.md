@@ -119,7 +119,8 @@ If you are not satisfied with the result of AI translation，use [`overrides`](#
 | locales          | string[]                              | All languages that need to be translated                                                        |   Yes    |
 | localePath       | string                                | Where you store your locale files                                                               |   Yes    |
 | openAIApiKey     | string                                | The OpenAI API Key.                                                                             |   Yes    |
-| openAIApiModel   | string                                | OpenAI API model, default to `gpt-3.5-turbo`                                                    |    No    |
+| context     | string                                | Provide some context for a more accurate translation.                                                                             |   No    |
+| openAIApiModel   | string                                | OpenAI API model, default to `gpt-3.5-turbo-16k-0613`                                                    |    No    |
 | overrides        | `Record<string, Record<string, Record<string, any>>>` | used to overwrite the generated JSON if you are not satisfied with the result of AI translation (locale-namespace-key:value) |    No    |
 | namespaceGlob    | string\|string[]                      | Glob for namespace(s) to process, useful to include or exclude some files, learn more [glob](https://www.npmjs.com/package/glob#usage)                                                            |    No    |
 | openAIApiUrl     | string                                | Optional base url of OpenAI API, useful with proxy                                              |    No    |
