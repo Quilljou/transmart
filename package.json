@@ -18,12 +18,14 @@
   ],
   "scripts": {
     "clean": "lerna run clean",
+    "build": "lerna run build",
     "build:watch": "lerna run build:watch",
     "typecheck": "tsc",
     "typecheck:watch": "tsc --watch",
     "lint": "eslint --quiet packages --ext .ts",
     "lint:fix": "eslint --quiet --fix packages --ext .ts",
-    "bootstrap": "source .env"
+    "bootstrap": "source .env",
+    "release": "npm run clean && npm run build && lerna publish"
   },
   "dependencies": {
     "commander": "^9.4.1",

@@ -10,7 +10,7 @@ export async function translate(params: TranslateParams) {
   }
   const languageName = getLanguageDisplayName(targetLang)
   const spell =
-    'Translate the i18n JSON file to ${languageName} according to the BCP 47 standard' + context
+    `Translate the i18n JSON file to ${languageName} according to the BCP 47 standard` + context
       ? `\nHere are some contexts to help with better translation.  ---${context}---`
       : '' + `\n Keep the keys the same as the original file and make sure the output remains a valid i18n JSON file.`
   const body = {
