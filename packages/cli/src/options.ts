@@ -1,7 +1,7 @@
 import { CmdOptions } from './types'
 import { program } from 'commander'
 import { cosmiconfig } from 'cosmiconfig'
-
+import { TypeScriptLoader } from 'cosmiconfig-typescript-loader'
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const pkg = require('../package.json')
 
@@ -36,7 +36,11 @@ program
   .version(pkg.version)
   .parse()
 
-const explorer = cosmiconfig('transmart')
+const explorer = cosmiconfig('transmart', {
+  loaders: {
+    '.ts': TypeScriptLoader(),
+  },
+})
 
 export async function parseArgv(args: Array<string>): Promise<CmdOptions | null> {
   const stdInOptions = program.opts<CmdOptions>()
@@ -44,6 +48,7 @@ export async function parseArgv(args: Array<string>): Promise<CmdOptions | null>
   try {
     consmiconResult = stdInOptions.config ? await explorer.load(stdInOptions.config) : await explorer.search()
   } catch (error) {
+    console.error(error)
     // do nothing
     if (!stdInOptions.config) {
       throw new Error('please provide a valid config file')
