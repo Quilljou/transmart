@@ -125,6 +125,10 @@ If you are not satisfied with the result of AI translation，use [`overrides`](#
 | namespaceGlob    | string\|string[]                      | Glob for namespace(s) to process, useful to include or exclude some files, learn more [glob](https://www.npmjs.com/package/glob#usage)                                                            |    No    |
 | openAIApiUrl     | string                                | Optional base url of OpenAI API, useful with proxy                                              |    No    |
 | openAIApiUrlPath | string                                | Optional URL endpoint of OpenAI API, useful with proxy                                          |    No    |
+| modelContextLimit | number                               | Optional max context window that the model supports. For example for gpt-4-32k, the context is 32768 tokens. Default to 4096 (gpt-3.5-turbo)      |    No    |
+| modelContextSplit | number                               | Optional ratio to split between number of input / output tokens. For example, if the input language is English and output is Spanish, you may expect 1 input token to produce 2 output tokens. In this case, the variable is set to 1/2. By default, modelContextSplit is set to 1/1      |    No    |
+| systemPromptTemplate | function                               | (For advanced usage) Custom prompt template. See "translate.ts" for the default prompt.      |    No    |
+| additionalReqBodyParams | any                               | (For advanced usage) Custom parameters to be passed into request body. Useful if you use a self-hosted model and you want to customize model parameters. For example, see [llama.cpp server example](https://github.com/ggerganov/llama.cpp/tree/master/examples/server)      |    No    |
 |  |
 
 ## Contributing

@@ -53,6 +53,31 @@ export interface TransmartOptions {
    * ```
    */
   overrides?: Record<string, Record<string, Record<string, any>>>
+  /**
+   * The max context window that the model supports. For example for gpt-4-32k, the context is 32768 tokens. Default to 4096 (gpt-3.5-turbo)
+   */
+  modelContextLimit?: number
+  /**
+   * The ratio to split between number of input / output tokens. For example, if the input language is English and output is Spanish, you may expect 1 input token to produce 2 output tokens. In this case, the variable is set to 1/2. By default, modelContextSplit is set to 1/1
+   */
+  modelContextSplit?: number
+  /**
+   * (For advanced usage) Custom prompt template. See "translate.ts" for the default prompt.
+   */
+  systemPromptTemplate?: (data: {
+    languageName: string | undefined,
+    context: string | undefined,
+  }) => string
+  /**
+   * (For advanced usage) Custom parameters to be passed into request body. Useful if you use a self-hosted model and you want to customize model parameters. For example llama.cpp:
+   * {
+   *   mirostat_eta: 0.8,
+   *   mirostat_tau: 0.9,
+   *   mirostat: 1,
+   *   grammar: [JSON grammar]
+   * }
+   */
+  additionalReqBodyParams?: any
 }
 
 export interface Stats {
@@ -75,6 +100,8 @@ export interface TranslateParams {
   openAIApiKey: string
   openAIApiUrl: string
   openAIApiUrlPath: string
+  systemPromptTemplate: TransmartOptions['systemPromptTemplate']
+  additionalReqBodyParams: any
 }
 
 export interface TranslateResult {
