@@ -1,9 +1,9 @@
 import * as fs from 'fs'
 import { encode } from 'gpt-3-encoder'
 
-const MAX_TOKENS = 2000
 
-export function splitJSONtoSmallChunks(object: Record<string, unknown>) {
+export function splitJSONtoSmallChunks(object: Record<string, unknown>, options: { modelContextLimit: number, modelContextSplit: number }) {
+  const maxInputToken = Math.floor(options.modelContextLimit * options.modelContextSplit)
   const chunks: Record<string, unknown>[] = []
   const keys = Object.keys(object)
   const totalLength = keys.length
@@ -17,7 +17,7 @@ export function splitJSONtoSmallChunks(object: Record<string, unknown>) {
     const value = object[key]
     chunkSize += encode(key).length + 2 // "key":
     const nextValueSize = isPlainObject(value) ? getJSONTokenSize(value, 1) : getPrimitiveValueSize(value)
-    if (chunkSize + nextValueSize > MAX_TOKENS) {
+    if (chunkSize + nextValueSize > maxInputToken) {
       // clear temp chunk
       chunks.push({ ...tempChunk })
       tempChunk = {}

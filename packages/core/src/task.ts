@@ -15,8 +15,9 @@ export class Task {
 
   async start(onProgress: (current: number, total: number) => any) {
     const { inputNSFilePath, namespace, locale } = this.work
+    const { modelContextLimit, modelContextSplit } = this.transmart.options
     const content = await readFile(inputNSFilePath, { encoding: 'utf-8' })
-    const chunks = splitJSONtoSmallChunks(JSON.parse(content))
+    const chunks = splitJSONtoSmallChunks(JSON.parse(content), { modelContextLimit, modelContextSplit })
     let count = 0
 
     const p = chunks.map((chunk, index) => {
@@ -49,7 +50,7 @@ export class Task {
   }
 
   private async run(content: string, index: number): Promise<TaskResult> {
-    const { openAIApiKey, openAIApiUrl, openAIApiUrlPath, openAIApiModel, context } = this.transmart.options
+    const { openAIApiKey, openAIApiUrl, openAIApiUrlPath, openAIApiModel, context, systemPromptTemplate, additionalReqBodyParams } = this.transmart.options
     const { locale } = this.work
 
     const data = await translate({
@@ -60,6 +61,8 @@ export class Task {
       openAIApiKey,
       openAIApiUrl,
       openAIApiUrlPath,
+      systemPromptTemplate,
+      additionalReqBodyParams,
     })
     return {
       content: data,
