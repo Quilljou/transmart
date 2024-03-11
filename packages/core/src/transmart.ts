@@ -36,6 +36,7 @@ export class Transmart {
         const namespace = path.parse(ns).name
         runworks.push({
           namespace: namespace,
+          baseLocale,
           locale: targetLocale,
           inputNSFilePath,
           outputNSFilePath,

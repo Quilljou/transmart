@@ -94,6 +94,7 @@ export interface TransmartStats {
 
 export interface TranslateParams {
   content: string
+  baseLang: string
   targetLang: string
   context?: string
   openAIApiModel: string
@@ -121,6 +122,7 @@ export interface RunOptions {
 
 export interface RunWork {
   namespace: string
+  baseLocale: string
   locale: string
   inputNSFilePath: string
   outputNSFilePath: string

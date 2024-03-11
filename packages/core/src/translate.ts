@@ -3,7 +3,7 @@ import { getLanguageDisplayName } from './language'
 import { TranslateParams } from './types'
 
 export async function translate(params: TranslateParams) {
-  const { targetLang, openAIApiKey, openAIApiUrl, openAIApiUrlPath, content, openAIApiModel, context, systemPromptTemplate, additionalReqBodyParams } = params
+  const { baseLang, targetLang, openAIApiKey, openAIApiUrl, openAIApiUrlPath, content, openAIApiModel, context, systemPromptTemplate, additionalReqBodyParams } = params
   const headers = {
     'Content-Type': 'application/json',
     Authorization: `Bearer ${openAIApiKey}`,
@@ -13,7 +13,10 @@ export async function translate(params: TranslateParams) {
     ? systemPromptTemplate({ languageName, context })
     : `Translate the i18n JSON file to ${languageName} according to the BCP 47 standard` +
       (context ? `\nHere are some contexts to help with better translation.  ---${context}---` : '') +
-      `\n Keep the keys the same as the original file and make sure the output remains a valid i18n JSON file.`
+      `\n Keep the keys the same as the original file and make sure the output remains a valid i18n JSON file.` +
+      `\n For plural forms like "${getPluralSuffixes(baseLang)}" add keys with suffixes "${getPluralSuffixes(
+        targetLang,
+      )}" and correct translation for ${languageName}.`
   const body = {
     model: openAIApiModel,
     temperature: 0,
@@ -50,3 +53,9 @@ const findValidJSONInsideBody = (input: string): string => {
   const lastBracket = input.lastIndexOf('}') + 1
   return input.substring(firstBracket, lastBracket)
 }
+
+const getPluralSuffixes = (input: string): string =>
+  new Intl.PluralRules(input)
+    .resolvedOptions()
+    .pluralCategories.map((cat) => `_${cat}`)
+    .join(', ')
