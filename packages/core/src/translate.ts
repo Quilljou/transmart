@@ -2,8 +2,20 @@ import fetch from 'node-fetch'
 import { getLanguageDisplayName } from './language'
 import { TranslateParams } from './types'
 
-export async function translate(params: TranslateParams) {
-  const { baseLang, targetLang, openAIApiKey, openAIApiUrl, openAIApiUrlPath, content, openAIApiModel, context, systemPromptTemplate, additionalReqBodyParams } = params
+export async function translate(params: TranslateParams, retryTime = 0): Promise<string> {
+  const {
+    baseLang,
+    targetLang,
+    openAIApiKey,
+    retryTimes,
+    openAIApiUrl,
+    openAIApiUrlPath,
+    content,
+    openAIApiModel,
+    context,
+    systemPromptTemplate,
+    additionalReqBodyParams,
+  } = params
   const headers = {
     'Content-Type': 'application/json',
     Authorization: `Bearer ${openAIApiKey}`,
@@ -27,6 +39,9 @@ export async function translate(params: TranslateParams) {
       },
       { role: 'user', content: `${content}` },
     ],
+    response_format: {
+      type: 'json_object',
+    },
     ...(additionalReqBodyParams || {}),
   }
   const finalUrlPath = openAIApiUrl + openAIApiUrlPath
@@ -36,6 +51,9 @@ export async function translate(params: TranslateParams) {
     body: JSON.stringify(body),
   })
   if (res.status !== 200) {
+    if (retryTime < (retryTimes || 3)) {
+      return translate(params, retryTime + 1)
+    }
     const { error } = await res.json()
     throw new Error(error.message)
   }
@@ -44,6 +62,7 @@ export async function translate(params: TranslateParams) {
     throw new Error('No result')
   }
   const targetTxt = choices[0].message.content.trim()
+  console.log('targetTxt', targetTxt)
   return findValidJSONInsideBody(targetTxt)
 }
 

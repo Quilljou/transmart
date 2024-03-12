@@ -17,6 +17,14 @@ export interface TransmartOptions {
    */
   localePath: string
   /**
+   * where the cache files are stored, there will be some cache files generated during the translation process
+   */
+  cachePath?: string
+  /**
+   * whether to enable cache, default to false
+   */
+  cacheEnabled?: boolean
+  /**
    * the OpenAI API Key. For instructions on how to obtain a key, please refer to: https://gptforwork.com/setup/how-to-create-openai-api-key
    */
   openAIApiKey: string
@@ -28,6 +36,10 @@ export interface TransmartOptions {
    * Provide some context for a more accurate translation.
    */
   context?: string
+  /**
+   * Retry times when the translation fails, default to 3
+   */
+  retryTimes?: number
   /**
    * OpenAI API model, default to `gpt-3.5-turbo`
    */
@@ -64,10 +76,7 @@ export interface TransmartOptions {
   /**
    * (For advanced usage) Custom prompt template. See "translate.ts" for the default prompt.
    */
-  systemPromptTemplate?: (data: {
-    languageName: string | undefined,
-    context: string | undefined,
-  }) => string
+  systemPromptTemplate?: (data: { languageName: string | undefined; context: string | undefined }) => string
   /**
    * (For advanced usage) Custom parameters to be passed into request body. Useful if you use a self-hosted model and you want to customize model parameters. For example llama.cpp:
    * {
@@ -97,6 +106,7 @@ export interface TranslateParams {
   baseLang: string
   targetLang: string
   context?: string
+  retryTimes?: number
   openAIApiModel: string
   openAIApiKey: string
   openAIApiUrl: string
@@ -126,4 +136,5 @@ export interface RunWork {
   locale: string
   inputNSFilePath: string
   outputNSFilePath: string
+  cachePath: string
 }

@@ -1,5 +1,5 @@
 import { Transmart } from './transmart'
-import { RunWork, TranslateResult } from './types'
+import { RunWork } from './types'
 import { readFile } from 'node:fs/promises'
 import { translate } from './translate'
 import { isPlainObject, splitJSONtoSmallChunks } from './split'
@@ -50,7 +50,16 @@ export class Task {
   }
 
   private async run(content: string, index: number): Promise<TaskResult> {
-    const { openAIApiKey, openAIApiUrl, openAIApiUrlPath, openAIApiModel, baseLocale, context, systemPromptTemplate, additionalReqBodyParams } = this.transmart.options
+    const {
+      openAIApiKey,
+      openAIApiUrl,
+      openAIApiUrlPath,
+      openAIApiModel,
+      baseLocale,
+      context,
+      systemPromptTemplate,
+      additionalReqBodyParams,
+    } = this.transmart.options
     const { locale } = this.work
 
     const data = await translate({

@@ -1,8 +1,9 @@
-import * as fs from 'fs'
 import { encode } from 'gpt-3-encoder'
 
-
-export function splitJSONtoSmallChunks(object: Record<string, unknown>, options: { modelContextLimit: number, modelContextSplit: number }) {
+export function splitJSONtoSmallChunks(
+  object: Record<string, unknown>,
+  options: { modelContextLimit: number; modelContextSplit: number },
+) {
   const maxInputToken = Math.floor(options.modelContextLimit * options.modelContextSplit)
   const chunks: Record<string, unknown>[] = []
   const keys = Object.keys(object)

@@ -1,17 +1,17 @@
-import { translate } from './translate'
 import * as fs from 'fs-extra'
 import * as path from 'path'
-import { TransmartOptions, TranslateResult, RunOptions, RunWork, TransmartStats, Stats } from './types'
+import { TransmartOptions, RunOptions, RunWork, TransmartStats, Stats } from './types'
 import { Task } from './task'
-import { limit } from './limit'
 import { glob } from 'glob'
+import { getPairHash } from './util'
+import { existsSync } from 'node:fs'
 
 const DEFAULT_PARAMS: Partial<TransmartOptions> = {
   openAIApiUrl: 'https://api.openai.com',
   openAIApiUrlPath: '/v1/chat/completions',
   openAIApiModel: 'gpt-3.5-turbo-16k-0613',
   modelContextLimit: 4096,
-  modelContextSplit: 1/1,
+  modelContextSplit: 1 / 1,
 }
 
 export class Transmart {
@@ -22,24 +22,40 @@ export class Transmart {
 
   public async run(options: RunOptions): Promise<TransmartStats> {
     this.validateParams()
-    const { baseLocale, locales, localePath, namespaceGlob = '**/*.json' } = this.options
+    const { baseLocale, locales, localePath, cacheEnabled, namespaceGlob = '**/*.json' } = this.options
     const targetLocales = locales.filter((item) => item !== baseLocale)
     const runworks: RunWork[] = []
     const baseLocaleFullPath = path.resolve(localePath, baseLocale)
     const namespaces = await glob(namespaceGlob, {
       cwd: baseLocaleFullPath,
     })
+    // if cachePath is not provided, use the localePath/.cache as default
+    const cachePath = this.options.cachePath || path.resolve(localePath, '.cache')
+
     targetLocales.forEach((targetLocale) => {
       namespaces.forEach((ns) => {
         const inputNSFilePath = path.resolve(baseLocaleFullPath, ns)
         const outputNSFilePath = path.resolve(localePath, targetLocale, ns)
+
+        if (cacheEnabled) {
+          const pairHash = getPairHash(inputNSFilePath, outputNSFilePath)
+          const targetCachePath = path.join(cachePath, pairHash)
+          // check if the cache file exists
+          if (existsSync(targetCachePath) && existsSync(outputNSFilePath)) {
+            console.log(`cache file and output file exists, skip for namespace ${ns} and locale ${targetLocale}`)
+            return
+          }
+        }
+
         const namespace = path.parse(ns).name
+
         runworks.push({
           namespace: namespace,
           baseLocale,
           locale: targetLocale,
           inputNSFilePath,
           outputNSFilePath,
+          cachePath,
         })
       })
     })
@@ -60,6 +76,14 @@ export class Transmart {
           })
           namespacesStats.success++
           onResult?.({ work, content: data, failed: false })
+
+          // after success, write the cache file
+          if (cacheEnabled) {
+            const pairHash = getPairHash(work.inputNSFilePath, work.outputNSFilePath)
+            const targetCachePath = path.join(cachePath, pairHash)
+            // just save an empty file as the cache file
+            await fs.ensureFile(targetCachePath)
+          }
         } catch (error) {
           namespacesStats.failed++
           onResult?.({ work, failed: true, content: '', reason: error as Error })
