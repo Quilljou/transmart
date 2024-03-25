@@ -62,7 +62,6 @@ export async function translate(params: TranslateParams, retryTime = 0): Promise
     throw new Error('No result')
   }
   const targetTxt = choices[0].message.content.trim()
-  console.log('targetTxt', targetTxt)
   return findValidJSONInsideBody(targetTxt)
 }
 
