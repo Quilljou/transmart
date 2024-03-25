@@ -4,6 +4,7 @@ import { readFile } from 'node:fs/promises'
 import { translate } from './translate'
 import { isPlainObject, splitJSONtoSmallChunks } from './split'
 import { limit } from './limit'
+import { jsonrepair } from 'jsonrepair'
 
 interface TaskResult {
   content: string
@@ -80,17 +81,27 @@ export class Task {
     }
   }
 
+  parse(content: string): Record<string, any> {
+    try {
+      const parsedJson = JSON.parse(content)
+      return parsedJson
+    } catch (e) {
+      // try fix using jsonrepair, if it still fails, just raise error
+      const parsedJson = JSON.parse(jsonrepair(content))
+      return parsedJson
+    }
+  }
+
   pack(result: TaskResult[]): Record<string, any> {
-    // TODO: validate valid JSON or merge it into one
     const onePiece = result
       .sort((a, b) => a.index - b.index)
       .reduce((prev, next) => {
+        const parsedJson = this.parse(next.content)
         return {
           ...prev,
-          ...JSON.parse(next.content),
+          ...parsedJson,
         }
       }, {})
-
     return onePiece
   }
 }
