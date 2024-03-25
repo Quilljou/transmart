@@ -22,7 +22,7 @@ export class Transmart {
 
   public async run(options: RunOptions): Promise<TransmartStats> {
     this.validateParams()
-    const { baseLocale, locales, localePath, cacheEnabled, namespaceGlob = '**/*.json' } = this.options
+    const { baseLocale, locales, localePath, cacheEnabled = true, namespaceGlob = '**/*.json' } = this.options
     const targetLocales = locales.filter((item) => item !== baseLocale)
     const runworks: RunWork[] = []
     const baseLocaleFullPath = path.resolve(localePath, baseLocale)

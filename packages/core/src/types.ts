@@ -21,7 +21,7 @@ export interface TransmartOptions {
    */
   cachePath?: string
   /**
-   * whether to enable cache, default to false
+   * whether to enable cache, default to true
    */
   cacheEnabled?: boolean
   /**
