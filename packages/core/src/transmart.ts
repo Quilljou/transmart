@@ -42,7 +42,7 @@ export class Transmart {
           const targetCachePath = path.join(cachePath, pairHash)
           // check if the cache file exists
           if (existsSync(targetCachePath) && existsSync(outputNSFilePath)) {
-            console.log(`cache file and output file exists, skip for namespace ${ns} and locale ${targetLocale}`)
+            console.log(`cache file and output file exists, skip for namespace ${ns} - locale ${targetLocale}`)
             return
           }
         }
