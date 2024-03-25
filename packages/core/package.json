@@ -20,6 +20,7 @@
     "glob": "^9.3.0",
     "gpt-3-encoder": "^1.1.4",
     "gpt3-tokenizer": "^1.1.5",
+    "jsonrepair": "^3.6.0",
     "node-fetch": "^2.6.9",
     "p-limit": "^3.1.0"
   },
