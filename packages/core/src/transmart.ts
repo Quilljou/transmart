@@ -9,7 +9,7 @@ import { existsSync } from 'node:fs'
 const DEFAULT_PARAMS: Partial<TransmartOptions> = {
   openAIApiUrl: 'https://api.openai.com',
   openAIApiUrlPath: '/v1/chat/completions',
-  openAIApiModel: 'gpt-3.5-turbo-16k-0613',
+  openAIApiModel: 'gpt-3.5-turbo',
   modelContextLimit: 4096,
   modelContextSplit: 1 / 1,
 }
