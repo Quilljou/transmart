@@ -39,9 +39,6 @@ export async function translate(params: TranslateParams, retryTime = 0): Promise
       },
       { role: 'user', content: `${content}` },
     ],
-    response_format: {
-      type: 'json_object',
-    },
     ...(additionalReqBodyParams || {}),
   }
   const finalUrlPath = openAIApiUrl + openAIApiUrlPath
