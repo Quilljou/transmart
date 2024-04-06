@@ -1,6 +1,6 @@
 {
   "name": "@transmart/core",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
