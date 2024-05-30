@@ -22,20 +22,31 @@ export class Transmart {
 
   public async run(options: RunOptions): Promise<TransmartStats> {
     this.validateParams()
-    const { baseLocale, locales, localePath, cacheEnabled = true, namespaceGlob = '**/*.json' } = this.options
+    const {
+      baseLocale,
+      locales,
+      localePath,
+      cacheEnabled = true,
+      namespaceGlob = '**/*.json',
+      singleFileMode = false,
+    } = this.options
     const targetLocales = locales.filter((item) => item !== baseLocale)
     const runworks: RunWork[] = []
-    const baseLocaleFullPath = path.resolve(localePath, baseLocale)
+    const baseLocaleFullPath = singleFileMode ? localePath : path.resolve(localePath, baseLocale)
     const namespaces = await glob(namespaceGlob, {
       cwd: baseLocaleFullPath,
     })
     // if cachePath is not provided, use the localePath/.cache as default
     const cachePath = this.options.cachePath || path.resolve(localePath, '.cache')
-
+    const realNamespaces = singleFileMode ? ['app'] : namespaces
     targetLocales.forEach((targetLocale) => {
-      namespaces.forEach((ns) => {
-        const inputNSFilePath = path.resolve(baseLocaleFullPath, ns)
-        const outputNSFilePath = path.resolve(localePath, targetLocale, ns)
+      realNamespaces.forEach((ns) => {
+        const inputNSFilePath = singleFileMode
+          ? path.resolve(baseLocaleFullPath, `${baseLocale}.json`)
+          : path.resolve(baseLocaleFullPath, ns)
+        const outputNSFilePath = singleFileMode
+          ? path.resolve(baseLocaleFullPath, `${targetLocale}.json`)
+          : path.resolve(localePath, targetLocale, ns)
 
         if (cacheEnabled) {
           const pairHash = getPairHash(inputNSFilePath, outputNSFilePath)
@@ -110,12 +121,12 @@ export class Transmart {
   }
 
   private validateParams() {
-    const { baseLocale, localePath, openAIApiKey, locales } = this.options
+    const { baseLocale, localePath, openAIApiKey, locales, singleFileMode = false } = this.options
     if (typeof baseLocale !== 'string') throw new Error('valid `baseLocale` must be provided')
     if (typeof openAIApiKey !== 'string') throw new Error('valid `openAIApiKey` must be provided')
     if (!Array.isArray(locales) || locales.some((i) => typeof i !== 'string'))
       throw new Error('`locales` must be Array of string')
-    const baseLocaleFullPath = path.resolve(localePath, baseLocale)
+    const baseLocaleFullPath = singleFileMode ? localePath : path.resolve(localePath, baseLocale)
     if (!fs.existsSync(baseLocaleFullPath)) throw new Error('`localePath` not existed')
     // TODO: structure
     this.options = Object.assign({}, DEFAULT_PARAMS, this.options) as Required<TransmartOptions>

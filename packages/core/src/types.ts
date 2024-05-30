@@ -87,6 +87,7 @@ export interface TransmartOptions {
    * }
    */
   additionalReqBodyParams?: any
+  singleFileMode?: boolean
 }
 
 export interface Stats {
