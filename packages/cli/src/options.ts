@@ -33,6 +33,10 @@ program
   .option('--openAI-api-urlpath <openAIApiUrlPath>', 'OpenAI API url endpoint, which is useful when using proxy')
   .option('--openAI-api-model <openAIApiModel>', 'OpenAI API model, default to`gpt-3.5-turbo`')
   .option('-n, --namespace-glob <namespaceGlobs...>', 'glob pattern(s) to match namespace(s)')
+  .option(
+    '-s, --single-file-mode <singleFileMode>',
+    'single file mode indicts such as zh.json translate to en.json, default to false',
+  )
   .version(pkg.version)
   .parse()
 
