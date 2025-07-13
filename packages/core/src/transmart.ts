@@ -102,25 +102,6 @@ export class Transmart {
       }),
     )
 
-    if (cacheEnabled) {
-      // 1. build the list of valid hash filenames from the work you actually ran
-      const validHashes = runworks.map((w) => getPairHash(w.inputNSFilePath, w.outputNSFilePath))
-
-      // 2. if the cache directory exists, read all files in it
-      if (await fs.pathExists(cachePath)) {
-        const entries = await fs.readdir(cachePath)
-        for (const entry of entries) {
-          // 3. delete anything not in our current list
-          if (!validHashes.includes(entry)) {
-            const stale = path.join(cachePath, entry)
-            await fs.remove(stale)
-            console.log(`removed stale cache file ${entry}`)
-          }
-        }
-        console.log(`cleaned up cache files in ${cachePath}`)
-      }
-    }
-
     // Clean up stale cache files based on existing translation outputs
     if (cacheEnabled) {
       const validHashes: string[] = []
