@@ -101,6 +101,46 @@ export class Transmart {
         }
       }),
     )
+
+    // Clean up stale cache files based on existing translation outputs
+    if (cacheEnabled) {
+      const validHashes: string[] = []
+
+      // For each target locale, scan its output directory for translated files
+      for (const targetLocale of targetLocales) {
+        const outputLocaleDir = singleFileMode ? baseLocaleFullPath : path.resolve(localePath, targetLocale)
+
+        // Find all JSON namespaces in this locale
+        const outputFiles = await glob(namespaceGlob, { cwd: outputLocaleDir })
+
+        for (const ns of outputFiles) {
+          const inputPath = singleFileMode
+            ? path.resolve(baseLocaleFullPath, `${baseLocale}.json`)
+            : path.resolve(baseLocaleFullPath, ns)
+
+          const outputPath = singleFileMode
+            ? path.resolve(baseLocaleFullPath, `${targetLocale}.json`)
+            : path.resolve(outputLocaleDir, ns)
+
+          // Only generate a hash if the output file actually exists
+          if (await fs.pathExists(outputPath)) {
+            validHashes.push(getPairHash(inputPath, outputPath))
+          }
+        }
+      }
+
+      // If the cache directory exists, remove any file whose name isn't in validHashes
+      if (await fs.pathExists(cachePath)) {
+        const entries = await fs.readdir(cachePath)
+        for (const entry of entries) {
+          if (!validHashes.includes(entry)) {
+            await fs.remove(path.join(cachePath, entry))
+            console.log(`Removed stale cache file: ${entry}`)
+          }
+        }
+      }
+    }
+
     return {
       namespaces: namespacesStats,
     }
