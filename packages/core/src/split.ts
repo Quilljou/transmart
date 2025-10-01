@@ -13,21 +13,30 @@ export function splitJSONtoSmallChunks(
   let tempChunk: Record<string, unknown> = {}
   let chunkSize = 2
   while (keysLength > 0) {
-    chunkSize += 1 // \n
     const key = keys[totalLength - keysLength]
     const value = object[key]
-    chunkSize += encode(key).length + 2 // "key":
+    const keySize = encode(key).length + 2 // "key":
     const nextValueSize = isPlainObject(value) ? getJSONTokenSize(value, 1) : getPrimitiveValueSize(value)
-    if (chunkSize + nextValueSize > maxInputToken) {
-      // clear temp chunk
+    const entrySize = 1 + keySize + nextValueSize // \n + "key": + value
+
+    if (chunkSize + entrySize > maxInputToken) {
+      // If temp chunk has content, save it first
+      if (Object.keys(tempChunk).length > 0) {
+        chunks.push({ ...tempChunk })
+        tempChunk = {}
+        chunkSize = 2
+      }
+
+      // If the single entry itself is too large, add it to its own chunk anyway
+      // Otherwise we'd have an infinite loop
+      tempChunk[key] = value
       chunks.push({ ...tempChunk })
       tempChunk = {}
-      chunkSize = 0
-      continue
+      chunkSize = 2
     } else {
       tempChunk[key] = value
+      chunkSize += entrySize
     }
-    chunkSize += nextValueSize
     keysLength--
   }
   if (Object.keys(tempChunk).length) {
